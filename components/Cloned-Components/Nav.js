@@ -29,7 +29,7 @@ const Nav = () => {
           <Link
             className={`${activeMenuItem === "home" ? "open" : ""}`}
             onClick={() => toggleMenuItem("home")}
-            href="#"
+            href="/"
           >
             Home
             {/* <i className="feather-chevron-down"></i> */}
