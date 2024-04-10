@@ -11,25 +11,28 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
-import CategoryHead from "@/components/Category/CategoryHead";
-import CourseTab from "@/components/Category/Filter/CourseTab";
+import CategoryHead from "@/components/Cloned-Components/CategoryHead";
+// import CategoryHead from "@/components/Category/CategoryHead";
+// import CourseTab from "@/components/Category/Filter/CourseTab";
+import CourseTab from "@/components/Cloned-Components/CourseTab";
+import allCourses from '@/data/admin_courses'
 
 const CourseTabLayout = () => {
   let getAllCourse = JSON.parse(
     JSON.stringify(CourseDetails.courseDetails.slice(0, 12))
   );
-  const [courseFilter, setCourseFilter] = useState(getAllCourse);
+  const [courseFilter, setCourseFilter] = useState(allCourses);
 
   const filterItem = (types) => {
     const updateItem = getAllCourse.filter((curElm) => {
       return curElm.courseType === types;
     });
 
-    if (types !== "All Course") {
-      setCourseFilter(updateItem);
-    } else {
-      setCourseFilter(getAllCourse);
-    }
+    // if (types !== "All Course") {
+    //   setCourseFilter(updateItem);
+    // } else {
+    //   setCourseFilter(getAllCourse);
+    // }
   };
   return (
     <>

@@ -150,7 +150,7 @@
                         @extend %rbt-dropdown-type-1;
 
                         &.grid-item-2 {
-                            width: 600px;
+                            width: 800px;
                             margin: 0 auto;
                         }
 
@@ -177,6 +177,8 @@
                                 margin: 0;
                                 height: 100%;
                                 margin: 0 -10px;
+                                // text-align: center;
+                                // white-space: nowrap;
 
                                 li {
                                     margin: 0 -10px;

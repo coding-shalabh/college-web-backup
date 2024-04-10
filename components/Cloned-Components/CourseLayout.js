@@ -12,63 +12,64 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
       <div className={`col-lg-12 ${colType === 2 ? 'col-xl-6' : 'col-xl-4'} ${colType === 2 ? 'col-xxl-6' : 'col-xxl-4'} single-mega-item`}>
         <h3 className="rbt-short-title">{courseTitle}</h3>
         <ul className="mega-menu-item">
-          {/* {MenuData &&
-            MenuData.menuData.map((data, index) => {
-              if (data.menuType === type) {
-                if (courseType) {
-                  const coursElements = data.menuItems?.map(
-                    (value, innerIndex) =>
-                      innerIndex < num && (
-                        <li key={innerIndex}>
-                          <Link
-                            className={isActive(value.link) ? "active" : ""}
-                            href={value.coming ? "/maintenance" : value.link}
-                          >
-                            {value.title}
-                            {value.coming ? (
-                              <span className="rbt-badge-card ms-3">
-                                {value.coming}
-                              </span>
-                            ) : value.subTitle ? (
-                              <span className="rbt-badge-card">
-                                {value.subTitle}
-                              </span>
-                            ) : (
-                              ""
-                            )}
-                          </Link>
-                        </li>
-                      )
-                  );
-                  return coursElements;
+          {MenuData &&
+            MenuData?.map((data, index) => {
+              if (courseTitle === "Online Courses") {
+                if (index >= 0 && index < 10) {
+                  return (<li>
+                    <Link
+                      href={'/course-with-tab'}
+                    >
+                      {data.title}
+                    </Link>
+                  </li>);
                 }
-                const coursElements = data.menuItems?.map(
-                  (value, innerIndex) =>
-                    innerIndex > num && (
-                      <li key={innerIndex}>
-                        <Link
-                          className={isActive(value.link) ? "active" : ""}
-                          href={value.coming ? "/maintenance" : value.link}
-                        >
-                          {value.title}
-                          {value.coming ? (
-                            <span className="rbt-badge-card ms-3">
-                              {value.coming}
-                            </span>
-                          ) : value.subTitle ? (
-                            <span className="rbt-badge-card ms-3">
-                              {value.subTitle}
-                            </span>
-                          ) : (
-                            ""
-                          )}
-                        </Link>
-                      </li>
-                    )
-                );
-                return coursElements;
               }
-            })} */}
+              else if (courseTitle === "Offline Courses") {
+                if (index >= 10 && index < 20) {
+                  return (<li>
+                    <Link
+                      href={'/course-with-tab'}
+                    >
+                      {data.title}
+                    </Link>
+                  </li>);
+                }
+              }
+              else if (courseTitle === "Overseas Courses") {
+                if (index >= 20 && index < 30) {
+                  return (<li>
+                    <Link
+                      href={'/course-with-tab'}
+                    >
+                      {data.title}
+                    </Link>
+                  </li>);
+                }
+              }
+              else if (courseTitle === "Top Colleges") {
+                if (index >= 0 && index < 10) {
+                  return (<li>
+                    <Link
+                      href={'/course-details/1'}
+                    >
+                      {data.name}
+                    </Link>
+                  </li>);
+                }
+              }
+              else if (courseTitle === "Colleges By Location") {
+                if (index >= 0 && index < 10) {
+                  return (<li>
+                    <Link
+                      href={'/course-details/1'}
+                    >
+                      {data.name}
+                    </Link>
+                  </li>);
+                }
+              }
+            })}
         </ul>
       </div>
     </>

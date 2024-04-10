@@ -7,24 +7,16 @@
       "address": "North America, USA",
       "usefulLinks": [
         {
-          "text": "Marketplace",
-          "link": "/12-marketplace"
+          "text": "Home",
+          "link": "/"
         },
         {
-          "text": "kindergarten",
+          "text": "Our Courses",
           "link": "/04-kindergarten"
         },
         {
-          "text": "University",
+          "text": "Our Colleges",
           "link": "/13-university-classic"
-        },
-        {
-          "text": "Classic Lms",
-          "link": "/05-classic-lms"
-        },
-        {
-          "text": "FAQ",
-          "link": "/pages/faqs"
         }
       ],
       "ourCompany": [
@@ -33,20 +25,8 @@
           "link": "/contact"
         },
         {
-          "text": "Become Teacher",
-          "link": "/become-a-teacher"
-        },
-        {
-          "text": "Blog",
-          "link": "/blog-list"
-        },
-        {
-          "text": "Instructor",
-          "link": "/elements/team"
-        },
-        {
-          "text": "Events",
-          "link": "/pages/event-list"
+          "text": "About Us",
+          "link": "/about-us"
         }
       ],
       "socialLink": [

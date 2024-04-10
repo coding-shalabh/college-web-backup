@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "65eed592e6fe2ce45f9cf9e7"
+  },
+  "title": "Engineering",
+  "description": "<p><strong>Description</strong> - The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property</p><p><strong>Types of Engineering </strong>- Civil Engineering , Structural Engineering , Transportation Engineering , Environmental Engineering , Mechanical Engineering , Aerospace Engineering , Marine Engineering , Automotive Engineering , Electrical Engineering , Information Technology (IT) Engineering , Network Engineering , Computer Engineering , Chemical Engineering , Pharmaceutical Engineering , Textile Engineering , Biochemical Engineering , Industrial Engineering , Systems Engineering , Supply Chain Engineering , Manufacturing Engineering&nbsp;</p>",
+  "createdAt": {
+    "$date": "2024-03-11T09:57:38.786Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-11T09:57:38.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eedca5e6fe2ce45f9cf9f0"
+  },
+  "title": "Commerce",
+  "description": "<p><strong>Description - </strong>Commerce involves the swapping of goods or services between two or more parties. It’s a part of business that centers on selling final or incomplete products, excluding activities like sourcing, manufacturing, transportation, or marketing.&nbsp;<br>&nbsp;</p><p><strong>Type of Commerce - &nbsp;</strong>Bachelor of Commerce , Chartered Accountancy , Bachelor Of Arts in Economics (B.A Economics Hons) , Cost and Management Accountant (CMA). M.COM</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+  "createdAt": {
+    "$date": "2024-03-11T10:27:49.591Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-11T10:27:49.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eee310e6fe2ce45f9cf9f7"
+  },
+  "title": "Management",
+  "description": "<p><strong>Description - </strong>Management is the process of planning and organising the resources and activities of a business to achieve specific goals in the most effective and efficient manner possible. Efficiency in management refers to the completion of tasks correctly and at minimal costs. Effectiveness in management relates to the completion of tasks within specific timelines to yield tangible results.</p><p><strong>Types of Management Course -</strong> BBA , MBA , PGDM&nbsp;</p>",
+  "createdAt": {
+    "$date": "2024-03-11T10:55:12.856Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-11T10:55:12.856Z"
+  },
+  "__v": 0
+}]

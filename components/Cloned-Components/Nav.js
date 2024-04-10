@@ -4,7 +4,8 @@ import Image from "next/image";
 
 import { useState } from "react";
 
-import MenuData from "../../data/MegaMenu";
+import collegeMenuData from "../../data/admin_colleges";
+import coursesMenuData from "../../data/admin_courses";
 
 import CourseLayout from "./CourseLayout";
 import PageLayout from "../Header/NavProps/PageLayout";
@@ -14,6 +15,8 @@ import addImage from "../../public/images/service/mobile-cat.jpg";
 
 const Nav = () => {
   const [activeMenuItem, setActiveMenuItem] = useState(null);
+  const [collegeMenuDataArray, setCollegeMenuDataArray] = useState(collegeMenuData);
+  const [coursesMenuDataArray, setCoursesMenuDataArray] = useState(coursesMenuData);
   const router = useRouter();
 
   const isActive = (href) => router.pathname === href;
@@ -142,7 +145,7 @@ const Nav = () => {
               <div className="row row--15">
                 <CourseLayout
                   courseTitle="Online Courses"
-                  MenuData={MenuData}
+                  MenuData={coursesMenuDataArray}
                   type="grid-item-2"
                   courseType={true}
                   num={7}
@@ -150,7 +153,7 @@ const Nav = () => {
                 />
                 <CourseLayout
                   courseTitle="Offline Courses"
-                  MenuData={MenuData}
+                  MenuData={coursesMenuDataArray}
                   type="grid-item-2"
                   courseType={false}
                   num={6}
@@ -158,7 +161,7 @@ const Nav = () => {
                 />
                 <CourseLayout
                   courseTitle="Overseas Courses"
-                  MenuData={MenuData}
+                  MenuData={coursesMenuDataArray}
                   type="grid-item-2"
                   courseType={false}
                   num={6}
@@ -231,14 +234,14 @@ const Nav = () => {
               <div className="row row--15">
                 <CourseLayout
                   courseTitle="Top Colleges"
-                  MenuData={MenuData}
+                  MenuData={collegeMenuData}
                   type="grid-item-2"
                   courseType={true}
                   num={7}
                 />
                 <CourseLayout
                   courseTitle="Colleges By Location"
-                  MenuData={MenuData}
+                  MenuData={collegeMenuData}
                   type="grid-item-2"
                   courseType={false}
                   num={6}
@@ -310,7 +313,7 @@ const Nav = () => {
         </li> */}
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
-            href="/pages/about-us-01"
+            href="/about-us"
             className={`${activeMenuItem === "pages" ? "open" : ""}`}
           // onClick={() => toggleMenuItem("pages")}
           >
