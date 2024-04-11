@@ -6,7 +6,6 @@ import { useAppContext } from "@/context/Context";
 const CourseTab = ({ course, start, end, pageType = 1 }) => {
   const { toggle } = useAppContext();
 
-  console.log(course)
   return (
     <>
       <div

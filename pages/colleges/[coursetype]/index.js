@@ -56,19 +56,7 @@ const CourseTabLayout = () => {
     }
     else if (pageType == 2) {
       const updateItem = getAllColleges.filter((curElm) => {
-        let course = '';
-        if (types == 0)
-          return true;
-        else if (types == 1) {
-          course = 'Online Course'
-        } else if (types == 2) {
-          course = 'Offline Course'
-        } else if (types == 3) {
-          course = 'Overseas Course'
-        } else {
-          return curElm?.title.toLowerCase().includes(types);
-        }
-        return curElm?.courseType === course;
+        return curElm?.name.toLowerCase().includes(types);
       });
 
       if (types) {

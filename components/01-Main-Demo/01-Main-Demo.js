@@ -44,7 +44,7 @@ const MainDemo = () => {
                 </div>
               </div>
             </div>
-            <div className="row g-5 mt--20">
+            <div className="row g-5 mt--20 justify-content-center">
               <CategoryOne />
             </div>
           </div>

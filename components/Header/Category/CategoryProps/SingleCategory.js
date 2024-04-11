@@ -4,7 +4,7 @@ const SingleCategory = ({ title, CategoryData, CategoryNum, isActive }) => {
   return (
     <li className={`dropdown-parent-list ${isActive ? "active" : ""}`}>
       <Link href="#">{title}</Link>
-      <div className="dropdown-child-wrapper">
+      {/* <div className="dropdown-child-wrapper">
         <div className="child-inner">
           {CategoryData &&
             CategoryNum.map((cate, index) => (
@@ -13,7 +13,7 @@ const SingleCategory = ({ title, CategoryData, CategoryNum, isActive }) => {
               </div>
             ))}
         </div>
-      </div>
+      </div> */}
     </li>
   );
 };

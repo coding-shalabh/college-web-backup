@@ -16,7 +16,7 @@ const CategoryHead = ({
   const path = router.pathname;
   const { toggle, setToggle } = useAppContext();
   const [filterToggle, setFilterToggle] = useState(true);
-  const [activeTab, setActiveTab] = useState(router.query.coursetype);
+  const [activeTab, setActiveTab] = useState(router.query.coursetype || 0);
   const [searchFilterValue, setSearchFilterValue] = useState('')
   const [tabType, setTabType] = useState(null)
 
@@ -29,7 +29,7 @@ const CategoryHead = ({
       }
       filterItem(activeTab);
     }
-  }, [])
+  }, [tabType])
 
   useEffect(() => {
     if (path.includes('/colleges'))
@@ -132,14 +132,15 @@ const CategoryHead = ({
                       ""
                     ) : (
                       <div className="rbt-short-item">
-                        <form className="rbt-search-style me-0">
-                          <input value={searchFilterValue}
-                            type="text"
-                            placeholder={tabType ? `Search Your ${tabType == 1 ? 'Course' : 'College'}..` : ''}
-                            onChange={searchFilter}
-                          />
-                          <i style={{ position: 'absolute', top: 15, right: 15, cursor: 'pointer' }} className="feather-search"></i>
-                        </form>
+                        {tabType == 1 || (tabType == 2 && !router.query.coursetype) ?
+                          <form className="rbt-search-style me-0">
+                            <input value={searchFilterValue}
+                              type="text"
+                              placeholder={tabType ? `Search Your ${tabType == 1 ? 'Course' : 'College'}..` : ''}
+                              onChange={searchFilter}
+                            />
+                            <i style={{ position: 'absolute', top: 15, right: 15, cursor: 'pointer' }} className="feather-search"></i>
+                          </form> : <></>}
                       </div>
                     )}
 
