@@ -18,15 +18,24 @@ const CategoryHead = ({
   const [filterToggle, setFilterToggle] = useState(true);
   const [activeTab, setActiveTab] = useState(router.query.coursetype);
   const [searchFilterValue, setSearchFilterValue] = useState('')
+  const [tabType, setTabType] = useState(null)
 
   useEffect(() => {
-    console.log(router.query.coursetype)
-    if (router.query.coursetype)
-      setActiveTab(activeTab);
-    else {
-      setActiveTab(0);
+    if (tabType == 1) {
+      if (router.query.coursetype)
+        setActiveTab(activeTab);
+      else {
+        setActiveTab(0);
+      }
+      filterItem(activeTab);
     }
-    filterItem(activeTab);
+  }, [])
+
+  useEffect(() => {
+    if (path.includes('/colleges'))
+      setTabType(2)
+    else if (path.includes('/courses'))
+      setTabType(1)
   }, [])
 
 
@@ -126,7 +135,7 @@ const CategoryHead = ({
                         <form className="rbt-search-style me-0">
                           <input value={searchFilterValue}
                             type="text"
-                            placeholder="Search Your Course.."
+                            placeholder={tabType ? `Search Your ${tabType == 1 ? 'Course' : 'College'}..` : ''}
                             onChange={searchFilter}
                           />
                           <i style={{ position: 'absolute', top: 15, right: 15, cursor: 'pointer' }} className="feather-search"></i>
@@ -134,27 +143,6 @@ const CategoryHead = ({
                       </div>
                     )}
 
-                    {/* {path === "/course-with-tab" ||
-                      path === "/course-with-tab-two" ||
-                      path === "/course-with-sidebar" ? (
-                      <div className="rbt-short-item">
-                        <div className="filter-select">
-                          <span className="select-label d-block">Short By</span>
-                          <div className="filter-select rbt-modern-select search-by-category">
-                            <select data-size="7">
-                              <option>Default</option>
-                              <option>Latest</option>
-                              <option>Popularity</option>
-                              <option>Trending</option>
-                              <option>Price: low to high</option>
-                              <option>Price: high to low</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                    ) : (
-                      ""
-                    )} */}
                     <div className="rbt-short-item">
                       <div className="filter-select">
                         <span className="select-label d-block">Short By</span>
@@ -198,7 +186,7 @@ const CategoryHead = ({
                 )} */}
 
 
-                <div className="col-lg-12 mt--60">
+                {tabType == 1 ? <div className="col-lg-12 mt--60">
                   <ul
                     className="rbt-portfolio-filter filter-tab-button justify-content-start nav nav-tabs"
                     id="rbt-myTab"
@@ -238,7 +226,7 @@ const CategoryHead = ({
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> : ''}
 
               </div>
             </div>

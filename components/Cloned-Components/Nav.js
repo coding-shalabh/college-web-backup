@@ -18,7 +18,6 @@ const Nav = () => {
   const [collegeMenuDataArray, setCollegeMenuDataArray] = useState(collegeMenuData);
   const [coursesMenuDataArray, setCoursesMenuDataArray] = useState(coursesMenuData);
   const router = useRouter();
-
   const isActive = (href) => router.pathname === href;
 
   const toggleMenuItem = (item) => {
@@ -148,6 +147,7 @@ const Nav = () => {
                   MenuData={coursesMenuDataArray}
                   type="grid-item-2"
                   courseType={true}
+                  pageType={1}
                   num={7}
                   colType={3}
                 />
@@ -156,6 +156,7 @@ const Nav = () => {
                   MenuData={coursesMenuDataArray}
                   type="grid-item-2"
                   courseType={false}
+                  pageType={1}
                   num={6}
                   colType={3}
                 />
@@ -164,6 +165,7 @@ const Nav = () => {
                   MenuData={coursesMenuDataArray}
                   type="grid-item-2"
                   courseType={false}
+                  pageType={1}
                   num={6}
                   colType={3}
                 />
@@ -237,6 +239,7 @@ const Nav = () => {
                   MenuData={collegeMenuData}
                   type="grid-item-2"
                   courseType={true}
+                  pageType={2}
                   num={7}
                 />
                 <CourseLayout
@@ -244,6 +247,7 @@ const Nav = () => {
                   MenuData={collegeMenuData}
                   type="grid-item-2"
                   courseType={false}
+                  pageType={2}
                   num={6}
                 />
               </div>

@@ -94,6 +94,11 @@
         .rbt-card-text {
             color: var(--color-body);
             margin-bottom: 20px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 8;
             @media #{$smlg-device} {
                 margin-bottom: 14px;
             }
