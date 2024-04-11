@@ -1,46 +1,64 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import coursesArray from '@/data/admin_courses'
 
 const Content = ({ checkMatchCourses }) => {
+  const [coursesDetails, setCoursesDetails] = useState([])
+
+  useEffect(() => {
+    let coursesDetailsArr = [];
+
+    coursesArray?.forEach(item => {
+      checkMatchCourses?.courses?.forEach(item2 => {
+        if (item2.$oid == item._id.$oid) {
+          coursesDetailsArr.push(item);
+        }
+      })
+    })
+
+    setCoursesDetails(coursesDetailsArr);
+
+    console.log(coursesArray)
+  }, [])
+
   return (
     <>
       <div className="rbt-course-feature-inner">
         <div className="section-title">
-          <h4 className="rbt-title-style-3">{checkMatchCourses.title}</h4>
+          <h4 className="rbt-title-style-3">{'Courses Offered'}</h4>
         </div>
         <div className="rbt-accordion-style rbt-accordion-02 accordion">
           <div className="accordion" id="accordionExampleb2">
-            {checkMatchCourses.contentList.map((item, innerIndex) => (
+            {coursesDetails?.map((item, innerIndex) => (
+
               <div className="accordion-item card" key={innerIndex}>
                 <h2
                   className="accordion-header card-header"
                   id={`headingTwo${innerIndex}`}
                 >
                   <button
-                    className={`accordion-button ${
-                      !item.collapsed ? "collapsed" : ""
-                    }`}
+                    className={`accordion-button ${!item?.collapsed ? "collapsed" : ""
+                      }`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target={`#collapseTwo${innerIndex + 1}`}
-                    aria-expanded={item.expand}
+                    aria-expanded={item?.expand}
                     aria-controls={`collapseTwo${innerIndex + 1}`}
                   >
-                    {item.title}
-                    <span className="rbt-badge-5 ml--10">{item.time}</span>
+                    {item?.title}
+                    {/* <span className="rbt-badge-5 ml--10">{item?.time}</span> */}
                   </button>
                 </h2>
                 <div
                   id={`collapseTwo${innerIndex + 1}`}
-                  className={`accordion-collapse collapse ${
-                    item.isShow ? "show" : ""
-                  }`}
+                  className={`accordion-collapse collapse ${item?.isShow ? "show" : ""
+                    }`}
                   aria-labelledby={`headingTwo${innerIndex}`}
                   data-bs-parent="#accordionExampleb2"
                 >
-                  <div className="accordion-body card-body pr--0">
-                    <ul className="rbt-course-main-content liststyle">
-                      {item.listItem.map((list, subIndex) => (
+                  <div className="accordion-body card-body pr--0" dangerouslySetInnerHTML={{ __html: item.description }}>
+                    {/* <ul className="rbt-course-main-content liststyle">
+                      {item?.listitem?.map((list, subIndex) => (
                         <li key={subIndex}>
                           <Link href="/lesson">
                             <div className="course-content-left">
@@ -68,10 +86,11 @@ const Content = ({ checkMatchCourses }) => {
                           </Link>
                         </li>
                       ))}
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
+
             ))}
           </div>
         </div>

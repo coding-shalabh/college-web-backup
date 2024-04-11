@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import sal from "sal.js";
 import CourseData from "../../../data/course-details/courseData.json";
@@ -12,15 +12,20 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
-import CourseHead from "@/components/Course-Details/Course-Sections/course-head";
+import CourseHead from "@/components/Cloned-Components/course-head";
+// import CourseHead from "@/components/Course-Details/Course-Sections/course-head";
 import CourseDetailsOne from "@/components/Course-Details/CourseDetails-One";
 import PageHead from "@/pages/Head";
 import CourseActionBottom from "@/components/Course-Details/Course-Sections/Course-Action-Bottom";
 import SimilarCourses from "@/components/Course-Details/Course-Sections/SimilarCourses";
 
+import allCollegeDetails from '@/data/admin_colleges.json'
+
 const SingleCourse = () => {
   const router = useRouter();
-  const postId = parseInt(router.query.courseId);
+  const postId = router.query.courseId;
+  const [collegeDetails, setCollegeDetails] = useState('');
+
   let getCourse;
 
   getCourse = JSON.parse(JSON.stringify(CourseData.courseDetails));
@@ -28,9 +33,24 @@ const SingleCourse = () => {
   const checkMatch = getCourse.find((course) => course.id === postId);
 
   useEffect(() => {
-    if (postId && checkMatch === undefined) {
-      router.push("/course-filter-one-toggle");
-    }
+    let college = null;
+    allCollegeDetails?.forEach((detail, id) => {
+      if (detail._id.$oid == postId) {
+        college = detail;
+      }
+    })
+
+    allCollegeDetails?.forEach((detail, id) => {
+      detail?.courses.forEach(ele => {
+        if (ele?.$oid == postId) {
+          college = detail;
+        }
+      })
+    })
+
+    console.log(college)
+
+    setCollegeDetails(college)
 
     sal({
       threshold: 0.01,
@@ -40,7 +60,7 @@ const SingleCourse = () => {
 
   return (
     <>
-      <PageHead title="Course Details - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Details" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -49,7 +69,7 @@ const SingleCourse = () => {
 
           <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3">
             <CourseHead
-              checkMatch={checkMatch !== undefined ? checkMatch : ""}
+              checkMatch={collegeDetails !== undefined ? collegeDetails : ""}
             />
           </div>
 
@@ -57,22 +77,22 @@ const SingleCourse = () => {
             <div className="container">
               <div className="row g-5">
                 <CourseDetailsOne
-                  checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
+                  checkMatchCourses={collegeDetails !== undefined ? collegeDetails : ""}
                 />
               </div>
             </div>
           </div>
 
-          <CourseActionBottom
-            checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
-          />
+          {/* <CourseActionBottom
+            checkMatchCourses={collegeDetails !== undefined ? collegeDetails : ""}
+          /> */}
 
           <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
-            <SimilarCourses
+            {/* <SimilarCourses
               checkMatchCourses={
-                checkMatch !== undefined ? checkMatch.similarCourse : ""
+                collegeDetails !== undefined ? collegeDetails : ""
               }
-            />
+            /> */}
           </div>
 
           <BackToTop />

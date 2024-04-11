@@ -6,19 +6,17 @@ const CourseMenu = () => {
 
   const sections = [
     { id: "overview", label: "Overview" },
-    { id: "coursecontent", label: "Course Content" },
-    { id: "details", label: "Details" },
-    { id: "intructor", label: "Intructor" },
-    { id: "review", label: "Review" },
+    { id: "coursecontent", label: "Courses" },
+    // { id: "details", label: "Details" },
+    { id: "review", label: "Reviews" },
   ];
 
   useEffect(() => {
     const sectionIds = [
       "overview",
       "coursecontent",
-      "details",
-      "intructor",
-      "review",
+      // "details",
+      "review"
     ];
 
     const handleScroll = () => {

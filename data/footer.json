@@ -12,7 +12,7 @@
         },
         {
           "text": "Our Courses",
-          "link": "/04-kindergarten"
+          "link": "/course-with-tab"
         },
         {
           "text": "Our Colleges",
@@ -22,7 +22,7 @@
       "ourCompany": [
         {
           "text": "Contact Us",
-          "link": "/contact"
+          "link": "/contact-us"
         },
         {
           "text": "About Us",

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import CourseDetails from "../../data/course-details/courseData.json";
+import CourseDetails from "@/data/course-details/courseData.json";
 
-import PageHead from "../Head";
+import PageHead from "../../Head";
 import { Provider } from "react-redux";
 import Context from "@/context/Context";
 import Store from "@/redux/store";

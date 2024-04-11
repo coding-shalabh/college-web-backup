@@ -54,17 +54,16 @@ const Viedo = ({ checkMatchCourses }) => {
   return (
     <>
       <Link
-        className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${
-          hideOnScroll ? "d-none" : ""
-        }`}
+        className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${hideOnScroll ? "d-none" : ""
+          }`}
         data-vbtype="video"
         href="https://www.youtube.com/watch?v=nA1Aqp0sPQo"
       >
         <div className="video-content">
-          {checkMatchCourses.courseImg && (
+          {checkMatchCourses?.courseImg && (
             <Image
               className="w-100 rbt-radius"
-              src={checkMatchCourses.courseImg}
+              src={checkMatchCourses?.courseImg}
               width={355}
               height={255}
               alt="Video Images"
@@ -83,12 +82,12 @@ const Viedo = ({ checkMatchCourses }) => {
       <div className="content-item-content">
         <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
           <div className="rbt-price">
-            <span className="current-price">${checkMatchCourses.price}</span>
-            <span className="off-price">${checkMatchCourses.offPrice}</span>
+            <span className="current-price">${checkMatchCourses?.price}</span>
+            <span className="off-price">${checkMatchCourses?.offPrice}</span>
           </div>
           <div className="discount-time">
             <span className="rbt-badge color-danger bg-color-danger-opacity">
-              <i className="feather-clock"></i> {checkMatchCourses.days} days
+              <i className="feather-clock"></i> {checkMatchCourses?.days} days
               left!
             </span>
           </div>
@@ -99,7 +98,7 @@ const Viedo = ({ checkMatchCourses }) => {
             className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
             href="#"
             onClick={() =>
-              addToCartFun(checkMatchCourses.id, amount, checkMatchCourses)
+              addToCartFun(checkMatchCourses?.id, amount, checkMatchCourses)
             }
           >
             <span className="btn-text">Add to Cart</span>
@@ -124,20 +123,19 @@ const Viedo = ({ checkMatchCourses }) => {
           <i className="feather-rotate-ccw"></i> 30-Day Money-Back Guarantee
         </span>
         <div
-          className={`rbt-widget-details has-show-more ${
-            toggle ? "active" : ""
-          }`}
+          className={`rbt-widget-details has-show-more ${toggle ? "active" : ""
+            }`}
         >
           <ul className="has-show-more-inner-content rbt-course-details-list-wrapper">
-            {checkMatchCourses &&
-              checkMatchCourses.roadmap.map((item, innerIndex) => (
+            {/* {checkMatchCourses &&
+              checkMatchCourses?.roadmap.map((item, innerIndex) => (
                 <li key={innerIndex}>
                   <span>{item.text}</span>
                   <span className="rbt-feature-value rbt-badge-5">
                     {item.desc}
                   </span>
                 </li>
-              ))}
+              ))} */}
           </ul>
           <div
             className={`rbt-show-more-btn ${toggle ? "active" : ""}`}

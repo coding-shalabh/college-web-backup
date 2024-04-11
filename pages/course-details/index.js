@@ -5,11 +5,11 @@ const CourseLayout = () => {
   const router = useRouter();
   const postId = router.query.courseId;
 
-  useEffect(() => {
-    if (postId === undefined) {
-      router.push("/course-filter-one-toggle");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (postId === undefined) {
+  //     router.push("/course-filter-one-toggle");
+  //   }
+  // }, []);
 };
 
 export default CourseLayout;

@@ -13,7 +13,7 @@ const CourseTab = ({ course, start, end }) => {
           }`}
       >
         {course.slice(start, end).map((data, index) => (
-          <Link href={`/course-details/${data.id}`} className="course-grid-3" key={index}>
+          <Link href={`/course-details/${data._id.$oid}`} className="course-grid-3" key={index}>
             <div
               className={`rbt-card variation-01 rbt-hover ${!toggle ? "card-list-2" : ""
                 }`}

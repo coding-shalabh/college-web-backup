@@ -18,7 +18,7 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
                 if (index >= 0 && index < 10) {
                   return (<li>
                     <Link
-                      href={'/course-with-tab'}
+                      href={'/course-with-tab/1'}
                     >
                       {data.title}
                     </Link>
@@ -29,7 +29,7 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
                 if (index >= 10 && index < 20) {
                   return (<li>
                     <Link
-                      href={'/course-with-tab'}
+                      href={'/course-with-tab/2'}
                     >
                       {data.title}
                     </Link>
@@ -40,7 +40,7 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
                 if (index >= 20 && index < 30) {
                   return (<li>
                     <Link
-                      href={'/course-with-tab'}
+                      href={'/course-with-tab/3'}
                     >
                       {data.title}
                     </Link>
@@ -51,7 +51,7 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
                 if (index >= 0 && index < 10) {
                   return (<li>
                     <Link
-                      href={'/course-details/1'}
+                      href={'/course-details/' + data._id.$oid}
                     >
                       {data.name}
                     </Link>
@@ -62,7 +62,7 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
                 if (index >= 0 && index < 10) {
                   return (<li>
                     <Link
-                      href={'/course-details/1'}
+                      href={'/course-details/' + data._id.$oid}
                     >
                       {data.name}
                     </Link>
@@ -71,6 +71,13 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
               }
             })}
         </ul>
+        <div style={{ position: 'absolute', bottom: 20, right: 50 }}>
+          <Link
+            href={'/course-with-tab'}
+          >
+            View All
+          </Link>
+        </div>
       </div>
     </>
   );
