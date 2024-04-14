@@ -18,75 +18,78 @@ import CourseActionBottom from "@/components/Course-Details/Course-Sections/Cour
 import SimilarCourses from "@/components/Course-Details/Course-Sections/SimilarCourses";
 import CourseDetailsTwo from "@/components/Course-Details/CourseDetails-Two";
 
-const SingleCourseTwo = () => {
-  const router = useRouter();
-  const postId = parseInt(router.query.courseId);
-  let getCourse;
 
-  getCourse = JSON.parse(JSON.stringify(CourseData.courseTab));
+const SingleCourseTwo = () => {};
 
-  const checkMatch = getCourse.find((course) => course.id === postId);
+// const SingleCourseTwo = () => {
+//   const router = useRouter();
+//   const postId = parseInt(router.query.courseId);
+//   let getCourse;
 
-  useEffect(() => {
-    if (postId && checkMatch === undefined) {
-      router.push("/course-card-2");
-    }
+//   getCourse = JSON.parse(JSON.stringify(CourseData.courseTab));
 
-    sal({
-      threshold: 0.01,
-      once: true,
-    });
-  }, [checkMatch, router]);
+//   const checkMatch = getCourse.find((course) => course.id === postId);
 
-  return (
-    <>
-      <PageHead title="Course Filter Toggle - Online Courses & Education NEXTJS14 Template" />
-      <Provider store={Store}>
-        <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="" headerType={true} />
-          <Cart />
+//   useEffect(() => {
+//     if (postId && checkMatch === undefined) {
+//       router.push("/course-card-2");
+//     }
 
-          <div className="rbt-page-banner-wrapper">
-            <div className="rbt-banner-image"></div>
-            <div className="rbt-banner-content">
-              <div className="rbt-banner-content-top rbt-breadcrumb-style-3">
-                <CourseHead
-                  checkMatch={checkMatch !== undefined ? checkMatch : ""}
-                />
-              </div>
-            </div>
-          </div>
+//     sal({
+//       threshold: 0.01,
+//       once: true,
+//     });
+//   }, [checkMatch, router]);
 
-          <div className="rbt-section-overlayping-top rbt-section-gapBottom">
-            <div className="inner">
-              <div className="container">
-                <CourseDetailsTwo
-                  checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
-                />
-              </div>
-            </div>
-          </div>
+//   return (
+//     <>
+//       <PageHead title="Course Filter Toggle - Online Courses & Education NEXTJS14 Template" />
+//       <Provider store={Store}>
+//         <Context>
+//           <MobileMenu />
+//           <HeaderStyleTen headerSticky="" headerType={true} />
+//           <Cart />
 
-          <CourseActionBottom
-            checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
-          />
+//           <div className="rbt-page-banner-wrapper">
+//             <div className="rbt-banner-image"></div>
+//             <div className="rbt-banner-content">
+//               <div className="rbt-banner-content-top rbt-breadcrumb-style-3">
+//                 <CourseHead
+//                   checkMatch={checkMatch !== undefined ? checkMatch : ""}
+//                 />
+//               </div>
+//             </div>
+//           </div>
 
-          <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
-            <SimilarCourses
-              checkMatchCourses={
-                checkMatch !== undefined ? checkMatch.similarCourse : ""
-              }
-            />
-          </div>
+//           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
+//             <div className="inner">
+//               <div className="container">
+//                 <CourseDetailsTwo
+//                   checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
+//                 />
+//               </div>
+//             </div>
+//           </div>
 
-          <BackToTop />
-          <Separator />
-          <FooterOne />
-        </Context>
-      </Provider>
-    </>
-  );
-};
+//           <CourseActionBottom
+//             checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
+//           />
+
+//           <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
+//             <SimilarCourses
+//               checkMatchCourses={
+//                 checkMatch !== undefined ? checkMatch.similarCourse : ""
+//               }
+//             />
+//           </div>
+
+//           <BackToTop />
+//           <Separator />
+//           <FooterOne />
+//         </Context>
+//       </Provider>
+//     </>
+//   );
+// };
 
 export default SingleCourseTwo;

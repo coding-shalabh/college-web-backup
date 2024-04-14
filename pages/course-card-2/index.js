@@ -16,71 +16,74 @@ import BackToTop from "../backToTop";
 import CourseCardTwo from "@/components/Category/Filter/CourseCard-Two";
 import CallToActionFour from "@/components/Call-To-Action/CallToAction-Four";
 
-const CourseCardFourLayout = () => {
-  const [courses, setCourse] = useState([]);
-  const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(0);
 
-  let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.courseTab));
+const CourseCardFourLayout = () => {};
 
-  const startIndex = (page - 1) * 6;
+// const CourseCardFourLayout = () => {
+//   const [courses, setCourse] = useState([]);
+//   const [page, setPage] = useState(1);
+//   const [totalPages, setTotalPages] = useState(0);
 
-  const getSelectedCourse = courses.slice(startIndex, startIndex + 6);
+//   let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.courseTab));
 
-  const handleClick = (num) => {
-    setPage(num);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+//   const startIndex = (page - 1) * 6;
 
-  useEffect(() => {
-    setCourse(getAllCourse);
-    setTotalPages(Math.ceil(getAllCourse.length / 6));
-  }, [setTotalPages, setCourse]);
+//   const getSelectedCourse = courses.slice(startIndex, startIndex + 6);
 
-  return (
-    <>
-      <PageHead title="Course Four - Online Courses & Education NEXTJS14 Template" />
+//   const handleClick = (num) => {
+//     setPage(num);
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth",
+//     });
+//   };
 
-      <Provider store={Store}>
-        <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
-          <MobileMenu />
-          <Cart />
+//   useEffect(() => {
+//     setCourse(getAllCourse);
+//     setTotalPages(Math.ceil(getAllCourse.length / 6));
+//   }, [setTotalPages, setCourse]);
 
-          <CategoryHead category={getAllCourse} />
-          <div className="rbt-section-overlayping-top rbt-section-gapBottom">
-            <div className="container">
-              <CourseCardTwo course={getSelectedCourse} />
+//   return (
+//     <>
+//       <PageHead title="Course Four - Online Courses & Education NEXTJS14 Template" />
 
-              {getAllCourse.length > 6 ? (
-                <div className="row">
-                  <div className="col-lg-12 mt--60">
-                    <Pagination
-                      totalPages={totalPages}
-                      pageNumber={page}
-                      handleClick={handleClick}
-                    />
-                  </div>
-                </div>
-              ) : (
-                ""
-              )}
-            </div>
-          </div>
+//       <Provider store={Store}>
+//         <Context>
+//           <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
+//           <MobileMenu />
+//           <Cart />
 
-          <div className="rbt-callto-action rbt-cta-default style-4 bg-gradient-6 mt--75">
-            <CallToActionFour btnClass="rbt-btn btn-gradient hover-icon-reverse" />
-          </div>
+//           <CategoryHead category={getAllCourse} />
+//           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
+//             <div className="container">
+//               <CourseCardTwo course={getSelectedCourse} />
 
-          <BackToTop />
-          <FooterOne />
-        </Context>
-      </Provider>
-    </>
-  );
-};
+//               {getAllCourse.length > 6 ? (
+//                 <div className="row">
+//                   <div className="col-lg-12 mt--60">
+//                     <Pagination
+//                       totalPages={totalPages}
+//                       pageNumber={page}
+//                       handleClick={handleClick}
+//                     />
+//                   </div>
+//                 </div>
+//               ) : (
+//                 ""
+//               )}
+//             </div>
+//           </div>
+
+//           <div className="rbt-callto-action rbt-cta-default style-4 bg-gradient-6 mt--75">
+//             <CallToActionFour btnClass="rbt-btn btn-gradient hover-icon-reverse" />
+//           </div>
+
+//           <BackToTop />
+//           <FooterOne />
+//         </Context>
+//       </Provider>
+//     </>
+//   );
+// };
 
 export default CourseCardFourLayout;
