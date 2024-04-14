@@ -6,7 +6,6 @@ import sal from "sal.js";
 import CourseDetails from "../../data/course-details/courseData.json";
 import EventData from "../../data/events.json";
 import BlogData from "../../data/blog/blog.json";
-
 import ServiceThree from "../Services/Service-Three";
 import CourseTagTwo from "../Common/CourseTag-Two";
 import TeamSix from "../Team/TeamSix";
@@ -105,7 +104,7 @@ const CourseSchool = () => {
                   "trending",
                   "latest",
                 ].map((courseType, index) => (
-                  <li key={index} className="nav-item" role="presentation">
+                  {/* <li key={index} className="nav-item" role="presentation">
                     <button
                       className={activeTab === courseType ? "active" : ""}
                       type="button"
@@ -127,7 +126,7 @@ const CourseSchool = () => {
                         </span>
                       )}
                     </button>
-                  </li>
+                  </li> */}
                 ))}
               </ul>
             </div>
