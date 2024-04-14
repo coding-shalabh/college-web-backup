@@ -21,17 +21,17 @@ const MainDemoBanner = () => {
                 </div>
 
                 <h1 className="title">
-                  Build The Skills <br /> To Drive Your Career.
+                Your Education, <br/>Our Priority Your Career,<br/> Our Commitment
                 </h1>
-                <p className="description">
+                {/* <p className="description">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint.
                   <strong> Velit officia consequat.</strong>
-                </p>
+                </p> */}
                 <div className="slider-btn">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
+                    href="/courses"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">View Course</span>
@@ -46,7 +46,7 @@ const MainDemoBanner = () => {
                 </div>
               </div>
               <div className="shape-wrapper" id="scene">
-                <Image src={img} width={1200} height={1400} alt="Hero Image" />
+                <Image src={img} width={300} height={400} alt="Hero Image" />
                 <div className="hero-bg-shape-1 layer" data-depth="0.4">
                   <Image
                     src={shape1}

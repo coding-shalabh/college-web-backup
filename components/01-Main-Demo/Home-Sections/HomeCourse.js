@@ -6,6 +6,8 @@ import { EffectCards, Pagination } from "swiper/modules";
 
 import MainDemoData from "../../../data/course-details/courseData.json";
 
+
+
 const HomeCourses = ({ start, end }) => {
   return (
     <>
@@ -23,8 +25,8 @@ const HomeCourses = ({ start, end }) => {
           MainDemoData.courseDetails.slice(start, end).map((data, index) => (
             <SwiperSlide className="swiper-slide" key={index}>
               <div className="rbt-card variation-01 rbt-hover">
-                <div className="rbt-card-img">
-                  <Link href={`/course-details/${data.id}`}>
+                {/* <div className="rbt-card-img">
+                  <Link href={`/course-details/${data._id.$oid}`}>
                     <Image
                       src={data.courseImg}
                       width={710}
@@ -36,7 +38,7 @@ const HomeCourses = ({ start, end }) => {
                       <span>Off</span>
                     </div>
                   </Link>
-                </div>
+                </div> */}
                 <div className="rbt-card-body">
                   <ul className="rbt-meta">
                     <li>
@@ -49,11 +51,11 @@ const HomeCourses = ({ start, end }) => {
                     </li>
                   </ul>
                   <h4 className="rbt-card-title">
-                    <Link href={`/course-details/${data.id}`}>
-                      {data.courseTitle}
+                    <Link href={`/course-details/${data._id.$oid}`}>
+                      {data.title}
                     </Link>
                   </h4>
-                  <p className="rbt-card-text">{data.desc.substring(0, 100)}</p>
+                  <p className="rbt-card-text">{data.desc}</p>
                   <div className="rbt-review">
                     <div className="rating">
                       <i className="fas fa-star"></i>
@@ -67,13 +69,13 @@ const HomeCourses = ({ start, end }) => {
                     </span>
                   </div>
                   <div className="rbt-card-bottom">
-                    <div className="rbt-price">
+                    {/* <div className="rbt-price">
                       <span className="current-price">${data.price}</span>
                       <span className="off-price">${data.offPrice}</span>
-                    </div>
+                    </div> */}
                     <Link
                       className="rbt-btn-link"
-                      href={`/course-details/${data.id}`}
+                      href={`/colleges/${data._id.$oid}`}
                     >
                       Learn More
                       <i className="feather-arrow-right"></i>

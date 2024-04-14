@@ -56,10 +56,10 @@ const MainDemo = () => {
               <div className="col-lg-12">
                 <div className="section-title text-center">
                   <span className="subtitle bg-secondary-opacity">
-                    Top Popular Course
+                    Top Popular Colleges
                   </span>
                   <h2 className="title">
-                    Histudy Course student <br /> can join with us.
+                  Explore top colleges, <br/> your guide to premier educational institutions 
                   </h2>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const MainDemo = () => {
                     href="#"
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Load More Course (40)</span>
+                      <span className="btn-text">Load More Colleges</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
@@ -105,15 +105,16 @@ const MainDemo = () => {
           </div>
         </div>
 
-        <div className="rbt-callto-action-area mt_dec--half">
+        {/* <div className="rbt-callto-action-area mt_dec--half">
           <CallToAction />
-        </div>
+        </div> */}
 
         <div className="rbt-counterup-area bg-color-extra2 rbt-section-gapBottom default-callto-action-overlap">
           <div className="container">
             <Counter isDesc={false} />
           </div>
         </div>
+
 
         <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
           <div className="wrapper">

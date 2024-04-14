@@ -2,9 +2,9 @@
   "aboutOne": [
     {
       "tag": "KNOW ABOUT US",
-      "title": "Know About Histudy",
+      "title": "Know About Gined",
       "subTitle": " Learning Platform",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "desc": "GinEd is a platform that acts as a friend, tutor, and mentor to guide students towards choosing the right path in their careers. GinEd believes that the root cause of a candidate’s success lies in understanding what they want to do when they finish their basic education. By offering guidance on college selection, career options, and mentorship, GinEd helps students gain expertise and hands-on experience while pursuing their studies through multiple skilled courses and internships with different companies.",
       "images": [
         {
           "id": 1,
@@ -53,9 +53,9 @@
   "aboutTwo": [
     {
       "tag": "KNOW ABOUT US",
-      "title": "Know About Histudy",
+      "title": "Know About Gined",
       "subTitle": " Learning Platform",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "desc": "GinEd is a platform that acts as a friend, tutor, and mentor to guide students towards choosing the right path in their careers. GinEd believes that the root cause of a candidate’s success lies in understanding what they want to do when they finish their basic education. By offering guidance on college selection, career options, and mentorship, GinEd helps students gain expertise and hands-on experience while pursuing their studies through multiple skilled courses and internships with different companies.",
       "images": [
         {
           "id": 1,
@@ -81,16 +81,16 @@
       ],
       "children": [
         {
-          "title": "Flexible Classes",
+          "title": "Skilled Professionals",
           "icon": "feather-heart",
           "isPrimary": false,
-          "info": "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+          "info": "GinEd has a team of skilled professionals who are experts in their respective fields, providing candidates with the necessary guidance and support."
         },
         {
-          "title": "Learn From Anywhere",
+          "title": "Personalised Support",
           "icon": "feather-book",
           "isPrimary": true,
-          "info": "Sed distinctio repudiandae eos recusandae laborum eaque non eius iure suscipit laborum eaque non eius iure suscipit."
+          "info": "GinEd provides personalized support to candidates, guiding them every step of the way to make informed decisions about their academic and career goals."
         }
       ]
     }

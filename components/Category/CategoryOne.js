@@ -21,7 +21,7 @@ const CategoryOne = () => {
               // href={`/course-filter-one-toggle/${item.category}`}
               >
                 <div className="inner">
-                  <div className="icons">
+                  {/* <div className="icons">
                     <Image
                       src={item.cateSmallImg}
                       width={80}
@@ -29,7 +29,7 @@ const CategoryOne = () => {
                       priority
                       alt="Icons Images"
                     />
-                  </div>
+                  </div> */}
                   <div className="content">
                     <h5 className="title">{item.title}</h5>
                     <div className="read-more-btn">

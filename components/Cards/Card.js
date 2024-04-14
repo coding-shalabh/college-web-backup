@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import CourseDetails from "../../data/course-details/courseData.json";
+import CollegeDetails from "../../data/course-details/collegeData.json";
 
 const Card = ({ start, end, col, mt, isDesc, isUser }) => {
   return (
     <>
-      {CourseDetails &&
-        CourseDetails.courseDetails.slice(start, end).map((data, index) => (
+      {CollegeDetails &&
+        CollegeDetails.collegeDetails.slice(start, end).map((data, index) => (
           <div
             className={`${col} ${mt}`}
             data-sal-delay="150"
@@ -17,13 +17,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
           >
             <div className="rbt-card variation-01 rbt-hover">
               <div className="rbt-card-img">
-                <Link href={`/course-details/${data.id}`}>
-                  <Image
-                    src={data.courseImg}
-                    width={355}
-                    height={244}
-                    alt="Card image"
-                  />
+                <Link href={`/course-details/${data._id.$id}`}>
                   {data.offPrice > 0 ? (
                     <div className="rbt-badge-3 bg-white">
                       <span>-{data.offPrice}%</span>
@@ -57,11 +51,11 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
 
                 <h4 className="rbt-card-title">
                   <Link href={`/course-details/${data.id}`}>
-                    {data.courseTitle}
+                    {data.name}
                   </Link>
                 </h4>
 
-                <ul className="rbt-meta">
+                {/* <ul className="rbt-meta">
                   <li>
                     <i className="feather-book"></i>
                     {data.lesson} Lessons
@@ -70,8 +64,8 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
                     <i className="feather-users"></i>
                     {data.student} Students
                   </li>
-                </ul>
-                {isDesc ? <p className="rbt-card-text">{data.desc}</p> : ""}
+                </ul> */}
+                {/* {isDesc ? <p className="rbt-card-text">{data.desc}</p> : ""}
                 {isUser ? (
                   <div className="rbt-author-meta mb--10">
                     <div className="rbt-avater">
@@ -92,11 +86,13 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
                   </div>
                 ) : (
                   ""
-                )}
+                )} */}
                 <div className="rbt-card-bottom">
                   <div className="rbt-price">
-                    <span className="current-price">${data.price}</span>
-                    <span className="off-price">${data.offPrice}</span>
+                    <span className="current-price"><p style={{fontWeight: '400', fontSize: 16}}>
+                      {data.excerpt}
+                    </p></span>
+                    {/* <span className="off-price">${data.offPrice}</span> */}
                   </div>
                   {data.button ? (
                     <Link

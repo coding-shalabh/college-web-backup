@@ -16,7 +16,7 @@ const CourseLayout = ({ MenuData, courseTitle, type, courseType, num, colType = 
             MenuData?.map((data, index) => {
               if (courseTitle === "Online Courses") {
                 if (index >= 0 && index < 10) {
-                  return (<li>
+                  return (<li key={index}>
                     <Link
                       href={'/courses/1'}
                     >
