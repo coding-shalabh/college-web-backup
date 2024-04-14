@@ -13,26 +13,26 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
 
 const CategoriesPage = () => {
-  // return (
-  //   <>
-  //     <PageHead title="Categories - Online Courses & Education NEXTJS14 Template" />
+  return (
+    <>
+      <PageHead title="Categories - Online Courses & Education NEXTJS14 Template" />
 
-  //     <Provider store={Store}>
-  //       <Context>
-  //         <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-  //         <MobileMenu />
-  //         <Cart />
-  //         <BreadCrumb title="Categories" text="Categories" />
+      <Provider store={Store}>
+        <Context>
+          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          <MobileMenu />
+          <Cart />
+          <BreadCrumb title="Categories" text="Categories" />
 
-  //         <Categories />
+          <Categories />
 
-  //         <BackToTop />
-  //         <Separator />
-  //         <FooterOne />
-  //       </Context>
-  //     </Provider>
-  //   </>
-  // );
+          <BackToTop />
+          <Separator />
+          <FooterOne />
+        </Context>
+      </Provider>
+    </>
+  );
 };
 
 export default CategoriesPage;

@@ -16,57 +16,56 @@ import Separator from "@/components/Common/Separator";
 import CourseCardTwo from "@/components/Category/Filter/CourseCard-Two";
 
 
-const CourseMasonryLayout = () => {}
 
-// const CourseMasonryLayout = () => {
-//   let getAllCourse = JSON.parse(
-//     JSON.stringify(CourseDetails.courseTab)
-//   );
-//   const [courseFilter, setCourseFilter] = useState(getAllCourse);
+const CourseMasonryLayout = () => {
+  let getAllCourse = JSON.parse(
+    JSON.stringify(CourseDetails.courseTab)
+  );
+  const [courseFilter, setCourseFilter] = useState(getAllCourse);
 
-//   const filterItem = (types) => {
-//     const updateItem = getAllCourse.filter((curElm) => {
-//       return curElm.courseType === types;
-//     });
+  const filterItem = (types) => {
+    const updateItem = getAllCourse.filter((curElm) => {
+      return curElm.courseType === types;
+    });
 
-//     if (types !== "All Course") {
-//       setCourseFilter(updateItem);
-//     } else {
-//       setCourseFilter(getAllCourse);
-//     }
-//   };
+    if (types !== "All Course") {
+      setCourseFilter(updateItem);
+    } else {
+      setCourseFilter(getAllCourse);
+    }
+  };
 
-//   return (
-//     <>
-//       <PageHead title="Course Masonry - Online Courses & Education NEXTJS14 Template" />
+  return (
+    <>
+      <PageHead title="Course Masonry - Online Courses & Education NEXTJS14 Template" />
 
-//       <Provider store={Store}>
-//         <Context>
-//           <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
-//           <MobileMenu />
-//           <Cart />
+      <Provider store={Store}>
+        <Context>
+          <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
+          <MobileMenu />
+          <Cart />
 
-//           <CategoryHead
-//             courseFilter={courseFilter}
-//             setCourseFilter={setCourseFilter}
-//             filterItem={filterItem}
-//             category={getAllCourse}
-//           />
-//           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
-//             <div className="container">
-//               <div className="row g-5">
-//                 <CourseCardTwo course={courseFilter} />
-//               </div>
-//             </div>
-//           </div>
+          <CategoryHead
+            courseFilter={courseFilter}
+            setCourseFilter={setCourseFilter}
+            filterItem={filterItem}
+            category={getAllCourse}
+          />
+          <div className="rbt-section-overlayping-top rbt-section-gapBottom">
+            <div className="container">
+              <div className="row g-5">
+                <CourseCardTwo course={courseFilter} />
+              </div>
+            </div>
+          </div>
 
-//           <Separator />
-//           <BackToTop />
-//           <FooterOne />
-//         </Context>
-//       </Provider>
-//     </>
-//   );
-// };
+          <Separator />
+          <BackToTop />
+          <FooterOne />
+        </Context>
+      </Provider>
+    </>
+  );
+};
 
 export default CourseMasonryLayout;
