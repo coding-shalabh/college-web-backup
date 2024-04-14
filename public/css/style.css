@@ -12450,7 +12450,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rbt-header-top-2.header-top-2 .header-right {
-    justify-content: end;
+    align-items: end;
   }
 }
 
@@ -12783,7 +12783,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 }
 
 .mainbar-row.rbt-navigation-end .rbt-main-navigation {
-  justify-content: end;
+  align-items: end;
 }
 
 .mainbar-row.rbt-navigation-start .rbt-main-navigation {

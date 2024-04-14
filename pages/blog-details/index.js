@@ -9,7 +9,7 @@ const BlogLayout = () => {
     if (postId === undefined) {
       router.push("/blog-list");
     }
-  }, []);
+  }, [postId, router]);
 };
 
 export default BlogLayout;

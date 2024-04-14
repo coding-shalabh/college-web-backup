@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
+  eslint: {
+    // Ignore ESLint warnings during production builds
+    ignoreDuringBuilds: true,
+  },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;

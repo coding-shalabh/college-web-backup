@@ -31,6 +31,7 @@ const SingleBlog = () => {
   const matchedBlog = blogPosts.find((post) => post.id === postId);
 
   useEffect(() => {
+    console.log(postId);
     if (postId && !matchedBlog) {
       router.push("/blog-list");
     }
