@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Pagination } from "swiper/modules";
 
-import MainDemoData from "../../../data/course-details/courseData.json";
+import MainDemoData from "../../../data/course-details/courseData2.json";
 
 
 
