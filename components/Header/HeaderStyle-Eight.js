@@ -7,7 +7,7 @@ const HeaderStyleEight = () => {
     <>
       <header className="rbt-header rbt-header-8 rbt-transparent-header">
         <div className="rbt-sticky-placeholder"></div>
-        {/* <HeaderTopSeven
+        <HeaderTopSeven
           gapSpaceBetween="header-space-betwween"
           bgColor="bg-color-transparent"
           flexDirection=""
@@ -20,7 +20,7 @@ const HeaderStyleEight = () => {
           navigationEnd="rbt-navigation-end"
           btnClass="rbt-switch-btn btn-gradient btn-sm hover-transform-none"
           btnText="Join Now"
-        /> */}
+        />
       </header>
     </>
   );
