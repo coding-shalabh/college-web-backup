@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import client1 from "../@/images/testimonial/client-04.png";
-import client2 from "../@/images/testimonial/client-05.png";
-import client3 from "../@/images/testimonial/client-06.png";
+import client1 from "@/images/testimonial/client-04.png";
+import client2 from "@/images/testimonial/client-05.png";
+import client3 from "@/images/testimonial/client-06.png";
 import Link from "next/link";
 
 const Tooltips = () => {

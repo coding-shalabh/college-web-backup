@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useAppContext } from "@/context/Context";
 
-import logo from "../@/images/logo/logo.png";
+import logo from "@/images/logo/logo.png";
 
 import Nav from "../Nav";
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-import logo from "../@/images/logo/logo.png";
+import logo from "@/images/logo/logo.png";
 
 import Nav from "../Nav";
 import HeaderRightTwo from "../Header-Right/HeaderRight-Two";

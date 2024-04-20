@@ -8,7 +8,7 @@ import Nav from "../Nav";
 import User from "../Offcanvas/User";
 import SearchWithCategory from "../Category/SearchWithCategory";
 
-import logo from "../@/images/logo/logo.png";
+import logo from "@/images/logo/logo.png";
 
 const HeaderTen = ({
   headerType,

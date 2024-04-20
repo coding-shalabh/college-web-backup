@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import CourseBreadcrumb from "./Course-Breadcrumb";
 
-import bgImage from "../@/images/bg/bg-image-10.jpg";
+import bgImage from "@/images/bg/bg-image-10.jpg";
 import { useRouter } from "next/router";
 import CourseBreadcrumbTwo from "./CourseBreadcrumb-Two";
 
