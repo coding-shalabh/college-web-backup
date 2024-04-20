@@ -47,7 +47,8 @@ const HeaderEight = ({
               <div className="header-info">
                 <div className="logo">
                   <Link href="/">
-                    <img src={logo} width={152} height={50} priority={true} alt="Logo Image" />
+                    {console.log(logo, '111111111')}
+                    <img src={logo.src} width={152} height={50} alt="Logo Image" />
                     {/* <Image src={logo} width={152} height={50} priority={true} alt="Logo Image" /> */}
                   </Link>
                 </div>
