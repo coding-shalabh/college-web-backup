@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderSix from "./Headers/Header-Six";
-import HeaderTopBar from "./NavProps/HeaderTopBar/HeaderTopBar";
+import HeaderTopBar from "./HeaderTopBar/HeaderTopBar";
 import { useRouter } from "next/router";
 
 const HeaderStyleSix = ({ headerType }) => {

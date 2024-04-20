@@ -14,8 +14,6 @@ const HeaderStyleEight = () => {
           btnClass="rbt-switch-btn btn-gradient btn-xs"
           btnText="Call us now"
         />
-        <p>This is working</p>
-
         <HeaderSix
           sticky="header-sticky"
           gapSpaceBetween=""
