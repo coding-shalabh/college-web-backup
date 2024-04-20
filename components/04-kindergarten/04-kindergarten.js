@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import img from "../../public/images/testimonial/client-02.png";
+import img from "@/images/testimonial/client-02.png";
 
 import CallToAction from "../Call-To-Action/CallToAction";
 import ServiceEleven from "../Services/Service-Eleven";

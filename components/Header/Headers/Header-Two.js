@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../../public/images/logo/logo.png";
+import logo from "../@/images/logo/logo.png";
 
 import Nav from "../Nav";
 
@@ -37,9 +37,8 @@ const HeaderTwo = ({
   return (
     <>
       <div
-        className={`rbt-header-wrapper ${gapSpaceBetween} ${transparent} ${sticky} ${
-          isSticky ? "rbt-sticky" : ""
-        }`}
+        className={`rbt-header-wrapper ${gapSpaceBetween} ${transparent} ${sticky} ${isSticky ? "rbt-sticky" : ""
+          }`}
       >
         <div className="container">
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Typed from "typed.js";
 
-import treeSvg from "../../public/images/icons/tree-shape.svg";
+import treeSvg from "@/images/icons/tree-shape.svg";
 
 const HomeElegantBanner = () => {
   useEffect(() => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import contactImg from "../../public/images/about/contact-2.jpg";
+import contactImg from "@/images/about/contact-2.jpg";
 import Image from "next/image";
 
 const InstructorForm = () => {

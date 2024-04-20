@@ -6,11 +6,11 @@ import sal from "sal.js";
 import BlogData from "../../data/blog/blog.json";
 import CourseDetails from "../../data/course-details/courseData.json";
 
-import client1 from "../../public/images/testimonial/client-04.png";
-import client2 from "../../public/images/testimonial/client-05.png";
-import client3 from "../../public/images/testimonial/client-06.png";
-import client4 from "../../public/images/testimonial/client-12.png";
-import languageClub from "../../public/images/banner/language-club.png";
+import client1 from "@/images/testimonial/client-04.png";
+import client2 from "@/images/testimonial/client-05.png";
+import client3 from "@/images/testimonial/client-06.png";
+import client4 from "@/images/testimonial/client-12.png";
+import languageClub from "@/images/banner/language-club.png";
 
 import CategoryFour from "../Category/CategoryFour";
 import Counter from "../Counters/Counter";

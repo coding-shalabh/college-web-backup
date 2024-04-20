@@ -8,7 +8,7 @@ import Nav from "../Nav";
 import User from "../Offcanvas/User";
 import SearchWithCategory from "../Category/SearchWithCategory";
 
-import logo from "../../../public/images/logo/logo.png";
+import logo from "../@/images/logo/logo.png";
 
 const HeaderTen = ({
   headerType,
@@ -43,9 +43,8 @@ const HeaderTen = ({
   return (
     <>
       <div
-        className={`rbt-header-wrapper rbt-header-wrapper height-50 ${gapSpaceBetween} ${sticky}  ${
-          !headerType && isSticky ? `${headerSticky}` : ""
-        }`}
+        className={`rbt-header-wrapper rbt-header-wrapper height-50 ${gapSpaceBetween} ${sticky}  ${!headerType && isSticky ? `${headerSticky}` : ""
+          }`}
       >
         <div className={`${container}`}>
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
@@ -54,9 +53,8 @@ const HeaderTen = ({
                 <ul className="quick-access">
                   <li className="access-icon">
                     <Link
-                      className={`search-trigger-active rbt-round-btn ${
-                        search ? "" : "open"
-                      }`}
+                      className={`search-trigger-active rbt-round-btn ${search ? "" : "open"
+                        }`}
                       href="#"
                       onClick={() => setSearch(!search)}
                     >

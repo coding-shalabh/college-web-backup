@@ -10,7 +10,7 @@ import CourseLayout from "./NavProps/CourseLayout";
 import PageLayout from "./NavProps/PageLayout";
 import ElementsLayout from "./NavProps/ElementsLayout";
 
-import addImage from "../../public/images/service/mobile-cat.jpg";
+import addImage from "@/images/service/mobile-cat.jpg";
 
 const Nav = () => {
   const [activeMenuItem, setActiveMenuItem] = useState(null);
@@ -480,7 +480,7 @@ const Nav = () => {
           >
             Our Courses
           </Link>
-          
+
         </li>
 
         <li className="with-megamenu">

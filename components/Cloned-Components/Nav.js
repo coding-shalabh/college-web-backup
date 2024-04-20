@@ -11,7 +11,7 @@ import CourseLayout from "./CourseLayout";
 import PageLayout from "../Header/NavProps/PageLayout";
 import ElementsLayout from "../Header/NavProps/ElementsLayout";
 
-import addImage from "../../public/images/service/mobile-cat.jpg";
+import addImage from "@/images/service/mobile-cat.jpg";
 
 const Nav = () => {
   const [activeMenuItem, setActiveMenuItem] = useState(null);

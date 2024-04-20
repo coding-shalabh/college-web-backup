@@ -3,8 +3,8 @@ import Link from "next/link";
 
 import CreateCourseData from "../../data/createCourse.json";
 
-import svgImg from "../../public/images/icons/certificate-none.svg";
-import svgImg2 from "../../public/images/icons/certificate-none-portrait.svg";
+import svgImg from "@/images/icons/certificate-none.svg";
+import svgImg2 from "@/images/icons/certificate-none-portrait.svg";
 
 import InfoForm from "./InfoForm";
 import TopicModal from "./TopicModal";

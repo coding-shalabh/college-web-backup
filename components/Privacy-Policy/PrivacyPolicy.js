@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import img from "../../public/images/blog/blog-card-01.jpg";
-import bgImg from "../../public/images/bg/bg-image-10.jpg";
+import img from "@/images/blog/blog-card-01.jpg";
+import bgImg from "@/images/bg/bg-image-10.jpg";
 
 const PrivacyPolicy = () => {
   return (

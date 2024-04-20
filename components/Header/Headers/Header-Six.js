@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import logo from "../../../public/images/logo/logo.png";
+import logo from "@/images/logo/logo.png";
 
 import Nav from "../Nav";
 import { useAppContext } from "@/context/Context";
@@ -36,9 +36,8 @@ const HeaderSix = ({
   return (
     <>
       <div
-        className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${
-          isSticky ? "rbt-sticky" : ""
-        }`}
+        className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${isSticky ? "rbt-sticky" : ""
+          }`}
       >
         <div className="container">
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
@@ -55,7 +54,7 @@ const HeaderSix = ({
                 </Link>
               </div>
             </div>
-        
+
             <div className="rbt-main-navigation d-none d-xl-block">
               <Nav />
             </div>

@@ -20,13 +20,13 @@ import Testimonial from "../Testimonials/Testimonial";
 import Gallery from "../Gallery/Gallery";
 import BrandOne from "../Brand/Brand-One";
 
-import imgOne from "../../public/images/gallery/gallery-03.jpg";
-import imgTwo from "../../public/images/gallery/gallery-01.jpg";
-import imgThree from "../../public/images/gallery/gallery-05.jpg";
-import hiImgOne from "../../public/images/banner/hi_1.png";
-import hiImgTwo from "../../public/images/banner/hi_2.png";
-import hiImgThree from "../../public/images/banner/hi_3.png";
-import videoImg from "../../public/images/others/video-06.jpg";
+import imgOne from "@/images/gallery/gallery-03.jpg";
+import imgTwo from "@/images/gallery/gallery-01.jpg";
+import imgThree from "@/images/gallery/gallery-05.jpg";
+import hiImgOne from "@/images/banner/hi_1.png";
+import hiImgTwo from "@/images/banner/hi_2.png";
+import hiImgThree from "@/images/banner/hi_3.png";
+import videoImg from "@/images/others/video-06.jpg";
 
 const UniversityClassic = () => {
   useEffect(() => {

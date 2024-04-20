@@ -13,7 +13,7 @@ import PricingFive from "../Pricing/Pricing-Five";
 import NewsletterFour from "../Newsletters/Newsletter-Four";
 import SingleCourseProp from "./SingleCourseProp";
 
-import courseImg from "../../public/images/course/course-elegant-01.jpg";
+import courseImg from "@/images/course/course-elegant-01.jpg";
 import CourseLessonProp from "./CourseLessonProp";
 
 const SingleCourse = () => {

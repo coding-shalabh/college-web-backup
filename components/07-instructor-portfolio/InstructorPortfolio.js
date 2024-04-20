@@ -7,7 +7,7 @@ import CategoryEight from "../Category/CategoryEight";
 
 import CourseDetails from "../../data/course-details/courseData.json";
 
-import callImg from "../../public/images/shape/cta-4.png";
+import callImg from "@/images/shape/cta-4.png";
 import CounterSix from "../Counters/Counter-Six";
 import PricingFive from "../Pricing/Pricing-Five";
 import TestimonialSix from "../Testimonials/Testimonial-Six";

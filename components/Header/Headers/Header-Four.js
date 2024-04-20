@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../../public/images/logo/logo.png";
+import logo from "../@/images/logo/logo.png";
 
 import Nav from "../Nav";
 import User from "../Offcanvas/User";
@@ -35,9 +35,8 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
   return (
     <>
       <div
-        className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${
-          isSticky ? "rbt-sticky" : ""
-        }`}
+        className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${isSticky ? "rbt-sticky" : ""
+          }`}
       >
         <div className={`${container}`}>
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
@@ -79,9 +78,8 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                 </li>
                 <li className="access-icon">
                   <Link
-                    className={`search-trigger-active rbt-round-btn ${
-                      search ? "" : "open"
-                    }`}
+                    className={`search-trigger-active rbt-round-btn ${search ? "" : "open"
+                      }`}
                     href="#"
                     onClick={() => setSearch(!search)}
                   >

@@ -3,9 +3,9 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
-import sliderImg1 from "../../public/images/course/single-course-07.jpg";
-import sliderImg2 from "../../public/images/course/single-course-08.jpg";
-import sliderImg3 from "../../public/images/course/single-course-09.jpg";
+import sliderImg1 from "@/images/course/single-course-07.jpg";
+import sliderImg2 from "@/images/course/single-course-08.jpg";
+import sliderImg3 from "@/images/course/single-course-09.jpg";
 
 const CourseSlider = () => {
   return (

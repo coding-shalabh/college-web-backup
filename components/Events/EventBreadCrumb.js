@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import bgImg from "../../public/images/bg/bg-image-10.jpg";
+import bgImg from "@/images/bg/bg-image-10.jpg";
 import Link from "next/link";
 
 const EventBreadCrumb = ({ getMatchEvent }) => {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import img from "../../public/images/others/thumbnail-placeholder.svg";
+import img from "@/images/others/thumbnail-placeholder.svg";
 import { useState } from "react";
 
 const InfoForm = () => {

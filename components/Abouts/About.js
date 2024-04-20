@@ -4,9 +4,9 @@ import Link from "next/link";
 import AboutData from "../../data/elements/about.json";
 import { useParallax } from "react-scroll-parallax";
 
-import aboutImg7 from "../../public/images/about/about-07.jpg";
-import aboutImg8 from "../../public/images/about/about-08.jpg";
-import aboutImg9 from "../../public/images/about/about-09.jpg";
+import aboutImg7 from "@/images/about/about-07.jpg";
+import aboutImg8 from "@/images/about/about-08.jpg";
+import aboutImg9 from "@/images/about/about-09.jpg";
 
 const About = () => {
   const { ref: ref1, style: style1 } = useParallax({
@@ -66,11 +66,10 @@ const About = () => {
                 <div className="rbt-feature-wrapper mt--40" key={innerIndex}>
                   <div className="rbt-feature feature-style-1">
                     <div
-                      className={`icon ${
-                        item.isPrimary
+                      className={`icon ${item.isPrimary
                           ? "bg-primary-opacity"
                           : "bg-pink-opacity"
-                      }`}
+                        }`}
                     >
                       <i className={item.icon}></i>
                     </div>

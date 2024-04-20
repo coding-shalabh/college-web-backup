@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import aboutImg from "../../public/images/about/about-14.jpg";
+import aboutImg from "@/images/about/about-14.jpg";
 
 const AcademyGalleryOne = () => {
   return (

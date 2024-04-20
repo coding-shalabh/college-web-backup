@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import Context from "@/context/Context";
 
-import img from "../../../public/images/others/header.png";
+import img from "../@/images/others/header.png";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";

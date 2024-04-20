@@ -18,8 +18,8 @@ import NewsletterFour from "../Newsletters/Newsletter-Four";
 import SingleCourseData from "../../data/pages/11-singleCourse.json";
 
 
-import courseImg from "../../public/images/course/course-content.jpg";
-import videoImg from "../../public/images/others/video-05.jpg";
+import courseImg from "@/images/course/course-content.jpg";
+import videoImg from "@/images/others/video-05.jpg";
 
 const HomeTechnology = () => {
   useEffect(() => {

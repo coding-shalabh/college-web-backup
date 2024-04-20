@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import emoji from "../../../public/images/icons/hand-emojji.svg";
+import emoji from "@/images/icons/hand-emojji.svg";
 import { useAppContext } from "@/context/Context";
 
 const HeaderTopBar = () => {
@@ -9,9 +9,8 @@ const HeaderTopBar = () => {
   return (
     <>
       <div
-        className={`rbt-header-campaign rbt-header-campaign-1 rbt-header-top-news bg-image1 ${
-          !toggle ? "deactive" : ""
-        }`}
+        className={`rbt-header-campaign rbt-header-campaign-1 rbt-header-top-news bg-image1 ${!toggle ? "deactive" : ""
+          }`}
       >
         <div className="wrapper">
           <div className="container">

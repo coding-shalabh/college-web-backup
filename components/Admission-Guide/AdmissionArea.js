@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import "venobox/dist/venobox.min.css";
 
-import videoImg from "../../public/images/others/video-04.jpg";
+import videoImg from "@/images/others/video-04.jpg";
 
 const AdmissionArea = () => {
   useEffect(() => {

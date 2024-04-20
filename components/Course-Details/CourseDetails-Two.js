@@ -13,7 +13,7 @@ import Featured from "./Course-Sections/Featured";
 import RelatedCourse from "./Course-Sections/RelatedCourse";
 import Content from "./Course-Sections/Content";
 
-import VideoImg from "../../public/images/others/video-07.jpg";
+import VideoImg from "@/images/others/video-07.jpg";
 
 const CourseDetailsTwo = ({ checkMatchCourses }) => {
   useEffect(() => {

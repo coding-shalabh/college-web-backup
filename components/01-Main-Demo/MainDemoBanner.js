@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import img from "../../public/images/banner/banner-01.png";
-import shape1 from "../../public/images/shape/shape-01.png";
-import shape2 from "../../public/images/shape/shape-02.png";
+import img from "@/images/banner/banner-01.png";
+import shape1 from "@/images/shape/shape-01.png";
+import shape2 from "@/images/shape/shape-02.png";
 
 import HomeCourses from "./Home-Sections/HomeCourse";
 
@@ -21,7 +21,7 @@ const MainDemoBanner = () => {
                 </div>
 
                 <h1 className="title">
-                Your Education, <br/>Our Priority Your Career,<br/> Our Commitment
+                  Your Education, <br />Our Priority Your Career,<br /> Our Commitment
                 </h1>
                 {/* <p className="description">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do

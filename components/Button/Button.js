@@ -4,10 +4,10 @@ import Image from "next/image";
 
 import "venobox/dist/venobox.min.css";
 
-import videoImg1 from "../../public/images/others/video-01.jpg";
-import videoImg2 from "../../public/images/others/video-02.jpg";
-import videoImg3 from "../../public/images/others/video-03.jpg";
-import videoImg4 from "../../public/images/others/video-04.jpg";
+import videoImg1 from "@/images/others/video-01.jpg";
+import videoImg2 from "@/images/others/video-02.jpg";
+import videoImg3 from "@/images/others/video-03.jpg";
+import videoImg4 from "@/images/others/video-04.jpg";
 
 import ColorButton from "./ButtonProps/ColorButton";
 import HoverButton from "./ButtonProps/HoverButton";

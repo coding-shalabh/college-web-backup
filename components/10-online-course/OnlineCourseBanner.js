@@ -4,8 +4,8 @@ import Link from "next/link";
 
 import "venobox/dist/venobox.min.css";
 
-import videoImg from "../../public/images/others/video-02.jpg";
-import clientImg from "../../public/images/testimonial/client-02.png";
+import videoImg from "@/images/others/video-02.jpg";
+import clientImg from "@/images/testimonial/client-02.png";
 
 const OnlineCourseBanner = () => {
   useEffect(() => {

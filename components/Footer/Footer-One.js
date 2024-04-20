@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "@/images/logo/logo.png";
 
 import CopyRight from "./CopyRight";
 
@@ -12,9 +12,8 @@ const FooterOne = ({ bgColor }) => {
   return (
     <>
       <footer
-        className={`rbt-footer footer-style-1 ${
-          bgColor ? bgColor : "bg-color-white"
-        } overflow-hidden`}
+        className={`rbt-footer footer-style-1 ${bgColor ? bgColor : "bg-color-white"
+          } overflow-hidden`}
       >
         <div className="footer-top">
           <div className="container">

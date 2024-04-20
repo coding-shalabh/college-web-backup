@@ -5,7 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 import HeaderTopBar from "./HeaderTopBar/HeaderTopBar";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "@/images/logo/logo.png";
 import { useAppContext } from "@/context/Context";
 
 const HeaderStyleTwelve = () => {
