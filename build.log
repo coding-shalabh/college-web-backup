@@ -1,0 +1,17 @@
+
+> histudy-next@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.1
+
+   Skipping linting
+   Checking validity of types ...
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+ ⚠ "next" should not be imported directly, imported in /var/www/college-web/.next/server/pages/elements/style-guide.js
+See more info here: https://nextjs.org/docs/messages/import-next
+   Generating static pages (0/126) ...
+   Generating static pages (31/126) 
+   Generating static pages (62/126) 
+   Generating static pages (94/126) 
