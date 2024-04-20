@@ -39,8 +39,8 @@ const MobileMenu = () => {
             </p>
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
-                <Link href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+                <Link href="mailto:support@gined.in">
+                  <i className="feather-mail"></i>support@gined.in
                 </Link>
               </li>
               <li>
@@ -54,14 +54,14 @@ const MobileMenu = () => {
           <Nav />
 
           <div className="mobile-menu-bottom">
-            <div className="rbt-btn-wrapper mb--20">
+            {/* <div className="rbt-btn-wrapper mb--20">
               <Link
                 className="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
                 href="#"
               >
                 <span>Enroll Now</span>
               </Link>
-            </div>
+            </div> */}
 
             <div className="social-share-wrapper">
               <span className="rbt-short-title d-block">Find With Us</span>

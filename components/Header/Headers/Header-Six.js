@@ -55,13 +55,12 @@ const HeaderSix = ({
                 </Link>
               </div>
             </div>
-
+        
             <div className="rbt-main-navigation d-none d-xl-block">
               <Nav />
             </div>
-
             <div className="header-right">
-              <div className="rbt-btn-wrapper d-none d-xl-block">
+              <div className="rbt-btn-wrapper d-xl-block">
                 <Link className={`rbt-btn ${btnClass}`} href="#">
                   <span data-text={`${btnText}`}>{btnText}</span>
                 </Link>
