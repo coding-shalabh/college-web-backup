@@ -16,14 +16,14 @@ import NewsletterThree from "../Newsletters/Newsletter-Three";
 
 
 const CourseSchool = () => {
-  let getAllCourse = JSON.parse(JSON.stringify(CourseDetails.courseTab));
+  let getAllCourse = JSON.parse(JSON.stringify(CourseDetails?.courseTab));
 
   const [courseFilter, setCourseFilter] = useState([]);
   const [activeTab, setActiveTab] = useState("All Course");
 
   const filterItem = (types) => {
-    const updateItem = getAllCourse.filter((curElm) => {
-      return curElm.courseType === types;
+    const updateItem = getAllCourse?.filter((curElm) => {
+      return curElm?.courseType === types;
     });
 
     if (types !== "All Course") {
@@ -98,37 +98,14 @@ const CourseSchool = () => {
                 id="rbt-myTab"
                 role="tablist"
               >
-                {[
+                {/* {[
                   "All Course",
                   "featured",
                   "popular",
                   "trending",
                   "latest",
                 ].map((courseType, index) => (
-                  {/* <li key={index} className="nav-item" role="presentation">
-                    <button
-                      className={activeTab === courseType ? "active" : ""}
-                      type="button"
-                      onClick={() => handleButtonClick(courseType)}
-                    >
-                      <span className="filter-text">{courseType}</span>
-                      {courseType === "All Course" ? (
-                        <span className="course-number">
-                          {getAllCourse.filter((course) => course).length}
-                        </span>
-                      ) : (
-                        <span className="course-number">
-                          0
-                          {
-                            getAllCourse.filter(
-                              (course) => course.courseType === courseType
-                            ).length
-                          }
-                        </span>
-                      )}
-                    </button>
-                  </li> */}
-                ))}
+                ))} */}
               </ul>
             </div>
           </div>
@@ -137,7 +114,7 @@ const CourseSchool = () => {
             <div className="col-lg-12">
               <div className="tab-content mt--60" id="rbt-myTabContent">
                 <div className="row g-5">
-                  {courseFilter.slice(0, 6).map((data, index) => (
+                  {courseFilter?.slice(0, 6).map((data, index) => (
                     <div
                       className="col-lg-6 col-md-6 col-sm-6 col-12"
                       key={index}
