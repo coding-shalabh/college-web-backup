@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 
-import HeaderTopBar from "./NavProps/HeaderTopBar/HeaderTopBar";
+import HeaderTopBar from "./HeaderTopBar/HeaderTopBar";
 
 import logo from "../../public/images/logo/logo.png";
 import { useAppContext } from "@/context/Context";
