@@ -105,7 +105,7 @@ const CourseSchool = () => {
                   "trending",
                   "latest",
                 ].map((courseType, index) => (
-                  <li key={index} className="nav-item" role="presentation">
+                  {/* <li key={index} className="nav-item" role="presentation">
                     <button
                       className={activeTab === courseType ? "active" : ""}
                       type="button"
@@ -127,7 +127,7 @@ const CourseSchool = () => {
                         </span>
                       )}
                     </button>
-                  </li>
+                  </li> */}
                 ))}
               </ul>
             </div>
