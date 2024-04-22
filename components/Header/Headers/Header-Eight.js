@@ -19,7 +19,7 @@ const HeaderEight = ({
   navigationEnd,
   container,
   btnClass,
-  btnText
+  btnText,
 }) => {
   const { mobile, setMobile } = useAppContext(); // Using context if applicable
   const [isSticky, setIsSticky] = useState(false);
@@ -40,16 +40,27 @@ const HeaderEight = ({
 
   return (
     <>
-      <div className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${!headerType && isSticky ? headerSticky : ""}`}>
+      <div
+        className={`rbt-header-wrapper ${gapSpaceBetween} ${sticky} ${
+          !headerType && isSticky ? headerSticky : ""
+        }`}
+      >
         <div className={`${container}`}>
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
             <div className="header-left rbt-header-content">
               <div className="header-info">
                 <div className="logo">
                   <Link href="/">
-                    {console.log(logo, '111111111')}
-                    <img src={logo.src} width={152} height={50} alt="Logo Image" />
-                    {/* <Image src={logo} width={152} height={50} priority={true} alt="Logo Image" /> */}
+                    {console.log(logo, "111111111")}
+                    {/* <img src={logo.src} width={152} height={50} alt="Logo Image" /> */}
+                    <Image
+                      unoptimized
+                      src={logo}
+                      width={152}
+                      height={50}
+                      priority={true}
+                      alt="Logo Image"
+                    />
                   </Link>
                 </div>
               </div>
