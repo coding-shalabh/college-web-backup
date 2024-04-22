@@ -9,7 +9,7 @@ import Category from "../Category/Category";
 import Nav from "../../Cloned-Components/Nav";
 
 // import logo from "@/images/logo/logo.png";
-import logo from "@/images/logo/logo.png";
+import logo from "../../../images/logo/logo.png";
 
 const HeaderEight = ({
   headerType,
@@ -52,15 +52,15 @@ const HeaderEight = ({
                 <div className="logo">
                   <Link href="/">
                     {console.log(logo, "111111111")}
-                    {/* <img src={logo.src} width={152} height={50} alt="Logo Image" /> */}
-                    <Image
+                    <img src={logo} width={152} height={50} alt="Logo Image" />
+                    {/* <Image
                       unoptimized
                       src={logo}
                       width={152}
                       height={50}
                       priority={true}
                       alt="Logo Image"
-                    />
+                    /> */}
                   </Link>
                 </div>
               </div>
