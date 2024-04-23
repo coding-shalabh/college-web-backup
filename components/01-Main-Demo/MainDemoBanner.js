@@ -21,7 +21,10 @@ const MainDemoBanner = () => {
                 </div>
 
                 <h1 className="title">
-                  Your Education, <br />Our Priority Your Career,<br /> Our Commitment
+                  Your Education, <br />
+                  Our Priority
+                  <br /> Your Career,
+                  <br /> Our Commitment
                 </h1>
                 {/* <p className="description">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do

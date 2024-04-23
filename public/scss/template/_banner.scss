@@ -230,11 +230,11 @@
         }
 
         .shape-wrapper {
-            margin-top: 20px;
+            margin-top: -60px;
             z-index: 2;
             margin-bottom: 6px;
             position: relative;
-            left: -40px;
+            left: 20px;
 
             @media #{$lg-layout} {
                 left: 0;

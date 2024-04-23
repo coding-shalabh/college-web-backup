@@ -474,18 +474,17 @@ const Nav = () => {
 
         <li className="with-megamenu">
           <Link
-            href="#"
+            href="/courses"
             className={`${activeMenuItem === "courses" ? "open" : ""}`}
             onClick={() => toggleMenuItem("courses")}
           >
             Our Courses
           </Link>
-
         </li>
 
         <li className="with-megamenu">
           <Link
-            href="#"
+            href="/colleges"
             className={`${activeMenuItem === "colleges" ? "open" : ""}`}
             onClick={() => toggleMenuItem("colleges")}
           >
