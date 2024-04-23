@@ -8,7 +8,7 @@ import Search from "../Offcanvas/Search";
 import Category from "../Category/Category";
 import Nav from "../../Cloned-Components/Nav";
 
-import logo from "@/images/logo/logo-black.png";
+import logo from "@/images/logo/logo.png";
 // import logo from "../../../images/logo/logo.png";
 
 const HeaderEight = ({
