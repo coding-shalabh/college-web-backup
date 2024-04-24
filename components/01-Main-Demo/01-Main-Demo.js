@@ -79,7 +79,7 @@ const MainDemo = () => {
                 <div className="load-more-btn mt--60 text-center">
                   <Link
                     className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
-                    href="#"
+                    href="/colleges"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Load More Colleges</span>
@@ -116,7 +116,7 @@ const MainDemo = () => {
         </div>
 
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+        {/* <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
           <div className="wrapper">
             <div className="container">
               <div className="row">
@@ -135,7 +135,7 @@ const MainDemo = () => {
             </div>
           </div>
           <TestimonialSeven />
-        </div>
+        </div> */}
 
         {/* <div className="rbt-event-area rbt-section-gap bg-gradient-3">
           <div className="container">

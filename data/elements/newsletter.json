@@ -10,19 +10,19 @@
   "newsletterTwo": [
     {
       "subTitle": "Get Latest Histudy Update",
-      "strong": "Subscribe",
-      "title": "Our Newsletter",
+      "strong": "Request",
+      "title": "a callback",
       "text": "No ads, No trails, No commitments",
-      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam explicabo sit est eos earum reprehenderit inventore nam autem corrupti rerum!",
+      "desc": "If you have any questions on your mind aboujt the colleges/ careers/ courses/ exams you wish to pursue, just drop a query & and our experts will revert in 20 mins",
       "body": [
         {
-          "num": 500,
-          "title": "Successfully Trained",
+          "num": 3500,
+          "title": "Successfully Admissions",
           "subTitle": "Learners & counting",
           "offset": true
         },
         {
-          "num": 100,
+          "num": 200,
           "title": "Certification Students",
           "subTitle": "Online Course",
           "offset": false

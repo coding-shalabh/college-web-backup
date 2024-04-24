@@ -107,174 +107,24 @@ const Nav = () => {
         <li className="with-megamenu has-menu-child-item">
           <Link
             className={`${activeMenuItem === "courses" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("courses")}
+            href="/courses"
+            // onClick={() => toggleMenuItem("courses")}
           >
             Our Courses
-            <i className="feather-chevron-down"></i>
+            {/* <i className="feather-chevron-down"></i> */}
           </Link>
 
-          <div
-            className={`rbt-megamenu grid-item-2 ${activeMenuItem === "courses" ? "active d-block" : ""
-              }`}
-          >
-            <div className="wrapper">
-              {/* {MenuData &&
-                MenuData.menuData.map((data, index) => {
-                  if (data.menuType === "grid-item-2") {
-                    const elements = data.submenuBanner?.map(
-                      (value, innerIndex) => (
-                        <div className="row" key={innerIndex}>
-                          <div className="col-lg-12">
-                            <div className="mega-top-banner">
-                              <div className="content">
-                                <h4 className="title">{value.title}</h4>
-                                <p className="description">
-                                  {value.description}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      )
-                    );
-                    return elements;
-                  }
-                })} */}
-              <div className="row row--15">
-                <CourseLayout
-                  courseTitle="Online Courses"
-                  MenuData={coursesMenuDataArray}
-                  type="grid-item-2"
-                  courseType={true}
-                  pageType={1}
-                  num={7}
-                  colType={3}
-                />
-                <CourseLayout
-                  courseTitle="Offline Courses"
-                  MenuData={coursesMenuDataArray}
-                  type="grid-item-2"
-                  courseType={false}
-                  pageType={1}
-                  num={6}
-                  colType={3}
-                />
-                <CourseLayout
-                  courseTitle="Overseas Courses"
-                  MenuData={coursesMenuDataArray}
-                  type="grid-item-2"
-                  courseType={false}
-                  pageType={1}
-                  num={6}
-                  colType={3}
-                />
-              </div>
-              {/* <div className="row">
-                <div className="col-lg-12">
-                  <ul className="nav-quick-access">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-2") {
-                          const coursElements = data.menuFooterItems?.map(
-                            (value, innerIndex) => (
-                              <li key={innerIndex}>
-                                <Link href={value.link}>
-                                  <i className="feather-folder-minus"></i>
-                                  {value.title}
-                                </Link>
-                              </li>
-                            )
-                          );
-                          return coursElements;
-                        }
-                      })}
-                  </ul>
-                </div>
-              </div> */}
-            </div>
-          </div>
         </li>
 
         <li className="with-megamenu has-menu-child-item">
           <Link
             className={`${activeMenuItem === "courses" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("courses")}
+            href="/colleges"
           >
             Our Colleges
-            <i className="feather-chevron-down"></i>
+            {/* <i className="feather-chevron-down"></i> */}
           </Link>
-
-          <div
-            className={`rbt-megamenu grid-item-2 ${activeMenuItem === "courses" ? "active d-block" : ""
-              }`}
-          >
-            <div className="wrapper">
-              {/* {MenuData &&
-                MenuData.menuData.map((data, index) => {
-                  if (data.menuType === "grid-item-2") {
-                    const elements = data.submenuBanner?.map(
-                      (value, innerIndex) => (
-                        <div className="row" key={innerIndex}>
-                          <div className="col-lg-12">
-                            <div className="mega-top-banner">
-                              <div className="content">
-                                <h4 className="title">{value.title}</h4>
-                                <p className="description">
-                                  {value.description}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      )
-                    );
-                    return elements;
-                  }
-                })} */}
-              <div className="row row--15">
-                <CourseLayout
-                  courseTitle="Top Colleges"
-                  MenuData={collegeMenuData}
-                  type="grid-item-2"
-                  courseType={true}
-                  pageType={2}
-                  num={7}
-                />
-                <CourseLayout
-                  courseTitle="Colleges By Location"
-                  MenuData={collegeMenuData}
-                  type="grid-item-2"
-                  courseType={false}
-                  pageType={2}
-                  num={6}
-                />
-              </div>
-              {/* <div className="row">
-                <div className="col-lg-12">
-                  <ul className="nav-quick-access">
-                    {MenuData &&
-                      MenuData.menuData.map((data, index) => {
-                        if (data.menuType === "grid-item-2") {
-                          const coursElements = data.menuFooterItems?.map(
-                            (value, innerIndex) => (
-                              <li key={innerIndex}>
-                                <Link href={value.link}>
-                                  <i className="feather-folder-minus"></i>
-                                  {value.title}
-                                </Link>
-                              </li>
-                            )
-                          );
-                          return coursElements;
-                        }
-                      })}
-                  </ul>
-                </div>
-              </div> */}
-            </div>
-          </div>
+{/*  */}
         </li>
 
         {/* <li className="has-dropdown has-menu-child-item">

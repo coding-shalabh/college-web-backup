@@ -25,13 +25,19 @@ const Category = () => {
               CategoryNum={CategoryData.categoryItemOne}
             />
             <SingleCategory
-              title="Commerce"
+              title="Management"
               isActive={false}
               CategoryData={CategoryData}
               CategoryNum={CategoryData.categoryItemTwo}
             />
             <SingleCategory
-              title="Management"
+              title="Elite Science"
+              isActive={false}
+              CategoryData={CategoryData}
+              CategoryNum={CategoryData.categoryItemThree}
+            />
+             <SingleCategory
+              title="Law"
               isActive={false}
               CategoryData={CategoryData}
               CategoryNum={CategoryData.categoryItemThree}

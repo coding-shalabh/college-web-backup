@@ -48,8 +48,8 @@ const MainDemoBanner = () => {
                   </Link>
                 </div>
               </div>
-              <div className="shape-wrapper" id="scene">
-                <Image src={img} width={300} height={400} alt="Hero Image" />
+              <div className="shape-wrapper" id="scene" style={{visibility: 'hidden'}} >
+                <Image src={img} width={300} height={400} alt="Hero Image"/>
                 <div className="hero-bg-shape-1 layer" data-depth="0.4">
                   <Image
                     src={shape1}

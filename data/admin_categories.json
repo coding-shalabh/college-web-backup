@@ -14,20 +14,6 @@
 },
 {
   "_id": {
-    "$oid": "65eedca5e6fe2ce45f9cf9f0"
-  },
-  "title": "Commerce",
-  "description": "<p><strong>Description - </strong>Commerce involves the swapping of goods or services between two or more parties. It’s a part of business that centers on selling final or incomplete products, excluding activities like sourcing, manufacturing, transportation, or marketing.&nbsp;<br>&nbsp;</p><p><strong>Type of Commerce - &nbsp;</strong>Bachelor of Commerce , Chartered Accountancy , Bachelor Of Arts in Economics (B.A Economics Hons) , Cost and Management Accountant (CMA). M.COM</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-  "createdAt": {
-    "$date": "2024-03-11T10:27:49.591Z"
-  },
-  "updatedAt": {
-    "$date": "2024-03-11T10:27:49.591Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "65eee310e6fe2ce45f9cf9f7"
   },
   "title": "Management",
@@ -39,4 +25,34 @@
     "$date": "2024-03-11T10:55:12.856Z"
   },
   "__v": 0
-}]
+},
+{
+  "_id": {
+    "$oid": "<unique_id>"
+  },
+  "title": "Elite Science",
+  "description": "<p><strong>Description - </strong>Elite Science encompasses cutting-edge scientific disciplines that push the boundaries of human knowledge and understanding. These fields often involve highly specialized research and experimentation, leading to breakthroughs in technology, medicine, and various other domains. Elite scientists work on groundbreaking projects that have the potential to revolutionize industries and improve the quality of life.</p><p><strong>Types of Elite Science Courses -</strong> PhD in Quantum Physics, Computational Neuroscience, Synthetic Biology</p>",
+  "createdAt": {
+    "$date": "<creation_date>"
+  },
+  "updatedAt": {
+    "$date": "<update_date>"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "<unique_id>"
+  },
+  "title": "Law",
+  "description": "<p><strong>Description - </strong>Law is a system of rules created and enforced through social or governmental institutions to regulate behavior, with its precise definition a matter of longstanding debate. It regulates and ensures that individuals or a community adhere to the will of the state. The law also sets the foundation for the resolution of disputes and the protection of rights.</p><p><strong>Types of Law Courses -</strong> LLB, LLM, Juris Doctor (JD)</p>",
+  "createdAt": {
+    "$date": "<creation_date>"
+  },
+  "updatedAt": {
+    "$date": "<update_date>"
+  },
+  "__v": 0
+}
+
+]
