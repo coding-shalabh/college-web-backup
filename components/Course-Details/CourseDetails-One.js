@@ -84,6 +84,7 @@ const CourseDetailsOne = ({ checkMatchCourses }) => {
         <div className="course-sidebar sticky-top rbt-shadow-box course-sidebar-top rbt-gradient-border">
           <div className="inner">
             <Viedo checkMatchCourses={checkMatchCourses && checkMatchCourses} />
+            
           </div>
         </div>
       </div>

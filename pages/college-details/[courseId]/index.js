@@ -72,7 +72,7 @@ const SingleCourse = () => {
               checkMatch={collegeDetails !== undefined ? collegeDetails : ""}
             />
           </div>
-
+          
           <div className="rbt-course-details-area ptb--60">
             <div className="container">
               <div className="row g-5">

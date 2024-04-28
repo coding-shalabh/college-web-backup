@@ -19,9 +19,34 @@ const Viedo = ({ checkMatchCourses }) => {
 
   const [amount, setAmount] = useState(1);
 
-  const addToCartFun = (id, amount, product) => {
-    dispatch(addToCartAction(id, amount, product));
-    setCart(!cartToggle);
+  const applyForCourse = (id, name) => {
+
+    const sendEmail = async () => {
+      const emailData = {
+          to: "abhishek23350@gmail.com",
+          subject: "Your Subject Here",
+          text: "Hello Abhishek, this is your message body!",
+      };
+  
+      const response = await fetch('/api/email/send', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(emailData)
+      });
+  
+      const data = await response.json();
+      if (response.ok) {
+          console.log("Email sent successfully:", data);
+      } else {
+          console.error("Email sending failed:", data);
+      }
+  };
+
+  sendEmail();
+
+    console.log(id, name);
   };
 
   useEffect(() => {
@@ -53,22 +78,20 @@ const Viedo = ({ checkMatchCourses }) => {
 
   return (
     <>
-      <Link
+      {/* <Link
         className={`video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15 ${hideOnScroll ? "d-none" : ""
           }`}
         data-vbtype="video"
-        href="https://www.youtube.com/watch?v=nA1Aqp0sPQo"
+        href= {`${checkMatchCourses.virtualTourLink}`}
       >
         <div className="video-content">
-          {checkMatchCourses?.courseImg && (
-            <Image
+            <video
               className="w-100 rbt-radius"
               src={checkMatchCourses?.courseImg}
               width={355}
               height={255}
-              alt="Video Images"
+              src={`${checkMatchCourses.virtualTourLink}`}
             />
-          )}
           <div className="position-to-top">
             <span className="rbt-btn rounded-player-2 with-animation">
               <span className="play-icon"></span>
@@ -78,9 +101,19 @@ const Viedo = ({ checkMatchCourses }) => {
             <i className="feather-eye"></i> Preview this course
           </span>
         </div>
-      </Link>
+      </Link> */}
+      <div className="video-content">
+      <iframe
+        src="https://www.easytourz.com/BT-EmabedTour/all/20c948632281d61e"
+        frameBorder="0"
+        className="w-100 rbt-radius"
+        width={355}
+        height={255} // Adjust height as needed
+        allowFullScreen
+      ></iframe>
+      </div>
       <div className="content-item-content">
-        <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
+        {/* <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
           <div className="rbt-price">
             <span className="current-price">${checkMatchCourses?.price}</span>
             <span className="off-price">${checkMatchCourses?.offPrice}</span>
@@ -91,24 +124,27 @@ const Viedo = ({ checkMatchCourses }) => {
               left!
             </span>
           </div>
-        </div>
+        </div> */}
 
         <div className="add-to-card-button mt--15">
           <Link
             className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
             href="#"
             onClick={() =>
-              addToCartFun(checkMatchCourses?.id, amount, checkMatchCourses)
+              applyForCourse(
+                checkMatchCourses?._id?.$oid,
+                checkMatchCourses.name
+              )
             }
           >
-            <span className="btn-text">Add to Cart</span>
+            <span className="btn-text">Apply Now</span>
             <span className="btn-icon">
               <i className="feather-arrow-right"></i>
             </span>
           </Link>
         </div>
 
-        <div className="buy-now-btn mt--15">
+        {/* <div className="buy-now-btn mt--15">
           <Link
             className="rbt-btn btn-border icon-hover w-100 d-block text-center"
             href="#"
@@ -118,13 +154,14 @@ const Viedo = ({ checkMatchCourses }) => {
               <i className="feather-arrow-right"></i>
             </span>
           </Link>
-        </div>
-        <span className="subtitle">
+        </div> */}
+        {/* <span className="subtitle">
           <i className="feather-rotate-ccw"></i> 30-Day Money-Back Guarantee
-        </span>
+        </span> */}
         <div
-          className={`rbt-widget-details has-show-more ${toggle ? "active" : ""
-            }`}
+          className={`rbt-widget-details has-show-more ${
+            toggle ? "active" : ""
+          }`}
         >
           <ul className="has-show-more-inner-content rbt-course-details-list-wrapper">
             {/* {checkMatchCourses &&
@@ -137,12 +174,12 @@ const Viedo = ({ checkMatchCourses }) => {
                 </li>
               ))} */}
           </ul>
-          <div
+          {/* <div
             className={`rbt-show-more-btn ${toggle ? "active" : ""}`}
             onClick={() => setToggle(!toggle)}
           >
             Show More
-          </div>
+          </div> */}
         </div>
 
         <div className="social-share-wrapper mt--30 text-center">
