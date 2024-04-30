@@ -100,6 +100,7 @@ const Viedo = ({ checkMatchCourses }) => {
   };
 
   const postData = async () => {
+    console.log("working");
     try {
       const response = await fetch('https://api.gined.in/api/colleges', {
         method: 'POST',
@@ -119,8 +120,8 @@ const Viedo = ({ checkMatchCourses }) => {
       console.error('Error posting data:', error);
     }
 
-    postData();
   }
+  postData();
 }
 
   useEffect(() => {
@@ -133,6 +134,7 @@ const Viedo = ({ checkMatchCourses }) => {
     import("venobox/dist/venobox.min.js").then((venobox) => {
       new venobox.default({
         selector: ".popup-video",
+
       });
     });
 
