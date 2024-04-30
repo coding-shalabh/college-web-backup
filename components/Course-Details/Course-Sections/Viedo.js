@@ -21,33 +21,107 @@ const Viedo = ({ checkMatchCourses }) => {
 
   const applyForCourse = (id, name) => {
 
-    const sendEmail = async () => {
-      const emailData = {
-          to: "abhishek23350@gmail.com",
-          subject: "Your Subject Here",
-          text: "Hello Abhishek, this is your message body!",
-      };
+  //   const sendEmail = async () => {
+  //     const emailData = {
+  //         to: "abhishek23350@gmail.com",
+  //         subject: "Your Subject Here",
+  //         text: "Hello Abhishek, this is your message body!",
+  //     };
   
-      const response = await fetch('/api/email/send', {
-          method: 'POST',
-          headers: {
-              'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(emailData)
-      });
+  //     const response = await fetch('/api/email/send', {
+  //         method: 'POST',
+  //         headers: {
+  //             'Content-Type': 'application/json',
+  //         },
+  //         body: JSON.stringify(emailData)
+  //     });
   
-      const data = await response.json();
-      if (response.ok) {
-          console.log("Email sent successfully:", data);
-      } else {
-          console.error("Email sending failed:", data);
+  //     const data = await response.json();
+  //     if (response.ok) {
+  //         console.log("Email sent successfully:", data);
+  //     } else {
+  //         console.error("Email sending failed:", data);
+  //     }
+  // };
+
+  // sendEmail();
+  const collegeData = {
+    "name": "Amit University",
+    "about": "Tech University is a premier institution providing top-notch education in the field of technology and sciences.",
+    "courses": [
+      {
+        "name": "Computer Science and Engineering",
+        "fees": 10000,
+        "duration": "4 years"
+      },
+      {
+        "name": "Information Technology",
+        "fees": 9500,
+        "duration": "4 years"
       }
+    ],
+    "reviews": [
+      {
+        "author": "John Doe",
+        "rating": 5,
+        "comment": "Fantastic curriculum and faculty support!"
+      },
+      {
+        "author": "Jane Smith",
+        "rating": 4,
+        "comment": "Great campus and learning resources!"
+      }
+    ],
+    "faculty": [
+      {
+        "name": "Dr. Alan Turing",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "qualifications": ["Ph.D. in Computer Science"]
+      },
+      {
+        "name": "Dr. Ada Lovelace",
+        "department": "Computer Science",
+        "designation": "Associate Professor",
+        "qualifications": ["Ph.D. in Computational Mathematics"]
+      }
+    ],
+    "placements": {
+      "companies": ["Google", "Amazon", "Microsoft"],
+      "highestPackage": 120000,
+      "averagePackage": 80000,
+      "percentagePlaced": 90
+    },
+    "virtualTourLink": "https://www.techuniversity.edu/virtualtour",
+    "youtubeVideos": [
+      "https://www.youtube.com/watch?v=video1",
+      "https://www.youtube.com/watch?v=video2"
+    ]
   };
 
-  sendEmail();
+  const postData = async () => {
+    try {
+      const response = await fetch('https://api.gined.in/api/colleges', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(collegeData)
+      });
 
-    console.log(id, name);
-  };
+      if (response.ok) {
+        const jsonResponse = await response.json();
+        console.log('Post successful:', jsonResponse);
+      } else {
+        throw new Error('Failed to post data');
+      }
+    } catch (error) {
+      console.error('Error posting data:', error);
+    }
+
+    postData();
+  }
+}
 
   useEffect(() => {
     dispatch({ type: "COUNT_CART_TOTALS" });
