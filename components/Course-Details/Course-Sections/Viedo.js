@@ -23,13 +23,13 @@ const Viedo = ({ checkMatchCourses }) => {
   const [amount, setAmount] = useState(1);
 
   const applyForCourse = (values) => {
-    const formBody = values;
+    const formBody = { ...values };
 
     const sendEmail = async () => {
       const emailData = {
         to: "arpit.sh95@gmail.com",
         subject: "Enquiry for Registration",
-        text: "jbkbkj",
+        text: JSON.stringify(formBody),
       };
 
       const response = await fetch("https://api.gined.in/api/email/send", {
