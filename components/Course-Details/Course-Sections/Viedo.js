@@ -29,7 +29,7 @@ const Viedo = ({ checkMatchCourses }) => {
       const emailData = {
         to: "arpit.sh95@gmail.com",
         subject: "Enquiry for Registration",
-        text: formBody,
+        text: "jbkbkj",
       };
 
       const response = await fetch("https://api.gined.in/api/email/send", {
