@@ -1,0 +1,12 @@
+.course-enquire-registration-modal {
+    width: 690px !important;
+}
+
+.course-enquire-registration-modal .ant-modal-header .ant-modal-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .course-enquire-registration-modal .course-enquire-registration-form .ant-form-item-label {
+    text-align: left;
+  }

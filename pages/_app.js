@@ -19,6 +19,7 @@ import "swiper/css/thumbs";
 
 import sal from "sal.js";
 import "../public/scss/styles.scss";
+import "@/components/styles.css";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {

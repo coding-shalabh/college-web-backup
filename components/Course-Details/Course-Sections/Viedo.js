@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Modal, Button, Form, Input, Select } from "antd";
 
 import "venobox/dist/venobox.min.css";
 
@@ -12,6 +13,8 @@ const Viedo = ({ checkMatchCourses }) => {
   const { cartToggle, setCart } = useAppContext();
   const [toggle, setToggle] = useState(false);
   const [hideOnScroll, setHideOnScroll] = useState(false);
+  const [showModalForm, setShowModalForm] = useState(false);
+  const [form] = Form.useForm();
 
   // =====> Start ADD-To-Cart
   const dispatch = useDispatch();
@@ -19,108 +22,112 @@ const Viedo = ({ checkMatchCourses }) => {
 
   const [amount, setAmount] = useState(1);
 
-  const applyForCourse = (id, name) => {
-    //   const sendEmail = async () => {
-    //     const emailData = {
-    //         to: "abhishek23350@gmail.com",
-    //         subject: "Your Subject Here",
-    //         text: "Hello Abhishek, this is your message body!",
-    //     };
+  const applyForCourse = (values) => {
+    const formBody = values;
 
-    //     const response = await fetch('/api/email/send', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify(emailData)
-    //     });
+    const sendEmail = async () => {
+      const emailData = {
+        to: "arpit.sh95@gmail.com",
+        subject: "Enquiry for Registration",
+        text: formBody,
+      };
 
-    //     const data = await response.json();
-    //     if (response.ok) {
-    //         console.log("Email sent successfully:", data);
-    //     } else {
-    //         console.error("Email sending failed:", data);
-    //     }
-    // };
+      const response = await fetch("/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(emailData),
+      });
 
-    // sendEmail();
-    const collegeData = {
-      name: "Amit University",
-      about:
-        "Tech University is a premier institution providing top-notch education in the field of technology and sciences.",
-      courses: [
-        {
-          name: "Computer Science and Engineering",
-          fees: 10000,
-          duration: "4 years",
-        },
-        {
-          name: "Information Technology",
-          fees: 9500,
-          duration: "4 years",
-        },
-      ],
-      reviews: [
-        {
-          author: "John Doe",
-          rating: 5,
-          comment: "Fantastic curriculum and faculty support!",
-        },
-        {
-          author: "Jane Smith",
-          rating: 4,
-          comment: "Great campus and learning resources!",
-        },
-      ],
-      faculty: [
-        {
-          name: "Dr. Alan Turing",
-          department: "Computer Science",
-          designation: "Professor",
-          qualifications: ["Ph.D. in Computer Science"],
-        },
-        {
-          name: "Dr. Ada Lovelace",
-          department: "Computer Science",
-          designation: "Associate Professor",
-          qualifications: ["Ph.D. in Computational Mathematics"],
-        },
-      ],
-      placements: {
-        companies: ["Google", "Amazon", "Microsoft"],
-        highestPackage: 120000,
-        averagePackage: 80000,
-        percentagePlaced: 90,
-      },
-      virtualTourLink: "https://www.techuniversity.edu/virtualtour",
-      youtubeVideos: [
-        "https://www.youtube.com/watch?v=video1",
-        "https://www.youtube.com/watch?v=video2",
-      ],
-    };
-
-    const postData = async () => {
-      console.log("working");
-      try {
-        const response = await fetch("https://api.gined.in/api/colleges", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          // body: JSON.stringify(collegeData),
-        });
-
-        if (response.ok) {
-          const jsonResponse = await response.json();
-          console.log("Post successful:", jsonResponse);
-        } else {
-          throw new Error("Failed to post data");
-        }
-      } catch (error) {
-        console.error("Error posting data:", error);
+      const data = await response.json();
+      if (response.ok) {
+        console.log("Email sent successfully:", data);
+        form.resetFields();
+      } else {
+        console.error("Email sending failed:", data);
       }
     };
-    postData();
+
+    sendEmail();
+
+    // const collegeData = {
+    //   name: "Amit University",
+    //   about:
+    //     "Tech University is a premier institution providing top-notch education in the field of technology and sciences.",
+    //   courses: [
+    //     {
+    //       name: "Computer Science and Engineering",
+    //       fees: 10000,
+    //       duration: "4 years",
+    //     },
+    //     {
+    //       name: "Information Technology",
+    //       fees: 9500,
+    //       duration: "4 years",
+    //     },
+    //   ],
+    //   reviews: [
+    //     {
+    //       author: "John Doe",
+    //       rating: 5,
+    //       comment: "Fantastic curriculum and faculty support!",
+    //     },
+    //     {
+    //       author: "Jane Smith",
+    //       rating: 4,
+    //       comment: "Great campus and learning resources!",
+    //     },
+    //   ],
+    //   faculty: [
+    //     {
+    //       name: "Dr. Alan Turing",
+    //       department: "Computer Science",
+    //       designation: "Professor",
+    //       qualifications: ["Ph.D. in Computer Science"],
+    //     },
+    //     {
+    //       name: "Dr. Ada Lovelace",
+    //       department: "Computer Science",
+    //       designation: "Associate Professor",
+    //       qualifications: ["Ph.D. in Computational Mathematics"],
+    //     },
+    //   ],
+    //   placements: {
+    //     companies: ["Google", "Amazon", "Microsoft"],
+    //     highestPackage: 120000,
+    //     averagePackage: 80000,
+    //     percentagePlaced: 90,
+    //   },
+    //   virtualTourLink: "https://www.techuniversity.edu/virtualtour",
+    //   youtubeVideos: [
+    //     "https://www.youtube.com/watch?v=video1",
+    //     "https://www.youtube.com/watch?v=video2",
+    //   ],
+    // };
+
+    // const postData = async () => {
+    //   console.log("working");
+    //   try {
+    //     const response = await fetch("https://api.gined.in/api/colleges", {
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //       },
+    //       body: JSON.stringify(collegeData),
+    //     });
+
+    //     if (response.ok) {
+    //       const jsonResponse = await response.json();
+    //       console.log("Post successful:", jsonResponse);
+    //     } else {
+    //       throw new Error("Failed to post data");
+    //     }
+    //   } catch (error) {
+    //     console.error("Error posting data:", error);
+    //   }
+    // };
+    // postData();
   };
 
   useEffect(() => {
@@ -204,12 +211,7 @@ const Viedo = ({ checkMatchCourses }) => {
           <Link
             className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
             href="#"
-            onClick={() =>
-              applyForCourse(
-                checkMatchCourses?._id?.$oid,
-                checkMatchCourses.name
-              )
-            }
+            onClick={() => setShowModalForm(true)}
           >
             <span className="btn-text">Apply Now</span>
             <span className="btn-icon">
@@ -293,6 +295,177 @@ const Viedo = ({ checkMatchCourses }) => {
           </div>
         </div>
       </div>
+
+      <Modal
+        className="course-enquire-registration-modal"
+        title="Enquire Registration"
+        open={showModalForm}
+        onCancel={() => setShowModalForm(false)}
+        footer={false}
+      >
+        <Form
+          className="course-enquire-registration-form"
+          name="basic"
+          labelCol={{
+            span: 8,
+          }}
+          wrapperCol={{
+            span: 16,
+          }}
+          style={{
+            maxWidth: 600,
+          }}
+          initialValues={{
+            remember: true,
+          }}
+          onFinish={(values) => {
+            applyForCourse(values);
+          }}
+          autoComplete="off"
+        >
+          <Form.Item
+            label="Name"
+            name="name"
+            rules={[
+              {
+                required: false,
+                message: "Please input your username!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Mobile"
+            name="mobile"
+            rules={[
+              {
+                required: true,
+                message: "Please input your mobile!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Email"
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: "Please input your email!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Courses"
+            name="courses"
+            rules={[
+              {
+                required: true,
+                message: "Please input your course!",
+              },
+            ]}
+          >
+            <Select
+              showSearch
+              placeholder="Select a course"
+              optionFilterProp="children"
+              options={[
+                {
+                  value: "jack",
+                  label: "Jack",
+                },
+                {
+                  value: "lucy",
+                  label: "Lucy",
+                },
+                {
+                  value: "tom",
+                  label: "Tom",
+                },
+              ]}
+            />
+          </Form.Item>
+
+          <Form.Item
+            label="Neet score(optional)"
+            name="neet_score"
+            rules={[
+              {
+                required: false,
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Preferred state(optional)"
+            name="preferred_state"
+            rules={[
+              {
+                required: false,
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Preferred college(optional)"
+            name="preferred_college"
+            rules={[
+              {
+                required: false,
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Address"
+            name="address"
+            rules={[
+              {
+                required: true,
+                message: "Please input your address!",
+              },
+            ]}
+          >
+            <Input.TextArea rows={4} />
+          </Form.Item>
+
+          <Form.Item
+            label="Domicile(optional)"
+            name="domicile"
+            rules={[
+              {
+                required: false,
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            wrapperCol={{
+              offset: 8,
+              span: 16,
+            }}
+          >
+            <Button type="primary" htmlType="submit">
+              Submit
+            </Button>
+          </Form.Item>
+        </Form>
+      </Modal>
     </>
   );
 };
