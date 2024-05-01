@@ -70,6 +70,7 @@ const Viedo = ({ checkMatchCourses }) => {
       const data = await response.json();
       if (response.ok) {
         console.log("Email sent successfully:", data);
+        setShowModalForm(false);
         form.resetFields();
       } else {
         console.error("Email sending failed:", data);
@@ -331,6 +332,7 @@ const Viedo = ({ checkMatchCourses }) => {
         footer={false}
       >
         <Form
+          form={form}
           className="course-enquire-registration-form"
           name="basic"
           labelCol={{
