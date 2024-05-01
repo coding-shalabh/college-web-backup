@@ -32,7 +32,7 @@ const Viedo = ({ checkMatchCourses }) => {
         text: formBody,
       };
 
-      const response = await fetch("/api/email", {
+      const response = await fetch("https://api.gined.in/api/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
