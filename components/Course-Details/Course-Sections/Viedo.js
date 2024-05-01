@@ -50,32 +50,30 @@ const Viedo = ({ checkMatchCourses }) => {
       const emailData = {
         to: "arpit.sh95@gmail.com",
         subject: "Enquiry for Registration",
-        text: "ljgjvh",
-        // text: renderToStaticMarkup(
-        //   <table width="100%" cellpadding="0" cellspacing="0">
-        //     <tr>
-        //       <td align="center">
-        //         <table width="600" cellpadding="0" cellspacing="0">
-        //           {/* {Object.entries(formBody)?.map(([key, value], id) => {
-        //             return (
-        //               <tr key={id}>
-        //                 <td style={{ textTransform: "capitalize" }}>{key}</td>
-        //                 <td>{value}</td>
-        //               </tr>
-        //             );
-        //           })} */}
-        //           <tr>hello</tr>
-        //         </table>
-        //       </td>
-        //     </tr>
-        //   </table>
-        // ),
+        text: renderToStaticMarkup(
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center">
+                <table width="600" cellpadding="0" cellspacing="0">
+                  {Object.entries(formBody)?.map(([key, value], id) => {
+                    return (
+                      <tr key={id}>
+                        <td style={{ textTransform: "capitalize" }}>{key}</td>
+                        <td>{value}</td>
+                      </tr>
+                    );
+                  })}
+                </table>
+              </td>
+            </tr>
+          </table>
+        ),
       };
 
       const response = await fetch("https://api.gined.in/api/email/send", {
         method: "POST",
         headers: {
-          "Content-Type": "text/html",
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(emailData),
       });
