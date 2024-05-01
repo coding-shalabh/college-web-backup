@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Modal, Button, Form, Input, Select } from "antd";
 import courseList from "@/data/admin_courses.json";
-
+import { renderToStaticMarkup } from "react-dom/server";
 import "venobox/dist/venobox.min.css";
 
 import { useDispatch, useSelector } from "react-redux";
@@ -56,7 +56,7 @@ const Viedo = ({ checkMatchCourses }) => {
       const emailData = {
         to: "arpit.sh95@gmail.com",
         subject: "Enquiry for Registration",
-        text: (
+        text: renderToStaticMarkup(
           <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
               <td align="center">
@@ -79,7 +79,7 @@ const Viedo = ({ checkMatchCourses }) => {
       const response = await fetch("https://api.gined.in/api/email/send", {
         method: "POST",
         headers: {
-          "Content-Type": "application/html",
+          "Content-Type": "text/html",
         },
         body: JSON.stringify(emailData),
       });
