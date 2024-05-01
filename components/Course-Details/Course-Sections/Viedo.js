@@ -48,7 +48,7 @@ const Viedo = ({ checkMatchCourses }) => {
 
     const sendEmail = async () => {
       const emailData = {
-        to: "arpit.sh95@gmail.com",
+        to: "abhishek23350@gmail.com",
         subject: "Enquiry for Registration",
         text: `
         ${Object.entries(formBody)?.map(([key, value], id) => {
@@ -57,23 +57,6 @@ const Viedo = ({ checkMatchCourses }) => {
           `;
         })}
         `,
-        // renderToStaticMarkup(
-        //   <table width="100%" cellpadding="0" cellspacing="0">
-        //     <tr>
-        //       <td align="center">
-        //         <table width="600" cellpadding="0" cellspacing="0">
-        //           {Object.entries(formBody)?.map(([key, value], id) => {
-        //             return (
-        //               <tr key={id}>
-        //                 <td style={{ textTransform: "capitalize" }}>{key}</td>
-        //                 <td>{value}</td>
-        //               </tr>
-        //             );
-        //           })}
-        //         </table>
-        //       </td>
-        //     </tr>
-        //   </table>)
       };
 
       const response = await fetch("https://api.gined.in/api/email/send", {
