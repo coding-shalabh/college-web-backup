@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Modal, Button, Form, Input, Select } from "antd";
+import courseList from "@/data/admin_courses.json";
 
 import "venobox/dist/venobox.min.css";
 
@@ -19,23 +20,66 @@ const Viedo = ({ checkMatchCourses }) => {
   // =====> Start ADD-To-Cart
   const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.CartReducer);
-
+  const [courseListArray, setCourseListArray] = useState([]);
   const [amount, setAmount] = useState(1);
+  const [selectedCollege, setSelectedCollege] = useState(null);
+  const [selectedCourse, setSelectedCourse] = useState(null);
+
+  useEffect(() => {
+    let courseArr = [];
+
+    courseList?.forEach((course) => {
+      checkMatchCourses?.courses?.forEach((list) => {
+        if (list?.$oid == course?._id?.$oid) {
+          courseArr.push(course);
+        }
+      });
+    });
+    setCourseListArray(courseArr);
+
+    setSelectedCollege(checkMatchCourses?.name);
+  }, [showModalForm]);
 
   const applyForCourse = (values) => {
-    const formBody = { ...values };
+    const formBody = {
+      ...values,
+      college: selectedCollege,
+    };
+
+    // console.log(
+    //   Object.entries(formBody)?.map((key, id) => {
+    //     return {key[0]: key[0]};
+    //   })
+    // );
 
     const sendEmail = async () => {
       const emailData = {
         to: "arpit.sh95@gmail.com",
         subject: "Enquiry for Registration",
-        text: JSON.stringify(formBody),
+        text: (
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center">
+                <table width="600" cellpadding="0" cellspacing="0">
+                  {Object.entries(formBody)?.map(([key, value], id) => {
+                    return (
+                      <tr key={id}>
+                        <td style={{ textTransform: "capitalize" }}>{key}</td>
+                        <td>{value}</td>
+                      </tr>
+                    );
+                  })}
+                </table>
+              </td>
+            </tr>
+          </table>
+        ),
       };
 
       const response = await fetch("https://api.gined.in/api/email/send", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/html",
         },
         body: JSON.stringify(emailData),
       });
@@ -363,6 +407,22 @@ const Viedo = ({ checkMatchCourses }) => {
           </Form.Item>
 
           <Form.Item
+            label="College"
+            valuePropName={checkMatchCourses?.name}
+            rules={[
+              {
+                required: false,
+              },
+            ]}
+          >
+            <Input
+              readOnly
+              defaultValue={checkMatchCourses?.name}
+              value={checkMatchCourses?.name}
+            />
+          </Form.Item>
+
+          <Form.Item
             label="Courses"
             name="courses"
             rules={[
@@ -376,20 +436,12 @@ const Viedo = ({ checkMatchCourses }) => {
               showSearch
               placeholder="Select a course"
               optionFilterProp="children"
-              options={[
-                {
-                  value: "jack",
-                  label: "Jack",
-                },
-                {
-                  value: "lucy",
-                  label: "Lucy",
-                },
-                {
-                  value: "tom",
-                  label: "Tom",
-                },
-              ]}
+              options={courseListArray?.map((course) => {
+                return {
+                  label: `${course?.title}`,
+                  value: `${course?.title}`,
+                };
+              })}
             />
           </Form.Item>
 
