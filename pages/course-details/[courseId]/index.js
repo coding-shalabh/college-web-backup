@@ -19,12 +19,12 @@ import PageHead from "@/pages/Head";
 import CourseActionBottom from "@/components/Course-Details/Course-Sections/Course-Action-Bottom";
 import SimilarCourses from "@/components/Course-Details/Course-Sections/SimilarCourses";
 
-import allCollegeDetails from '@/data/admin_colleges.json'
+import allCollegeDetails from "@/data/admin_colleges.json";
 
 const SingleCourse = () => {
   const router = useRouter();
   const postId = router.query.courseId;
-  const [collegeDetails, setCollegeDetails] = useState('');
+  const [collegeDetails, setCollegeDetails] = useState("");
 
   let getCourse;
 
@@ -38,19 +38,19 @@ const SingleCourse = () => {
       if (detail._id.$oid == postId) {
         college = detail;
       }
-    })
+    });
 
     allCollegeDetails?.forEach((detail, id) => {
-      detail?.courses.forEach(ele => {
+      detail?.courses.forEach((ele) => {
         if (ele?.$oid == postId) {
           college = detail;
         }
-      })
-    })
+      });
+    });
 
-    console.log(college)
+    // console.log(college)
 
-    setCollegeDetails(college)
+    setCollegeDetails(college);
 
     sal({
       threshold: 0.01,
@@ -77,7 +77,9 @@ const SingleCourse = () => {
             <div className="container">
               <div className="row g-5">
                 <CourseDetailsOne
-                  checkMatchCourses={collegeDetails !== undefined ? collegeDetails : ""}
+                  checkMatchCourses={
+                    collegeDetails !== undefined ? collegeDetails : ""
+                  }
                 />
               </div>
             </div>
