@@ -102,7 +102,7 @@ const Viedo = ({ checkMatchCourses }) => {
     const postData = async () => {
       console.log("working");
       try {
-        const response = await fetch("https://api.gined.in/gined/colleges", {
+        const response = await fetch("https://api.gined.in/api/colleges", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
