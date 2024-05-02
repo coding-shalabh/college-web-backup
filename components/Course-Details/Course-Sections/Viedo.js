@@ -45,21 +45,39 @@ const Viedo = ({ checkMatchCourses }) => {
       ...values,
       college: selectedCollege,
     };
-
+    
+    // text: `
+    // ${Object.entries(formBody)?.map(([key, value], id) => {
+    //   return `
+    //   ${key}: ${value}
+    //   `;
+    // })}
+    // `,
     const sendEmail = async () => {
       const emailData = {
-        to: "abhishek23350@gmail.com",
+        to: "arpit.sh95@gmail.com",
         subject: "Enquiry for Registration",
-        text: `
-        ${Object.entries(formBody)?.map(([key, value], id) => {
-          return `
-          ${key}: ${value}
-          `;
-        })}
-        `,
+        html: renderToStaticMarkup(
+          <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid black' }}>
+          <thead>
+              <tr>
+                  <th style={{ border: '1px solid black', padding: '8px', background: '#f2f2f2' }}>Field</th>
+                  <th style={{ border: '1px solid black', padding: '8px', background: '#f2f2f2' }}>Value</th>
+              </tr>
+          </thead>
+          <tbody>
+              {Object.entries(formBody).map(([key, value]) => (
+                  <tr key={key}>
+                      <td style={{ border: '1px solid black', padding: '8px' }}>{key}</td>
+                      <td style={{ border: '1px solid black', padding: '8px' }}>{value}</td>
+                  </tr>
+              ))}
+          </tbody>
+      </table>
+        )
       };
 
-      const response = await fetch("https://api.gined.in/api/email/send", {
+      const response = await fetch("https://api.gined.in/api/email/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -78,84 +96,6 @@ const Viedo = ({ checkMatchCourses }) => {
     };
 
     sendEmail();
-
-    // const collegeData = {
-    //   name: "Amit University",
-    //   about:
-    //     "Tech University is a premier institution providing top-notch education in the field of technology and sciences.",
-    //   courses: [
-    //     {
-    //       name: "Computer Science and Engineering",
-    //       fees: 10000,
-    //       duration: "4 years",
-    //     },
-    //     {
-    //       name: "Information Technology",
-    //       fees: 9500,
-    //       duration: "4 years",
-    //     },
-    //   ],
-    //   reviews: [
-    //     {
-    //       author: "John Doe",
-    //       rating: 5,
-    //       comment: "Fantastic curriculum and faculty support!",
-    //     },
-    //     {
-    //       author: "Jane Smith",
-    //       rating: 4,
-    //       comment: "Great campus and learning resources!",
-    //     },
-    //   ],
-    //   faculty: [
-    //     {
-    //       name: "Dr. Alan Turing",
-    //       department: "Computer Science",
-    //       designation: "Professor",
-    //       qualifications: ["Ph.D. in Computer Science"],
-    //     },
-    //     {
-    //       name: "Dr. Ada Lovelace",
-    //       department: "Computer Science",
-    //       designation: "Associate Professor",
-    //       qualifications: ["Ph.D. in Computational Mathematics"],
-    //     },
-    //   ],
-    //   placements: {
-    //     companies: ["Google", "Amazon", "Microsoft"],
-    //     highestPackage: 120000,
-    //     averagePackage: 80000,
-    //     percentagePlaced: 90,
-    //   },
-    //   virtualTourLink: "https://www.techuniversity.edu/virtualtour",
-    //   youtubeVideos: [
-    //     "https://www.youtube.com/watch?v=video1",
-    //     "https://www.youtube.com/watch?v=video2",
-    //   ],
-    // };
-
-    // const postData = async () => {
-    //   console.log("working");
-    //   try {
-    //     const response = await fetch("https://api.gined.in/api/colleges", {
-    //       method: "POST",
-    //       headers: {
-    //         "Content-Type": "application/json",
-    //       },
-    //       body: JSON.stringify(collegeData),
-    //     });
-
-    //     if (response.ok) {
-    //       const jsonResponse = await response.json();
-    //       console.log("Post successful:", jsonResponse);
-    //     } else {
-    //       throw new Error("Failed to post data");
-    //     }
-    //   } catch (error) {
-    //     console.error("Error posting data:", error);
-    //   }
-    // };
-    // postData();
   };
 
   useEffect(() => {
@@ -213,7 +153,7 @@ const Viedo = ({ checkMatchCourses }) => {
       </Link> */}
       <div className="video-content">
         <iframe
-          src="https://www.easytourz.com/BT-EmabedTour/all/20c948632281d61e"
+          src={checkMatchCourses?.virtualTourLink ? checkMatchCourses?.virtualTourLink : 'https://www.easytourz.com/BT-EmabedTour/all/9f30f3feef0a3ebb'}
           frameBorder="0"
           className="w-100 rbt-radius"
           width={355}
