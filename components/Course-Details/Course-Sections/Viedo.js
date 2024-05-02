@@ -60,7 +60,7 @@ const Viedo = ({ checkMatchCourses }) => {
     // `,
     const sendEmail = async () => {
       const emailData = {
-        to: "arpit.sh95@gmail.com",
+        to: "abhishek23350@gmail.com",
         subject: "Enquiry for Registration",
         html: renderToStaticMarkup(
           <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid black' }}>
