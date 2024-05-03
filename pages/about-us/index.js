@@ -44,7 +44,7 @@ const AboutUsPage = () => {
               <SplitTwo isImg={false} />
             </div>
           </div>
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
+          {/* <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
             <div className="container-fluid">
               <div className="row g-5 align-items-center">
                 <div className="col-xl-3">
@@ -70,8 +70,8 @@ const AboutUsPage = () => {
                 <TestimonialSix />
               </div>
             </div>
-          </div>
-          <Teacher />
+          </div> */}
+          {/* <Teacher /> */}
           <div className="rbt-newsletter-area newsletter-style-2 bg-color-primary rbt-section-gap">
             <NewsletterTwo />
           </div>

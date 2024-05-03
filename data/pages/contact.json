@@ -2,15 +2,15 @@
   "contactOne": [
     {
       "title": "Contact Phone Number",
-      "numOne": "+444 555 666 777",
-      "numTwo": "+222 222 222 333",
+      "numOne": "+91(740) 6548923",
+      "numTwo": "+91(807) 3388529",
       "icon": "feather-headphones",
       "address": ""
     },
     {
       "title": "Our Email Address",
-      "mailOne": "admin@gmail.com",
-      "mailTwo": "example@gmail.com",
+      "mailOne": "support@gined.in",
+      "mailTwo": "help@gined.in",
       "icon": "feather-mail",
       "numOne": "",
       "address": "",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Our Location",
-      "address": "5678 Bangla Main Road, cities 580 GBnagla, example 54786",
+      "address": "18th Main Rd, Kottapalya, Jayanagara 9th Block, J. P. Nagar, Bengaluru, Karnataka 560041",
       "icon": "feather-map-pin",
       "numOne": "",
       "numTwo": ""

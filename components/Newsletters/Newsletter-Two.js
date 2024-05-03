@@ -92,8 +92,8 @@ const NewsletterTwo = () => {
                 <h2 className="title color-white"><strong>{data.strong}</strong> {data.title}</h2>
                 <p className="description color-white mt--20">{data.desc}</p>
               </div>
-              <form onSubmit={handleSubmit} className="newsletter-form-1 mt--40">
-                <input
+              <form onSubmit={handleSubmit} className="newsletter-form-2 mt--40">
+                <input style={{background: 'white'}}
                   type="text"
                   name="name"
                   placeholder="Enter Your Name"
@@ -101,14 +101,15 @@ const NewsletterTwo = () => {
                   onChange={handleInputChange}
                 />
                 <input
+                style={{background: 'white', marginTop: 20}}
                   type="tel"
                   name="phoneNumber"
                   placeholder="Enter Your PhoneNumber"
-                  style={{marginTop: 20}}
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
                 />
                 <button
+                  style={{marginTop: 20}}
                   type="submit"
                   className="rbt-btn btn-md btn-gradient hover-icon-reverse"
                 >

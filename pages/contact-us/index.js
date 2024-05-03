@@ -30,7 +30,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Histudy Course Contact <br /> can join with us.
+                      Gined Contact <br /> can join with us.
                     </h2>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const ContactPage = () => {
           <div className="rbt-google-map bg-color-white rbt-section-gapTop">
             <iframe
               className="w-100"
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15555.385711211171!2d77.5893097!3d12.9175902!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1542f96cb639%3A0xb942dba77ac5a17f!2sGINED!5e0!3m2!1sen!2sin!4v1714772761478!5m2!1sen!2sin"
               height="600"
               style={{ border: "0" }}
             ></iframe>

@@ -18,7 +18,7 @@ const FooterOne = ({ bgColor }) => {
         <div className="footer-top">
           <div className="container">
             {FooterData &&
-              FooterData.footerTwo.map((footer, index) => (
+              FooterData.footerOne.map((footer, index) => (
                 <div className="row g-5" key={index}>
                   <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div className="footer-widget">
@@ -90,13 +90,13 @@ const FooterOne = ({ bgColor }) => {
                           </Link>
                         </li>
                       </ul>
-
+{/* 
                       <form className="newsletter-form mt--20" action="#">
                         <h6 className="w-600">Newsletter</h6>
                         <p className="description">{footer.descriptionTwo}</p>
 
                         <div className="form-group right-icon icon-email mb--20">
-                          {/* <label htmlFor="email">Enter Your Email Here</label> */}
+                          <label htmlFor="email">Enter Your Email Here</label>
                           <input
                             id="email"
                             type="email"
@@ -112,7 +112,7 @@ const FooterOne = ({ bgColor }) => {
                             <span data-text="Submit Now">Submit Now</span>
                           </button>
                         </div>
-                      </form>
+                      </form> */}
                     </div>
                   </div>
                 </div>
