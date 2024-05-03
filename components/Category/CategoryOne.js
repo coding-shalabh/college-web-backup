@@ -33,10 +33,13 @@ const CategoryOne = () => {
                   <div className="content">
                     <h5 className="title">{item.title}</h5>
                     <div className="read-more-btn">
+                    <Link href="/courses">
                       <span className="rbt-btn-link">
-                        {count} Course{count !== 1 ? "s" : ""}
+                        {/* {count} Course{count !== 1 ? "s" : ""} */}
+                        50+ Courses
                         <i className="feather-arrow-right"></i>
                       </span>
+                    </Link>
                     </div>
                   </div>
                 </div>

@@ -98,7 +98,7 @@ const MainDemo = () => {
         </div>
 
         <div className="rbt-about-area bg-color-white rbt-section-gapTop pb_md--80 pb_sm--80 about-style-1">
-          <div className="container">
+          <div className="container" >
             <ParallaxProvider>
               <AboutTwo />
             </ParallaxProvider>

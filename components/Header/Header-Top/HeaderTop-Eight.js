@@ -31,6 +31,7 @@ const HeaderTopEight = ({
                   <div className="rbt-header-content">
                     <div className="header-info">
                       <ul className="rbt-information-list">
+                      
                         {/* <li>
                           <Link href="#">
                             <i className="fab fa-instagram"></i>
@@ -52,12 +53,20 @@ const HeaderTopEight = ({
                         {router.pathname === "/10-online-course" ? (
                           ""
                         ) : (
+                          <>
                           <li>
-                            <Link href="#">
+                            <Link href="tel:+917406548923">
                               <i className="feather-phone"></i>
-                              {item.phone}
+                              +91 740 654-8923
                             </Link>
                           </li>
+                          <li>
+                            <Link href="tel:+918073388529">
+                              <i className="feather-phone"></i>
+                              +91 807 338-8529
+                            </Link>
+                          </li>
+                          </>
                         )}
                       </ul>
                     </div>
@@ -99,22 +108,17 @@ const HeaderTopEight = ({
                       <div className="header-info d-none d-xl-block">
                         <ul className="social-share-transparent">
                           <li>
-                            <Link href="#">
+                            <Link href="https://www.facebook.com/profile.php?id=100090428042458&mibextid=ZbWKwL">
                               <i className="fab fa-facebook-f"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
-                              <i className="fab fa-twitter"></i>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
+                            <Link href="https://www.linkedin.com/company/gined/">
                               <i className="fab fa-linkedin-in"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
+                            <Link href="https://www.instagram.com/gined_">
                               <i className="fab fa-instagram"></i>
                             </Link>
                           </li>

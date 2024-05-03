@@ -56,12 +56,14 @@ const Counter = ({ isDesc, head }) => {
                         <h3 className="counter">
                           <span className="odometer">
                             <Odometer
-                              value={
-                                values[index * data.body.length + innerIndex]
-                              }
+                              value={item.num}
                             />
                           </span>
-                        </h3>
+                          {
+                            item.num === 2.5 ?
+                          <span style={{fontSize: 15, marginLeft: 10}}>Lakhs</span> : <></>
+                          }
+                          </h3>
                         <span className="subtitle">{item.text}</span>
                       </div>
                     </div>

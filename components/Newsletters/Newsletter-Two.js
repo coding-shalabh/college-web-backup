@@ -25,13 +25,15 @@ const NewsletterTwo = () => {
                   <p className="description color-white mt--20">{data.desc}</p>
                 </div>
                 <form action="#" className="newsletter-form-1 mt--40">
-                  <input type="email" placeholder="Enter Your E-Email" />
+                  <input type="text" placeholder="Enter Your Name" />
+                  <input type="tel" placeholder="Enter Your PhoneNumber"  style={{marginTop: 20}}/>
+
                   <button
                     type="submit"
                     className="rbt-btn btn-md btn-gradient hover-icon-reverse"
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Subscribe</span>
+                      <span className="btn-text">Request Callback</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
