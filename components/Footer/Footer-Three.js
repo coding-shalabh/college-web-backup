@@ -35,7 +35,7 @@ const FooterThree = () => {
                       <div className="contact-btn mt--30">
                         <Link
                           className="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                          href="#"
+                          href="/contact-us"
                         >
                           <div className="icon-reverse-wrapper">
                             <span className="btn-text">Contact With Us</span>
@@ -69,11 +69,11 @@ const FooterThree = () => {
                       <ul className="ft-link">
                         <li>
                           <span>Phone:</span>{" "}
-                          <Link href="#">{footer.phone}</Link>
+                          <Link href="tel:+918073388529">{footer.phone}</Link>
                         </li>
                         <li>
                           <span>E-mail:</span>{" "}
-                          <Link href="mailto:hr@example.com">
+                          <Link href="mailto:support@gined.in">
                             {footer.mail}
                           </Link>
                         </li>

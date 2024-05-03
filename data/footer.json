@@ -1,50 +1,85 @@
 {
   "footerOne": [
     {
-      "description": " We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
-      "phone": "(406) 555-0120",
-      "mail": "rainbow@example.com",
-      "address": "North America, USA",
+      "description": " Your education, Our Priorty You Career, Our Comimitments",
+      "phone": "+91 (807) 338 8529",
+      "mail": "support@gined.in",
+      "address": "18th Main Rd, Kottapalya, Jayanagara 9th Block, J. P. Nagar, Bengaluru, Karnataka 560041, Bengaluru, Karnataka 560076",
       "usefulLinks": [
+        {
+          "text": "MBA",
+          "link": "/"
+        },
+        {
+          "text": "BBA",
+          "link": "/colleges/65e71db7e6fe2ce45f9cf95a"
+          
+        },
+        {
+          "text": "BCOM",
+          "link": "/colleges/65e5e04ee6fe2ce45f9cf924"
+        },
+        {
+          "text": "BSC",
+          "link": "/"
+        },
+        {
+          "text": "MBBS",
+          "link": "/"
+        },
+        {
+          "text": "BDS",
+          "link": "/"
+        },
+        {
+          "text": "Engineering",
+          "link": "/13-university-classic"
+        },
+        {
+          "text": "Allied Scinece Pharmacy",
+          "link": "/"
+        },
+        {
+          "text": "Law",
+          "link": "/"
+        }
+
+      ],
+      "ourCompany": [
         {
           "text": "Home",
           "link": "/"
         },
         {
-          "text": "Our Courses",
+          "text": "Courses",
           "link": "/courses"
         },
         {
-          "text": "Our Colleges",
-          "link": "/13-university-classic"
-        }
-      ],
-      "ourCompany": [
-        {
-          "text": "Contact Us",
-          "link": "/contact-us"
+          "text": "Colleges",
+          "link": "/colleges"
         },
         {
           "text": "About Us",
           "link": "/about-us"
+        },
+        {
+          "text": "Contact Us",
+          "link": "/contact-us"
         }
+        
       ],
       "socialLink": [
         {
           "icon": "feather-facebook",
-          "link": "https://www.facebook.com/"
-        },
-        {
-          "icon": "feather-twitter",
-          "link": "https://www.twitter.com"
+          "link": "https://www.facebook.com/profile.php?id=100090428042458&mibextid=ZbWKwL"
         },
         {
           "icon": "feather-instagram",
-          "link": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/gined_?igsh=eHkwZG9hNXA4MjAx"
         },
         {
           "icon": "feather-linkedin",
-          "link": "https://www.linkdin.com/"
+          "link": "https://www.linkedin.com/company/gined/"
         }
       ]
     }
