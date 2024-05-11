@@ -30,8 +30,8 @@
   "_id": {
     "$oid": "<unique_id>"
   },
-  "title": "Elite Science",
-  "description": "<p><strong>Description - </strong>Elite Science encompasses cutting-edge scientific disciplines that push the boundaries of human knowledge and understanding. These fields often involve highly specialized research and experimentation, leading to breakthroughs in technology, medicine, and various other domains. Elite scientists work on groundbreaking projects that have the potential to revolutionize industries and improve the quality of life.</p><p><strong>Types of Elite Science Courses -</strong> PhD in Quantum Physics, Computational Neuroscience, Synthetic Biology</p>",
+  "title": "Ellite Science",
+  "description": "<p><strong>Description - </strong>Ellite Science encompasses cutting-edge scientific disciplines that push the boundaries of human knowledge and understanding. These fields often involve highly specialized research and experimentation, leading to breakthroughs in technology, medicine, and various other domains. Elite scientists work on groundbreaking projects that have the potential to revolutionize industries and improve the quality of life.</p><p><strong>Types of Elite Science Courses -</strong> PhD in Quantum Physics, Computational Neuroscience, Synthetic Biology</p>",
   "createdAt": {
     "$date": "<creation_date>"
   },

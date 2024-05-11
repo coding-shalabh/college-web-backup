@@ -4,9 +4,11 @@ import Link from "next/link";
 import AboutData from "../../data/elements/about.json";
 import { useParallax } from "react-scroll-parallax";
 
-import aboutImg7 from "@/images/about/about-07.jpg";
-import aboutImg8 from "@/images/about/about-08.jpg";
-import aboutImg9 from "@/images/about/about-09.jpg";
+import aboutImg7 from "@/images/about/about-07.svg";
+import aboutImg8 from "@/images/about/about-08.svg";
+import aboutImg9 from "@/images/about/about-09.svg";
+import tech from "@/images/about/1.svg";
+
 
 const About = () => {
   const { ref: ref1, style: style1 } = useParallax({
@@ -72,6 +74,7 @@ const About = () => {
                         }`}
                     >
                       <i className={item.icon}></i>
+                      
                     </div>
                     <div className="feature-content">
                       <h6 className="feature-title">{item.title}</h6>
@@ -81,7 +84,7 @@ const About = () => {
                 </div>
               ))}
 
-              <div className="about-btn mt--40">
+              {/* <div className="about-btn mt--40">
                 <Link
                   className="rbt-btn btn-gradient hover-icon-reverse"
                   href="#"
@@ -96,7 +99,7 @@ const About = () => {
                     </span>
                   </span>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

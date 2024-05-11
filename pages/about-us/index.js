@@ -5,17 +5,18 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import Store from "@/redux/store";
 
 import Banner from "@/components/About-Us-01/Banner";
-import Teacher from "@/components/About-Us-01/Teacher";
+// import Teacher from "@/components/About-Us-01/Teacher";
 import About from "@/components/Abouts/About";
 import FooterOne from "@/components/Footer/Footer-One";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import NewsletterTwo from "@/components/Newsletters/Newsletter-Two";
-import SplitTwo from "@/components/Split/Split-Two";
+// import SplitTwo from "@/components/Split/Split-Two";
 import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
-import TestimonialSix from "@/components/Testimonials/Testimonial-Six";
+import Bgimage from '../../public/images/bg/bg-image-11.jpg';
+// import TestimonialSix from "@/components/Testimonials/Testimonial-Six";
 
 const AboutUsPage = () => {
   return (
@@ -30,7 +31,7 @@ const AboutUsPage = () => {
 
           <div
             className="slider-area rbt-banner-10 height-750 bg_image bg_image--11"
-            data-black-overlay="5"
+            data-black-overlay="5" style={{backgroundImage: Bgimage + '!important'}}
           >
             <Banner />
           </div>
@@ -41,7 +42,7 @@ const AboutUsPage = () => {
           </div>
           <div className="rbt-video-area rbt-section-gapBottom pt--50 bg-color-white">
             <div className="container">
-              <SplitTwo isImg={false} />
+              {/* <SplitTwo isImg={false} /> */}
             </div>
           </div>
           {/* <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">

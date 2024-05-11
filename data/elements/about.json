@@ -30,22 +30,22 @@
       ],
       "children": [
         {
-          "title": "Flexible Classes",
+          "title": "Gined for Students",
           "icon": "feather-heart",
           "isPrimary": false,
-          "info": "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+          "info": " Students can rely on  Gined for all their college-related needs, from researching dream colleges, internship, Placements, Tours to simplifying the admission process. With a vast database of 5000+ colleges and  2000+ courses categorized by streams like Management, Engineering, Medical, Arts, and more."
         },
         {
-          "title": "Learn From Anywhere",
+          "title": "Gined for Parents",
           "icon": "feather-book",
           "isPrimary": true,
-          "info": "Sed distinctio repudiandae eos recusandae laborum eaque non eius iure suscipit laborum eaque non eius iure suscipit."
+          "info": "The website caters to parents seeking ideal institutes for their children. It features a multichannel filter page organizing data by ranking, fees, and cutoff."
         },
         {
-          "title": "Experienced Teacher's service.",
+          "title": "0% Education Loan",
           "icon": "feather-monitor",
           "isPrimary": false,
-          "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid mollitia Officia, aliquid mollitia."
+          "info": "The Education Loan with 0% EMI option is open to students who have successfully completed their Class 12 Board Exam and have applied for undergraduate and/or postgraduate admissions via Gined."
         }
       ]
     }
