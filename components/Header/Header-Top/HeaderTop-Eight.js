@@ -118,7 +118,7 @@ const HeaderTopEight = ({
                             </Link>
                           </li>
                           <li>
-                            <Link href="https://www.instagram.com/gined_">
+                            <Link href="https://www.instagram.com/gined___/">
                               <i className="fab fa-instagram"></i>
                             </Link>
                           </li>
