@@ -24,6 +24,7 @@ const Content = ({ checkMatchCourses }) => {
   return (
     <>
       <div className="rbt-course-feature-inner">
+
         <div className="section-title">
           <h4 className="rbt-title-style-3">{"Courses Offered"}</h4>
         </div>

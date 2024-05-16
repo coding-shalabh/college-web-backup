@@ -153,7 +153,7 @@ const Viedo = ({ checkMatchCourses }) => {
       </Link> */}
       <div className="video-content">
         <iframe
-          src={checkMatchCourses?.virtualTourLink ? checkMatchCourses?.virtualTourLink : 'https://www.easytourz.com/BT-EmabedTour/all/9f30f3feef0a3ebb'}
+          src={checkMatchCourses?.virtualTourLink ? checkMatchCourses?.virtualTourLink : '#'}
           frameBorder="0"
           className="w-100 rbt-radius"
           width={355}

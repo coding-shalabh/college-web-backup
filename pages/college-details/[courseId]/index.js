@@ -20,6 +20,7 @@ import CourseActionBottom from "@/components/Course-Details/Course-Sections/Cour
 import SimilarCourses from "@/components/Course-Details/Course-Sections/SimilarCourses";
 
 import allCollegeDetails from '@/data/admin_colleges.json'
+import Link from "next/link";
 
 const SingleCourse = () => {
   const router = useRouter();
@@ -66,15 +67,20 @@ const SingleCourse = () => {
           <MobileMenu />
           <HeaderStyleTen headerSticky="" headerType={true} />
           <Cart />
-
+          
           <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3">
+            
             <CourseHead
               checkMatch={collegeDetails !== undefined ? collegeDetails : ""}
             />
+            
+            
           </div>
           
           <div className="rbt-course-details-area ptb--60">
+            
             <div className="container">
+              
               <div className="row g-5">
                 <CourseDetailsOne
                   checkMatchCourses={collegeDetails !== undefined ? collegeDetails : ""}
