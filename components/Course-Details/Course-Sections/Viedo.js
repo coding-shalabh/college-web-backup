@@ -26,11 +26,6 @@ const Viedo = ({ checkMatchCourses }) => {
   const [selectedCourse, setSelectedCourse] = useState(null);
 
   useEffect(() => {
-    // Set the state to true in useEffect which runs on client-side after mounting
-    setShowModalForm(true);
-  }, []);
-
-  useEffect(() => {
     let courseArr = [];
 
     courseList?.forEach((course) => {
