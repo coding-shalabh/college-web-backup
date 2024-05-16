@@ -96,9 +96,11 @@
 
         &.top-expended-activation {
             transition: height .3s linear;
+            
 
             @media #{$md-layout} {
                 overflow: hidden;
+
             }
 
             @media #{$sm-layout} {

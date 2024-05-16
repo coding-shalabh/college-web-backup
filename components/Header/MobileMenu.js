@@ -35,7 +35,7 @@ const MobileMenu = () => {
               </div>
             </div>
             <p className="description">
-              Histudy is a education website template. You can customize all.
+            Your education, Our Priorty You Career, Our Comimitments.
             </p>
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
@@ -44,8 +44,8 @@ const MobileMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#">
-                  <i className="feather-phone"></i>(302) 555-0107
+                <Link href="tel:918073388529">
+                  <i className="feather-phone"></i>+91 807 338-8529
                 </Link>
               </li>
             </ul>
@@ -67,22 +67,17 @@ const MobileMenu = () => {
               <span className="rbt-short-title d-block">Find With Us</span>
               <ul className="social-icon social-default transparent-with-border justify-content-start mt--20">
                 <li>
-                  <Link href="https://www.facebook.com/">
+                  <Link href="https://www.facebook.com/profile.php?id=100090428042458&mibextid=ZbWKwL">
                     <i className="feather-facebook"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.twitter.com">
-                    <i className="feather-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.instagram.com/">
+                  <Link href="https://www.instagram.com/gined___/">
                     <i className="feather-instagram"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.linkdin.com/">
+                  <Link href="https://www.linkedin.com/company/gined/">
                     <i className="feather-linkedin"></i>
                   </Link>
                 </li>
