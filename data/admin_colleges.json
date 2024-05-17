@@ -13,7 +13,12 @@
       "percentagePlaced": "89"
     },
     "virtualTourLink": "https://www.easytourz.com/BT-EmabedTour/all/bd80e6e90fe88cf8",
-    "youtubeVideos": ["#", "#", "#", "#"],
+    "youtubeVideos": [
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
     "reviews": "4",
     "image": "data:image/jpeg;base64,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TV05HlO3fs+xHIXnseCfDMl8kY+KLd46/wC9v4a/Hj1kR83Db2VLq/VTq6z2V0wa6qhbNTTbfQgtwfyMLAtd4qqy3i2UTBMXjaGhh3cqdzaEpHzuZFaonRtduYHzP9QM5H4UosGhKsxmGno4qSB2NxijMeR9XHkru0viEafF5Wkpbv8AtvO/bf6uu+iibcWa0bfhDtGaRloQ2GJvi1lYcTSsORG3P7B9T6r0bp+2stVsipmjkDLj7lYOmNM0lkiHhsaZvcDhvvj/ACpArmi0uStpz553vPtCvqc9bRGPF+mBERaKmIiICIiAiIgIiICIiCJXjSlRcblU1fx0bDI6ItZ4W4NDHh3v3OMHGOwWLTaLqobfUUz7kyaR4jLJnxHcwgDeP3dnefOOfOVN0QRCo0e6etqZZKiIwSxhrIQxzRE4hweW4d67nfUErttmm6u2V0VVFVRTPEUcLw+PAcAfNJweHkF3bAOeeylSIIpf9KSXe4z1L6xrGvEexnh527GvAzzyNz93/qAtVUaQqoauihgeyWne+MyEx+SMRNO04znkiMYHHlz6qwEQQik0FHE3wpqzxoGnLGuZzxF4bc84OMvdjH830WRbNISUstsllq2PlpCDI8MOZvLjnLj7NP0I+ql6IIjdNJ1FdXVFU2uZG+WWOUDwi4NLM4I54J8mfTyduV0UujaqCgdTur4ZZA6IslfCdwa0MDmHzftdtd2x+4qaogh1Ro59RNWmWpiMUw/hNDHNMGW4dtId7lxHsSe6zLRp6rtte6qZWQyOdEyJ4dDwdowXDngnDc4447KSog4xB4iaJS10mBuLRgE/QLkiICIiAiIgIiICEIiD5sbnOBlfQERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB/9k=",
     "categories": [
@@ -23,55 +28,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -111,55 +137,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -199,55 +246,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -287,58 +355,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -372,60 +458,78 @@
     "reviews": "5",
     "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACvCAIAAADITHTgAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAE9mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CiAgICAgICAgPHJkZjpSREYgeG1sbnM6cmRmPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjJz4KCiAgICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICAgICAgICB4bWxuczpkYz0naHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8nPgogICAgICAgIDxkYzp0aXRsZT4KICAgICAgICA8cmRmOkFsdD4KICAgICAgICA8cmRmOmxpIHhtbDpsYW5nPSd4LWRlZmF1bHQnPlVudGl0bGVkIGRlc2lnbiAtIDE8L3JkZjpsaT4KICAgICAgICA8L3JkZjpBbHQ+CiAgICAgICAgPC9kYzp0aXRsZT4KICAgICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KCiAgICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICAgICAgICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogICAgICAgIDxBdHRyaWI6QWRzPgogICAgICAgIDxyZGY6U2VxPgogICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDI0LTA1LTE2PC9BdHRyaWI6Q3JlYXRlZD4KICAgICAgICA8QXR0cmliOkV4dElkPjkwMDU5NjlkLTBhNzgtNDg4YS1hZmM1LTc2NGQ3NWVkZWRlYTwvQXR0cmliOkV4dElkPgogICAgICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgPC9yZGY6U2VxPgogICAgICAgIDwvQXR0cmliOkFkcz4KICAgICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KCiAgICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICAgICAgICB4bWxuczpwZGY9J2h0dHA6Ly9ucy5hZG9iZS5jb20vcGRmLzEuMy8nPgogICAgICAgIDxwZGY6QXV0aG9yPlNoYWxhYmggZ3VwdGE8L3BkZjpBdXRob3I+CiAgICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CgogICAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgICAgICAgeG1sbnM6eG1wPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvJz4KICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkNhbnZhIChSZW5kZXJlcik8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgICAgICAKICAgICAgICA8L3JkZjpSREY+CiAgICAgICAgPC94OnhtcG1ldGE+rnpmfgAAV+dJREFUeNrt/WeYpdlRoItGxFqf2T53eldpymR521XtfauRWi1kGoSQ1LgBDQNcztw5PGeeOc9hzsPcOzMwnAvDxQmEl0ACIYNaptWt9t6U6fIuq7Iqvd9+78+sFXF/7CwNc+8fuNB0C773T1dnVWVm7fzeHbFirRWBIgIJCQnvHJS8BAkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCf8s0MlL8I7QHkiHAAKAKCIiIACAQgKxiEIQBGvBIUIQZmABJA7BhsZIbJsIEQgIIgAq0qR8ICHlaUoBKEFBRkBkYAS0wISkAAUtAKBoABQUBLzx/QgAIGLyo/mnB5P5hO+MhMAgDLLx2AuTFVEIDCwQISgrEkMMYVWi9bC10KpM1dfP2KgSRrUobBpTsQaAFbOvdMZ3NLmIfsbxetLZgUy+382MOX7R97sBfFIpQrCALOAoQgEBBLFIgOgkP4tEwn8x0m1Evhu/FhYRABQhQBGImRUiCLMgB61GULnSrL1eW36psj67VpoLavVamcsNWS5huUJxy4tiN45yJmohITnieFHaM52dqtjpFvLQ3zvQOzRe7Bru6t7qdxz0M32uk2NyCDWLRUIBhUKEkATARMJ/gRLyRv7HICQMyCAIEQoyU219fnXuxerq07X1N6urM/MzsrJWWFjLX1/IVWs9USsdNb1QMI44No4BnVLacQwTCsbaWsRIpQINtVyx2t0d9nY1tmxNTezYtnVif1//gUxhi5PaQjoNYgAFwQH8bhaaeJhI+C9MQhG2QiJWMAQDKLS+cmnmwlfXV7/TKk9VS63JqdyFyf7Fpc56rWCDTsNgRTO45IbIsm9PsGVHT6xg8iheulYjcKMIe7sbhmGl7KXARsjAipxVN73Q1bG4abR15KbBm48c6B25pbP3Ji81iirFIJoIAIgIUSU/pKQw88/8ze5/rsqICBCbmCSKuVWeXbr0+MzFLzZbl8oVOH++6+KVienZkcDkrROlrdq7NbzjXlb+6Muvhm+drNWEh8fmP/q+1NEL9fpS3/mrRoEvpnXkjtLe/Xf9p1882zdmd+7reePVsFLrsI2hlVp9dWbu/Impoy+9cNPNxw7dedPQtgeKnYd8r1fEa38/SUKaSPjPMfbJjaoLiMhGIbRdFkUQtrFA3Ko2Zi5+4/KFLzTKb9VKcPbc0MlTW0qV4cgqpax2wBqvv2v5oz8sV+d4bubEIz+8c7Bz218/fqGyVl6tdb78anP1gkvWFYfZqbmpKreMxLqn9/y/+ZmhlNPx5S9dvOP+ZmQH3nzNjVv9Lxyrnzi/vOWZF+++5+Qtd986uvO9Xd0HlMox+CBA7UrRd79TRAQESRLVRMJ/LnHQggURYrRgADUIL82fO/by70SrzzarcvTUlpOX+udnBnO+9pwg4rSLrsShFrNp27qBI3/+ufUKx6XaW4+898OPv5wSQ5u8xl23qxdjPVmKFWtlzUBXfmWlTLq1edwuTJ3fe9MtX/lOsPtQMwgGXnvZ5NK6K1OorPReOLPz6szpF197/vvee+V9D9830HcP5XayJhQCUUA34na7cIQMQImIiYTfm+L9jwwPLYtFJLEsHDFHzdUrbz154fRnnOjC9HTny6/unlwYzHr8vntad94smY4dn/vK2olToUYPLVtsop9HCiluQD3ybM1hHYM+NdvxO7+zQryMgAFx2m12prvfuh67qYU923Z/7fHlHTtnHrwnPdaDj31rHV188L7VO24buDI39KWvXVlb3HP2QnVm/uLFM3/6oUcu7tj7kULvIdE55VgADawARICRqB29MZEwkfB7Pi8FJkaByIpq1VZe/uZvr1/7LHr6jWNb33xzX6npWKHtA8sf/7HcC88bPzr+gQ/cc+LkZU02duKpi5rvX/zUjw4sTJ/YtT938nSl3AjWKjC3Ug8afYShIWHrKh3FxlTq1a5OyHR2XJhMU+v8T//o5kYre/1y5GdXRnfXX36pWpflXdt3XLLroS0uLx/+5jeXTp5/7oc+Of3Qex/tG7rPqgwSIlpFCkUBosj/75I24R8Z9Uu/9EvJq/B2rAZvnEEBRBFmYyMGXpl+67kv/+eo/lhQH3ri8Ymjb21xUvo9D2XqlfT00szIcEcuO+54cxwWjr3VjEkz6KA5eO7q+WxxOdcRnz5b/PaTFIsEzfTlcyuhVUTGAXAJQuOen2xdnQUxttkKr0ynVksze/Y2G8GmZ5+NHE02bt105+FXXtTHji7s2rPy448OZjKFuQV3pZy/cH6qun68rzfuzGwCnUa1Ucy9sYGRWPg2J03JFsXbI2G7BMrtj7A1hs3lM6+88e3/kvXOXpnue/rpneuLOYK+OHP9Iz/UHOy75zO/tbi579jP/ELXpfP9X/xqY2kpg6RjG2tKKSyRrPT1QFef6u9vdnUEfobSTsh+C2yGoiwiNtmt1VPrpeLKEi1cj1aaZGw0samk/J716soHH9n70jdOvv+jplZ54P/162dG+q//wr/TnV1bT5zt+eyfl8NGPe1f2bl/5cd/7N6b7vxIR9chpCwrS6BRABARkzPGSTr6PVaGERFgEbEMCMwsVq6cP/78t/5Ld/rC5OToY9+aaMS5B94LVvM3n8q/8rXSz/7fr9773oGnvtXxxPOlztTOlQVAyBpqpVONTd2LW8bWBsfXix0trZxSM4ixUC/n67WMwaxlBcQAAUoz7axs3TS1d3fOocx6tTh12bt8ceTSolUme+HU6Uc+UujMhH/9/FTKwyO73Vym59O/sVhptfK+6hnrmLy468Tx9bXKEz/VqDxwn9/Ru58RBByVHKdJJPyejIQsjCQABMDILPHk+WMvfPUXBwuXT01u/urX9kVWpRy/unrqkz/13ulp7/xJ/Jtvv/4jP/mvTh7b/sZrlye2l8UtZ1OVXVsm929fShWNZAqVamGhvF05u6vNznyx3ykqBJXSGgBZJAqbURBUw2BtuWLm50DNFzJL4ztg98FMvdpx6XzxrWPq2OvVYrZrsdocGpj98Ps7X3oxe/5aMbLNj7xv7qGPjPzX/4e9Ptt5bXLnH3/6NTTNBx/+t6niIdKCxAAk8j+Vmv7W7ktCIuG7EyJCAIkNoAjOXH3rm1/+j1v6F8+d3P61b20OI/QcU2kGx072TrzwzL969KHfbNZV3JGRKdL12YubSqsrhw4uHtx3xvf00uLA2TODQ1seMpBrBWaoqyvXE4nxrGFjWTgWYQTxCf2sb1KuhaLIWBjXw5AnZys2vuCpKxP73P239Z84vuXFF+uBCXb2RFdnve+8YBHwlkNTj3yg+4lvz8Vh/KH3dj7z6vj8rPennznm5f/i9vsKxc4JA0RA6n/WLzEwWRO+22FgYBBrLcLqwvRX/uz/yHuvTE+OfuPxcZ2mD72Pt23ecmmeHnt6rrY6+ROPdm4bLkKr9tox/9vPqYGR6dtuvtjV6c6Wu0vlA/0DN6fznYBUL9dd5WRzKSFmQ5aZmdkyiwURto61BplACMSKhDEDi4k4CsOgUbvkq5O7t3XbaPyJ70QLc2XHc8oNZ9vA6r/5qejK/MBnP6scmv9XP99ZWtr5uS9cgXh+5/7rP/e/PXLTkR/10kMMQEhElLiXVEe/l/JRFBRUQaPy2Od/wza+w83Brz62vRTRe993dXyIX3/9/Lad7m1HdrzysnvqRHluZvHNt9yTZ4Kbbjp3991XhDe18CP5nkeGRw+l0ilH+57jZjNpz0sZGyOCZRFABGpfQEQAYBBgC5bBMjITIJIIE3iOpnxmE8Tbz00tWOfq3ff6vj94bTrbCht7br4+1Lfpd/9Aqg0Y76/fsmt+381DFvuOn5TlpQjjq3t2ZzO5TaTSiNCuzSQeJhJ+D9RF27GQxYrgt77059OTvz8wlP3SF/bNrKaKXfPve8/YY1/Z9NIx78KFhX1HvKUlPbPgzq70oaw/9PBbO/dZSw9J6gcK3bszqQ4bMSoBNCDWMhuJkYBlQwNur9NkowwrAggblyFQ0AoKKbFCMaG1qF0/N1KvZGauXNs0UTpyc9/KTHzpkpw4k6qV9f7dcz/z4+7qau6zn70KklqYE9KZhZk57VzYuXfC8XqVcohufPLEw3/05UvyEvwjOrhxNpuRmc6efv3UsT/cPtb55Df2XpjNEmU95Xm+7+W0aNdwOmyWISbXqvGhE4988Ey+p29m+YcynR/o7BsihcaEjqMIRKNC0IgaEZFFMSMwAhOxQkBAEkRQKCSiQLB9QV8ho7FIYhxjPLQS+ZLO57ZkOt771lFvavK5TzyaGu4fnp3PpopXP/T9ZmEt9cd/VTwxOXbyzMxPPRrffnCgFu/86jfnX3z2r8PGErOV9qfGjX9k8sNOIuG7yjxBAOH2wWdjGGIIauulr/31b4/2XLx4atPjz/ZnUo5S0owonZp86L1bNvW37r656enC0881u7ovft/3Xd+69cB69KGu3kPazQpoBCIURBFgFkEkkBuJJwojICAyCzCAbu+mE0QKWJAAFbFsvCWAAKAwCCjLzADksILuU8fWG/Gl+987Vq1QabkeBvo7z2YWS9nt47M/8cnq7q3OmUuZ6VkK67pRP71ve2dH1xhon8QIWgFFsrGFn5BI+C6xEAEAiQUQQAlYsfaNZ5+9fP53OzpGv/DlQcXqxx6pv/eD/dPTuVdOlKLGVG/X6lo199jfkK8uf/jDlzZP3Bmmf7xQ2Oo6BMBiiRAELLMSFkQAQREQEAFBQBJBERa0gKKsCAsDiAVwRJSAQWSRGyW3dr4KAgBiEEFVGzK3jNev60rzrY98aGR6NvvGsWwQwbaB5f/lU9aB3t/+I/XyaSff2Wg1O5fna9mO81smNqczI6iUoCAoQE627xMJ33UgMm7sp/Hc9Wtf/sIv792CTz++48pc45bDU13drVJzZfO2iaPP0txK/tSp7jMXiuCc/+hHLmcHb6+2PuJ7wyxxbGOtiNARBmvjG/FGQHDDp/ZVKFIWbMwGkcQaBQrYCBgBV0ABWhECwPZ5Heb2HWIRaxzUVgJ0Ys/La8dbmEqV18/8wEcnZi/b+nrj0O2l3qGxX/+0vb6auuPQ/M/96GCt5p2bri3MXN6xPT04OEZelwgr1ABJpTRZE7671oEWQEQUC7MEJo6ffeqp7uzVSnn8+CnIevGD79kkcNeZk+U9W2Z+5Rf9n/nZESfjZd3Ld91x2WR2r9bvczu7NYUOaAc8AhKIGY0oEGUEzUZntvZFYBCFQja2aDW5nvE8dkWQgABdAUIERQjE7TZu3+2hRkSgVCgcoNZY2NSV2rq5c2B458kLHa+8dvpDH+/PdGRmpz22uQNj3k98YPqnPxZWl0ql5djH0fXFbS8891pl/ZKYQKFme+M9ISGJhO8eD61tByuLGE9dufbtx37t1u3pv/5617VFB9ESlm+7le6/Lzt9MX7hzenpOTUzXdm/5+Thm/vmKh/aunmvo3IOlVBAlAg5DCjMWhwtyNYCAgiJtGVkARIFWly0Ljg15VlhJpNhdgRjgAAErNzIQjfURUQwrAU8QFJc6c7EjcATskFYeOv05MT21Z17dj/xzLW8O/fwB3R/f+vJZ9Kf/WrautXd24uLi/n1ylujm82msT1KdyIhkWDy9p1I+O7JQ9sHnAEss40j+1d/9WdFdbRW3vaNJws20tYpXrpgX3/5eqNZ2bJ339Wpoe88UxoduvzQB8PV4H2jw+9PexxLo6BmOrwrSrfAZIxxwrhJCJrIigFAEEIAFEAQAYgtIccd/tJI98WBzgWKuRnqyChBZAsmUoI3QucN2IIYyVrV17W6dWy1p7Oxul4EwMhEzZXs/NTFW+7Urtr7wnOt1080nnmheOJisdLSO8dXPvaJ8dePqdJqy/CZQ4d3Z3LjpBQRJjlUIuG7Kh1lFkC0VuKrl6e+86VfO7ir45tPDazMw933FqJWPDKiMbX1+Nn00uKl+ppTbVz70MMrm3d8QGceyKQUkgLkjFmDqNgwoe/NpxxR2hWrGjGgKABgYWGFgg7Gjqp2qLWh3Bp65XozF1kTGCj2rqZUrK3mSEfGoq8QhK1lABFxEH0Iuoqro+PXUZnqUsbR1fl13xpndT2QQFfr6Vrj/AP3jp+9BKW1XCNwunPmnsPz77+3tmMis17rmLzIYWNx5w7o27RVe10KFPzPB9mS06T/EJKzo/9QB0VARFDQGpo8e2xkeGV2rffsOdy5/cqjn7jzM787f/Pd5X23bPv0r8q5EznjrB3YvbLjyDg7t2aU6xiwhNb6kfaMyTbsKFTL5C8HzauaZFOmp8EpKyBMDhJCRNAQaYo4K0FxtdWfVmG3htJ6l1cO88VKV+/lDpNqBdlqy3LLczMKqaUdVk7V8YNW3Z2b7F6tpZ1UM1vssJAVklatZVXoF3ovXFjbs//4bbfs/ZtvLG/tK//kx83wcHT6eO5Pf2+y76DrpAtrtYE3Xnt9z8HbU5kx0Q4I/+1GiYmBiYTvZFUUhRTF1jZrlealt57etqXriWe7I6kdPKSf+tZquXlds//Gsy8eOnL41IUrBXf17tt9nb4nCvpAGfZNHLuV1UZEJeDQ7+iOnOzZpcxjT63etjd9307jStmT9p0+HRlsRn4QdTS52xhAXUOxwDb2PWOzleUcSJBJhb7fyqZb6JWJQdg1Fuq1XGluoBooLRJrx3NIpEoULCzVa7WG62c7OrvWS40XXnrtJ38Yjp5IRbXpU+fVXz+RP3OpoCTwz5RsmAq559jr1+5/z8lsz63acdsh+rv6JZEwkfCdTEYFhYUBvYX5s2tLp3dP7Lp6psv3ptLFobeu5C/O9/FjzuZtUd+mGrA7Mn51fNtNWm5VpER8Y8zp2fK3nj95aKx2cNhvem6PSx40U4WupVCvR8O+VtYaGyOhNswWItZWpOWwjqxiR6Ny0aQEAZSOY69Ut9Rsbwu2z3mHzLE1BKA8F8BGTQkWS8u9nbpSD1ZWK6hTrbCpSrpea4TB8Mz8tVtv3vLFvxi4/mTWRrqQjif66dBtPlDmz/+qNT2nT546seXAYsrvUSp1o1Fi4l4i4TtclmmXLF1he/HM64Wu6MpUx9J6EEnm7JmlT3xi07antmEwuftw8ZuPN1OplSO3oJu+8/jV6shI0UMbxfTCqZNzVbvTupdWZ+an9cfvHB3vWrtzZ9+bF2ajrdKZ0SLaOGwiQVGK09ZYtpFlEhUJRixNRSyIDLFDQChWIpZAxEFymBURMLWsYWAXwF9ZWw7LlfV8ulrPlEsNz8+DYdcJlBTiIPXsi0c//vHegeGeUm35++/nWw7X+/ujcpOnr+/3ck6tMXDx1EqjfKXQsQ/RAiCRwht375OHIZHwHcSAYBSFVy6c3jTU+/zzcT2wJJ1H31zV8Pg9t4x7Lr30RnTycmuod3JkZOcrF/PXK6trzeahbSOz69Xxnsxde7Yf6W9E8VQpHE1zMKQW9u+zHz+kenoWtD+uUkX0MtVmfHV6ZW62HtZYaUEBFHGsh45GEh2V0ppFtfw0kdJBrOqVsNghGqNmo94KIIh1EHOl6Tq+dPX6K4ulIM739HQsL9TTGSIXtENxINeuFddWp4/csuOZp8tbJsxq1fnW03L5XGe5OtN0fcQtU5OrS/Nn+4a/T6k8wHdrpImBiYTvYDoqKEKkolJpqbZ2Ob9t6OoV1yXtEJlw4skXmi++1HJctxVrY4Otu+y15uiLp9f7h3quLEQWl1bK4fsO7km5roa4mHedUK9GecMjtfJ6XzHjZyHfkaaMh6lC3preHm+5b2H6enluIaxGnpPqiONZFEzFjfHCW33FHKa8VD5Prh9Kfma5NDyQ9onDErXqYRyVZhbiE9c293V6ec+9cFamZ1e3jA6vLDdSaX9gYKBWnQoCy9Gm46+fv+0eeuI7w5/5oxVUzk17U498cnh6Xj35RCuQysJacH3y+sFbVgA7UARAWIBABCFpi5hI+E7lo4ICyN61q5cyGdtqdpfWXZbQEnMMflrbqCeOY8A461W6RwoXZ3Mt8M5PLdQaYTkqCnrX13JRHLgYHBgLtQnRFFtqtAKd1fUwunyho9vv2jSeVj0WACHo64y6VbA1VZ5edq6WGmGMaDPWqWcztayXMV4GKEd+EdH1M+yni2SVl7JahRLWwxqA1JVNeToS5bE112Zm/KzX2dVTqbRMzISOaJpaiu7xZnuHOlau9B05dPHjP5g/P3nh0E3Fia17fv/3Tb08dOXydNxYJxcICeC7vcUTAxMJ37E1IQCAsFw6ezqfp5XlVCuKFAHHWilSATdsqFwHxe3pvj46tKc+v+XiSjRftfUmxIu1XEH97rdPuF5uf19qYpRTqqQpE4Ai0h7WO1TomWZpdX29oTRGtrlWLTcbTUmTKH8+4+eAfO0aj5qepwwhO8yaUXvkZsVBcPJMFr0IbBPEy7rs+8bG3NelBV1Hu61GLZfJLC6vtep1rRzACETKqz3llZltQ8Nr02/demf6hTc7//orK5nMtZ/5ucLeffnXX++enT5ZX7/iFg6JchGoHQATBf8hJOce/oH5KIqgKLO8OpvNOMsr2OQAiEkiQGxJML5ZOju5FTdHNsVj/ZvvPLSnv1NVavVcNjMx0Bc2qpUQDcS93R0OFRUBKm3ZhlaaYiucyhXcoZHh/oHuDqqnm1MrC+snJp3L6/1Xlw/Nr03UOR8yp0hSkrZWxIijHEVIooxpac0gFkVQEFn51PKclufYlBadygArz802Gq1quRGG1hjxPA8IYpO/OhMO9GI6Zd3c6MnJnqrd1KhtmV+6nitKDJmlZVUvXUGJ5YZ+cmPwcEISCd8JBwEAqdmKa435rb35xXl2KM8RW6eh0G00lm/ahUE8/pfXT/QO5px0n6nb9922Je+5jsI7D2xZWB+o1iGbxr5cSgJUbhWQ04pPrVQazbS35UDzyqVd2TWVqrdacaWlxPodOu2TlMSCmwYhBQ1HVlVcwbQDFsmIxFWOQ+KGjatoWsSR2BAFECNfNQQLQUCun2VaRHCVdmITAWMUxb7va6WiKLuwVN1xWxxY98ql6Y9+6K7dA/X+3rXd+7b8v5+NCLEa2lJtfkxChrQCBNA3Br8lJBK+Q/koA7SqDQ6qjt8zMxd0pO1gT/byKu7oWxu4tfvymZXFNVNMUc8mn6WXSPV57gdv38oxuIozPSnqlLVqrWGcLKTTzjRSlbiQgfTZxaVXvExfoWvtVDWnbKkiIYxx01POqp8iu+YihaQs2siDpjU2CEKgGgJxMx2La2K7urjsSoitCmJIwKRtIR0jl4PAX1+LgjAksSknFUsIBCIcRZHvp5omrJV9L1123YFXnlv0+IldOwrkRF/7+srklK9VptVw11bXTRy0J20jAENSlUkkfGdjoXDQiJQJAHSlqoaH5j/yyMTv//lrD7+vOr5rZGrm8G//RiWTrhXyDnJGIysLygHwfI5JqRbblnX1G+dn79kx3GF1xg2rYod6OgqV0uePTo32DPV6zZGOQtrDAENq4ZEJVG7OkLWWdcv4TuimMjaTsrrTUq7ZckLrKy9d6Bwsra5EtSDjpFJpV4Prp1UhQ4LBtWu5aqXpeoWgXjcYK00cW7EY2dhP+b4G2yi61uYy6YWV4T/7y4WMFnSLtch3lA+MUejWS3WOG1oEkKTddCohkfAdLI6SYCuuA4jEhbhlyK/4qeXvv7uRKQz+8i9d/Kl/vaW/L1xutArpzS3jCbJyfEuxtVYoIgyQvI68x9Ha85cWfnBXuqhKDejyuXL3puGC+IUud6kWvjI73WjqSiv0wJGU3ZvRYBxBG2sv8rqmW97ZuSxZFzkVGGwEDVKh4y5HHJrAsZYQ2Ac/hGwG1zPF8NVLUm4EfibfqK57LojnNuoGYiRFzWbkOU45jsWrZ1OZrsLKbXcPdBZR3CCdyq8vdz7+xLJIR6UW2FbZyykABQi00XkjIZHwnVoTArTvmyMQi3/1cub4sbdu2tf15mv5wIsbMlkuecq3pAlJQYwgAVhFJDaOrVSR0h6nD+zqf/z4zFqQ7U5NGxsZlXZsdGBzp2C0tZjOaPerxxcrge+r6ItvVKfHC9uybm8KMj5GLc9GfTbMhrY1V8Ezq7XV2txdo5u6U2StWPGNMYBqrdK4vFq/fQdMX4neurqaFSWqAtZsm/CXVtx6ELEbI4AwKSIWHYbG1Yqo1De4mvUzPdng4JHuy4vZ554JoxCDVhzFdV8MgULEZEmYSPgOayiCbEU7ggQWMWiOPv7E2rMv1GKb0f7AN75E5WrQW0DXRQEDKhJ2gKwIxs2gHl0aGJ6orPmDBS8D7stTMFb0RtOnIsiygRBMDBgHXhZKN29uNSJQiGBQ+EKrqXqHs75qdedKaR3XRYVRoyqRX62M95IPrYHOtKfZsMPSii3MwlovlwqZvidfdzNZMo1IlGQ1FjsXm8FmZ4kCBiuxQyzgeCojhtkNFtb6P/e5Zr67/P3vCfMX7Ze+faFi06ICA4GgQeD23Jv/sT5OSCR8ZzJStAAg7DGQYIQ6lnCwGTuGw/FiY2LHwMXrCxKCxrRBYrAmLPmZdGhzjbBsqlP5se1NAAV8YHPHN44vb+/JvH/zwprJiytu1FENG8dnVhpG92acZioG1orDmCAWiI3uUF31uljSpVCfmK6g8oYK2TDiMnLdCoCbcYAUAKSge6ivU9VKjbnVrq6MraAMbBpqLF4bLkb1OgtgPl3ZvztzZS69uhJkfCW6zqJcTI8PBZ/4wRy5Pb/32dTZazkh8DSQiDBLeww4Iki7rVtCIuE7UxwFQQbUcexYCISVCzlDEbjNKMRqrV6rrwL6hgNjuJ24zU2fHd/c2tx/f6WkEStatRhSSvydo/7pee+1q9V9Y12NVlep3nVysf70VGs6znZlulrr3MRQARHHzLbbyVxfc+/Y2pOV4aVy66nJuYsr3d3pjnq5UrPsoRnJOVrk9u1dhVxvq0YsMFiMX744FXAcxqQ0SVhnp1bMIdpmb3b245+IIPKPn2nGRjGgdlkivyMz87GPrtx3++G3zscffMQ82rP7S3+xMHlN+Y4W0cIgwAgKRJL6aCLhO4tDSkVcA7RKKZS6DRFNzvXjWrUbhFK+14zz1UZzsBMAMl29u6+c/st9o+Wtw7vOr3gxWkOhRBlC+8DBvpml3OzKdKOx8pdn6pPNMLRU8ItppCZWPO0jIAqh1ZSmS+ur2yq5bBbWrJ1ai4B8xlg5xhelxZ2rhspxZ0q1GIouYNpfLvjx/HqPi9Ri1BqUqRZyaB0v4yz+7A+t7dzX/Su/5rfqWiRS3HDidBSGTRu8fKJ+afpcKyDBsK9ujOk2ADrre06GlIPtfLTdEi6xMJHwHSrMIICkPV+hOI6X8pyBsda27cWXXw2ry9XbD8z84CN3nTldnq+mG4FxlLAVv7OL5287efaLh3Y30zuxxbUwkGzGs1YNucrJ5b9zqrFlpNyRGSxIcTUM01bi2FonjRIDg5XYZdKSKht9ZeXa/o58jsK068YhKLAMCARCLAZDhmtr8fzM4qbx/O1FmKqYSkQxCIZGu7RpwAHyUrjwMz/s9xf9Z4/2nLyoBAJQQBiC6aw0BHni/OTwd56TOGiBmwVoubra2RllfN/zc0LthqbIJMQCqJLn4f8/kmNr/3AP2UspcVykRrHgTU2W3cK1n/1p93/9FH780cJTT80ur0fIqcpKvRKthDFZlMHNO65O73nhlctal5vNSqt2OZeOHWET274s3Ln/8E29Iz++1+l0QhWJIhDDho2gJlIatMFIa9ODTY8aK40ahI2Dw2EG67Ggn0qRAhFGMcoNtKPrIpNL6+u12afeKNebVUYMyQBjT3dt23hmdX19bbH8pa+7n/t6KxIHCUgZN1NpCZugfNPO6R/5kYGBQvbRD+OnfnJsqGcTYux7JTfnCXoiuNHnShCSXsCJhO/colAEJJvLodPNxoyMqUat66mvqOe/+frElmB5ZmCtkuseztpmdmFubaY8++TRuUbLIfIyXYe0977Xz49cvE6KS75LivOKPUbo9VRk8squ1qJ1S03H46a1LgBttPVVmtJxKx7rCK/VxNK68WlTZ3asN8uWADgCYHaI83EDg0ZTZ6K9/SvT9dbUXIf2Mo7WWZ1PK5unFe3kvvDE6H//vLlWHSqVMr5rkT2KnWIxLNe82NhN293zV1eGNr9x4FBltHfyznsy1qkWskGxo18c/2/XRJMVYSLhO/oKIqZS2XxxoFRqDA+65LTecy984KGu2ITFoaVHPla7bU8HcHp+xUqz/MzxC2uVkvaVg3nRpSN33JvO9CAzUWilwdRiNqTsEnS+uKpu760aAUIXQBCUCIhYZuBYXMJMWiy7h2/Zvmd756WZZofbYI5ACNkwhY7bHOvx48iZ6HEOjmfevJCJPUdF2okbe8c7BrvFzcTNIPZp9ad+YjSbotVyJAQk4OjS5iFYn/WC2F9Yb96+PfVvHh05dqb49Hem/XQVAq+Yd7q6+5STIhRAQWRCTo6PJmvCd7A6iiIKEDqLg2tLF/t7PELv1IW59Yqzvm5W1zy0Xhhe0+n0lWvq3ni5b2CIYycWzuT7r15c2b/nm7t695wtC5sWQQsxK+TWwtTRy6VXpu3DE3ZLpqmwiBHHSiu2yJohAqQAYbVJh3ppaGyH8datO7VSY9d44oiwgxA3rWxCM7qlY0f/3FKZKqWsR9Z3YOdw3/at8clzNiLq4ZWf/ZgZH8j8zu+1QtOZdmykjZde6u1JvXlJkXWOvuCY9WND3VuefUUGBtzS8VXCIN8R5bLdqFMAAMKwMSYxCYWJhO/cirD9JO7etf+b57++86bId1OXLmy9ctYXLUKoWIRiJF1dG1hbnpsY2nulUtrUO5JKBemeu04c/aM7brFeOj9fqolZK6YPni/hY8eunlqqBdj95tTsA7sbT0yWQybQ4LEOKURwRAJgmF51tndJvn6lG5UL6dWSG4EpWCbUhKQhvLAK48Vrmzvdx9/KOX5LGblpd09PSqfg8vAgZKT54Q+wJ0Of/WamYb1Nvem0K9fjlY6OUle2a3qWLZqwNfTCG32OoAiXK6PKOLns9S3bPTc9gOABJ9cJk3T03bEmBAACGd860QwBvOWeAQDy0QOlkRBEAaDnUAy289yZyo7R2tFTs9V6PQCdyxVWVo+8/PxSUFuu1JZ8WWi6/OTl4OhsPQbwYnWlNNqqhoe7InFZxy2IKhAaFWoyjmPWI+OcvNacuXrizJkLZ2bjkhsjaKNYMFBxQzDsdKLermhyPl8s9hcLPigyHNmomsfpneNedV2OHas98dzq3IJrjO7pT/WPdGzqze7aE69VutbXDVgtAK5SilxULqNhjhxvurevx3MHUSkkBERAQsQkECaR8B0NhBADmGJ3R6FzYml9eWTryMz1iByxFsCCQhQUhRA5nVOTdEd0zcZbri1Xi935wLTyA5DtuePkFIYB7eptTVZLL55eIz+Dlq3TajI+fm78xw4t7ckV3lrKoO85Zu3QkNk90t+VHanbVV63k9OZtRY9crfx/IKSjImC588EUwsVChs3HyyXm/T8VTi4PRzso8qCPn2llPMqOyd04BWfvcjrDfv9d2a9eVur8BIuUv+gkzo/Md579PU8xa7KibFWMwq0hBxCQGwN9EfDw9v9dC8AACZhMJHw3bEmBFAcx6ScrRM3XT792T27Dh1/fiW0zdiir0xa+fXQxiIC3Cjlr56aGuwdOnF9+aYtxY7clssnjk70vrbv7gdePFusl89Bh3W95aFcx9WlnNKeg5Fm5/GreM/oQjXunlou3DLu/con+0bc1cz4wdj2cblgvX6KYojqqe6xWKrNhYv3H879u9+obx4JM6geO6aisKRj6epRQwPQUaDrM2HKs/PXr9+7WT7xMf/iTP9Tz1YaQQrLRprzO3ZccmjH0eMNx3FCcRCifEo1WioW1ojkNsfHmz1DI066Z6PHYbJFn6Sj74ZIKEKILhHt3b+/WZUtw1zIG0SNCvNdlTvuzzpeUyjSbI3pu3StdmA00J7DTEbpwa0PnToFXH7mlrFjfT1LI2naky/dugW9tKi4hezms7jQ6Hp1snDH2NJgvmTrFWxc0Bib5WmnVPLc/lR3Id3X5eU7o+YM18povfnp1W09i/1dtedOaIO+57jLtejKYjMyVx+6Oz3Y4eh05SO31j/1IaVTzle/4Ti+VyimWHk6c23Xnsyrr6lGLSs+GGjlcut33lfM5hWCRZBMemH37kKxezdQngARkiw0kfBdEQkFidEBEB4a3JTNj1u+uG13KgwCMFQrFU6eqKN0k6RA2wjcqUuZQnT9yLgbKsdzKn4xV03d9/SLYbh0rr8fBwr1u8bie7ZFxbRG5WkIxGUMnZM1uLLkvndbdb1W+fRjCzMLS6a6GGMgqUxgsibOa47d6nK4evG5o2efe+nKSFf00rnCeiPnxBKgxFo3A3BhYddW1MpGC5QvrFxfjf/6seLkot61e2/O7yr4et/uWS0d504Xs6kOg5ECMq3cK69ONsIIEdlEwyPTYxPjfmYrkmq3+01u8/6jkExl+geGwva8egELrpcq16rXrrw8PHbo2BtlR1MUU6OhjYQsQmhEuTbybDx75+0DQZTzRIeBRVlKF9PXFjqmruer3IPVa/s255+/Qt2uzqLXoEiiNBqzsNyd8muHxiuvXum4dK2RTrlZ13EUkoPQqpXrtQvz9a8+v/bWtUq6Y+2J8x1L6ykSxQwOBJsKLBzvHbr64G3dT7xk3zqxdu6aadb8zr5RlRkTLjs6zrtnbt5TPfZm/7Vp36oYrcdGG+uFhkLLwJHnrd51+7U77vtAz/B7lPbaaejfngmTkKwJ30kPEVA5Hii798CRF5/64oP31zZvpktXrfJiiKSQD/fs7rt0rr7StOzkTpzQEwefv+P27dVKlrTxTVdt5uQdD6bR2fGtl4tvnA5vv3n1kVvHqjPV5SB+bh4sVyyFoO3rU9mwFbz3YPPrp4tvPFEefLK6qXO+qzPXtHapHM9dXp4YbY526y++2r3WUh3YqKCjUCmp3rm/++VT0bZBvV6TSiXYtzP8oQfdoeG+Z18RrgGpvlzqfH/vZLnZeeZ8zvVtGPOObap/WJ04BqWKpylG13R1Xt+5u7+z71alc4gIkuRQSTr6rslHARERUQBRjY5t2zRy09zi8QfeO8CRElbCqUy2sfPwerFPK7YYpxXtfO7J1aWVr/X3NhFVqmfY+NtOHzvfb5+4f/+V0W1d1frsrWMpHV4+uKvSwb4xcYgcgSNe6sR85zNn0+/fVtqZ9y8tdnzzbPDZF1e/8lLl8uTC/l1lcoMnTnWsN3IUq0qcc1CBDgdy1269nXKFOJvBsFL5oQeW/v2PpQ5tL569lLs006eIonjJzb68eXPqlde616vZZpQTBDc9M76FWcoKNQGhrE5sX9+570i2uBPRBdHtf3QSBpN09N1RmEHBdidqREWun8o99czfHLmt/9r5VKUCVlXihpo831hZ9YWU1WVj/KDulCsXjhzs0La7YZXO98xctUF1Zlv/zB17ZDDtN4LNq9Pn7jrM59cH9Pr8TWPOWitt6qEnPGvc1RV16+aSSq9U6kWKYc9A8NCO4PJS+oXTBeGs4QaRHOha/L5b1cIKPrjj3EN39J94K97eMfvAkWjHlnpk3bcu97/0xpYGi4li4md275o5fnzT0eODnhc7njVGlVbthTO2HmVDjAjj3s6zH/6I3nfkh1OdtyAhgUpWg4mE7yYPBdp3ywERUDq6Ok+fuFqtnjt8cPdrry+32AXOmZZPwpl0tGVrplZuIuSWF/xm8/SRW3pa3NcCTHdsfuKUeeJo9dzV5UuLagGKizMX7pgIoLDl+PEzP/3Q4l0Hswtr7krJQYCKOCvV/KAOjmxePzAa+I594qJzclF74jgp9uPV9x84/wsfW9O58RNvnv+5j9S6CyN/+bQzu7K6VlFvnew4eX704rXNge0gjG14/ODu0+szY19/biDj5rvS63ff3j23FIaSs5EWBkAP5dodt1964IFb+0Y+DqmiJlaok5pMIuG7KBttNwBGBEIQsFpTR6Hr21//xv5DnWvLxfnFCihrxfR1Vz/xA/bhh/xqKTs7b00M89Mr4Mzu2dvfrLtTS+bMSurENa9ss6VW7uq8v7y4csuO8r7NvU+dTNvSi4/eXr9l98DVWW9y2biCPuLkTHqxRTNr0dFrbrWRcgwKStYtP7D18n/4cNDX2/WXz1DRvfjD93avB6NnL1SHBmxf766mObDULAaoTIxozo+OPBk2O598fE8jzuX9+nve2/j4B6JsMTM5KTZ0HQUmDkfGjn3/h1O79j7aMXC3UorIIaEkD00kfBfFwXaVsB0Z2hfNC8WOSql07uxL7//ggbPHGq0GAqVb9eaW8bVCJz7/nFovkRJHKDd5ZbYX53pHOj7/UnWtHNR5PQ3xg/vLj95j7p2IetOV7nzdZjf9zXPh7r6Ffb2zA2Obnj6hmzWTcnRLm3rNi8RthTGBA+BIDAcG3voPP1gbG3ZfvtD/xONrP/lwMDGiXCe4bf/KzvHMWim/VFXrLV0pA0RHt4284KjM33x9vFzvQhXVa0EhV+nI8OTV9KmTZASNDbIdl97zntm777pvcOsnycs5ogAomUeYSPhug29cacX2CHvSemBg8KXnXhgYWezKT5x4o8TYVF60vJR9+WWpNrKhQUFkcQ30nJuccZ1r+3bn59e8tUrXTInPn2+UF68Wso0IUuWVwE9njy71XDlfPTgiw4Oy3Bo/eWXR83TQCseKjQ8eoahJtQCiuOlF13/krqX3HEqdmE3/6pcF9cytW+KpeXPlenzmonn52LaLiyNLJZm/Mg/BS3v3v6JYffOxvUvrw0RsWaHCVq3wzKuwXutoGmOwkdb1g7tPP/hQ3+69n0r3HASKybqgmEAlkTCR8N2Tj7ZPMH83Fm58LJ31Pafrq1/62v3v661W0teuNgn9VjNXrTtxLEAcM2jXUy1pSXFqqtqhzj/y4KZSLFfnIPK7Lq8Ov3ghdfqaOjvd9/ib1ela4ex0+txUeUdffXR05OkTvuOSDet3b5n+Nx+AKNQnr1Alku3ppR9+0B69Jr/y+Z6LVwtBwBdnc1dXe05Nb/vOa91rYef88tr09NWh4dcfuvPS+vW+b3znwFq5H3ULlKAgIQSBZ0A3a83QasLm6NArH/pA68Ctn+jZ9BHUGUQk1EQimBRmEgnf3RAiKqd/eGj26urk5ecfev/2qcvO2nqMjiYNAI5YUMQCLAIKSWxhZkZm5t648w7cPNI7txTWY1+s05Nbv/+w/8jt6Xu3m4nR3lXIPPeaKUXRaj0dhzqsRGHUXFpcO79UPHPdzZLtS1+vh5kz152bdtJPPNj8xIN8YDc0G9lri5n5FVWqlLLulbsPnjm4Y+n48dEXXptotLoJRdAgaEICYAAC5QgrJfXR/rPve//SwVsfHJ34GSc9AEoTaELhjSVwYuE/3ju5JFOt/jFXiBstuRkYQMora//lF//3zs7pndvf9+u/vLyyXtG+x9KeK6oAhVCJQUIWYRcaPcXJWz8kXeOHnz2aOnahuF6vD6UuPnywddu+aGyQfC87uzz2xLnU8ctW4s7V0mpN60yjks/ryHqKygWef/+R8Na91kF3rY4XZpyX38ifnsyksln0Knu3nr5j20xYd585Onzm4pa0yjHHCAoRhQWIAWKFaQFqydpQz8WH7rhw34M7xm75Pzr67lWkFGkQQkDG9htN8tNOJHwXeyjAKMgSxmynLs5+9vf+8+hIPe0c/sxv1dZqVXQ9ZiVgAazHFsS1aGMko23KxkRLu3es3npPf1gYOnGheHE6s1CtQ3O9L10rpm3aCQPdU4dMdzptw7lYUTYw20c6Jhejq8tgTNjr1yWQqtGNZrpey7CG7o763fsu7h2c1Oy/eWbT8YtjS5VMFrUTAysRZYGddgvfG93Ea53d5z7wgYtHburcdeB/7d3yY6JEkwfS9g4FBZLKTCLhu75QY5CJ2TKKCF4+c+YPf/uXDh/prpd3fua3ZltxLOQCWgTUYtlqIABhIBQQZMW2nCqsb9lVOrg/29s/frXc8fxxb3ImCKOMUcSqkQ7SA71eeWUlSjHGNqcL68ZAE9IuZPP+ylJITtiRWt/c3dg7PjPWPR8KX7nS9dbZrUtz2ZSjiNItbiqVBjEohGAQcKN7obJdfZe+75bTd97VMbT35wa3Peo5BQCD6CECkIhgu7lactYqkfBdn5TKxksraK2R02+++dk//n/uv2kkrG39k9+7Xq/7BhtauSBITICGwYgoUlqJ3b0jXlnMz61V/Mz58eHGxCF/YKSrJZ1zS87iSnp2OVVvYK6QW16uBZEyELjkpqnlYJxzcLA7TnnX+/trvZ2VnNOszDpnL/dMTg2UG/0m1kN9K9u3dJ+/audXQk+lRAgECAAwig0qhL5Np99zx4UjRzLbDvzf+rc+6rldAgyEIEgoDCgbheAkECYSfi+tD4GZmfn1V1/6iz/7b0cO52xjz1/8UW1pvUnoATAyIKAoG7JNcWZ4fHF0q3bc3LljqdUFKNtFB4Lu7qlNIzI2Dr19XjabMxCEkA5jEausjYBsWsI8hKQCo1pB06wu62uzmZX5wZWVnioXUsoWu5zyKhy+s46Rv7IazC/5jRo65DAwsGWNVoLNQxfef//57XsL43s/NbrrJ0llFDqycUg0iXuJhN/jNloTG2vOnj7xJ7//f02Mm7Ghe/70D+fOnG9qL4WggCMERkil/eqBw5jLpIXo6OvVlUVn703p61PeUqVqbaPDUY5aV9mqSlWz6TCXRs81wjHHTmBda9Kt2K+UFTcHIvaD2KL1SIzvubfdYY1Kl9bV5KW5Bx9Oz16StUWvVKHQEIi1Io5EW8ZP3//gqa1jua2Hf2Fs+6eM1o7WCrSAEKnkoHYi4fc8llsmptiYmampP/30/5UvTB/Y/cDXv1J9+bVyZD0NVkExsNHwyOLOrYNry9dz2eLxN2B0u9l/BF55NT8zXR4fzV6bkpjFIVfZqMUGlYNS1QSKiCIV2BT7BgAVELLZvCkc2pwLDJ0/XjlwEEWB9v3Xn+NNm+zoqFOth2fOQCtyIPZSXmXPjtO33TLXN+Zs2fepzbt/0nGKSAikCRWBIGByUjSR8Hs4Bm6UHcEICwIZNsvLc3/8u/+9tHLsoYfuPvWa/62vNRZLaCgEiDRGI0N6ZIhnJ9HN1nYeVCqkV0/3rJdXH3l48OnvBI2wPDicn74abJ4IHC6U1txrs61U3unphOlrpnMojKJUedn0dcaHDwbHj/m6ABNb+qevLO2/Ba5fS3m+e/FUSblSqqSiIO2l1geKazftn9p36Gq+b2LHwZ8b3vph7WQVKGyvABFRBJNa6NtMsln/dr7D3Xh2RQiR2jcunFT2wKFbYuN+6/FvjQ5V7r9/3HCwOCe2xaD80qqaueIGsXV8dflsrrOg1yuYVi2JW5RSvgu5rBSyyoFgaclYpRoVtWmgcuhgZuYqFDtMf3d2frqyacRlx7l0wTcmHN9iLl1WFsPpK97SojRiW61pZXCgb+Hm287fcfep8dH68Obv23fHL/WNvsdFl5QDKMAEgNS+G4JJa98kEn7PBsC/9REAYAAQYcsoIHEUXjj91tf+6g9sePm2W7aV17Y99tXy2SsNjj2lY0CMIkHgoYG4GaQ3DcSry6ZzQHZv18dfV5299swFm+vBzsLg5eNXH3yf9Tzn6nxu/lpj3/7OZ55AXVi8+eZCvWS8bMk0M6fOZV0FEIdBaNHHQqa1f+elmw7O5jpCSPVs2/2jm3f+QL44bsWyGFd57XIoAkr7VCxCUphJJPxn4iYAMAtsbOgD26jZLH/769/8+pc/fXh/5paDB4+dyX/9K9WFRTBGAYSuFiPW2lQ2G0dN38vM33pn6s1nZOv2TL3ptoL53ftGj762NrEzWF1NdfenTh0t7z/SubpUqLeq5fl694AJY1xe0oIZy1aBpL3qrh3Xb755tqtnmbG/b+j9Ow5+smtwC6i0R56wCDKRujHjBUCw3d04KcwkEv6zio03fi3WGmuU5fDMiVee/Nbn15Yv7NqW7e0ZvnqxcOasnD0bl8pOyOy4VnuRxDmACKklUTaTsWMTSkOj1dD1VqtegsWyHRsrhlXJ54NikUuLublVbsZWKOXowMNGf29rYsvi1i2LPX1Lvuuls3eM7P7g5j13pvyBCEArR4sWAVBJ5plI+M9XQvj/3uEWEGssiyhEadTXL5w79+LTT1y5/O2BbrN5rLezZ+LqZPb48eDiuXh9VcXGoraKOlDXrHG0ivOuagUR6BSyH6uIY610WeJ0HFlEBaL9dL23N9wyvrp7+9JA37KNl1tRsWPgwR0HP9o3sj9T7ENCZGIUhaiQQNAiUFKESST8FyQmMwsAGREA1tYGtUZ9dmbqrTden7zwMkdTg3042Ndp496VZXd+gZcWvaXlxvq6bsSIxlOxxxQGIkRACCCc9SjlxMWu9d7+Vk93o7en1pGvO7rZtMrCUPfQ4S077xscvSWV60VgYFHaBUIQRuH2ZqAk9yMSCf/ZB8PvxsP20TYRRIqZBcUhZcSSADHEYRBevnj5jTeemT77vERLPb3UNyC5dApjZW26GlLQAIzBCocYKrSEkePFLrHrtlyngVBrMdUbGdD92Y7tmyceHNt6a2dXv1LexglVAcB2pQhVu2x7I2FOSqGJhP+SJARGwHabqPbE3xvDQGPLGwlrtVqZn50vrc3MXb9eWpmx8XzQmgtqde1ELkakjAXWQko7RoB0ys905nJj+ezmzuGRQudgd9+mQrGX0CVkJGYLWnu40RkHBYUAEEhuzPhMQmEi4btfpI3magAAwBs9ZYDaZUQAELA3WlPTdyuKIu2xKQLIcGPOO4Bg+yOgRNrGtdvKWxYrghv7ihwhCKIyMbZaQRA2orDVbAZxHMRhw5jYMityXCeVzmZcz3E9N5VK+27B8RFQCYcErgABGUQ2RrROIaAIt9sBiFgAAFGAAmABFIKIECADCopqf2eCuNG6AxQCixAiiBgkACEBBLnR40MAEBAluWaRSPh2acj83dHQLKIQ2sGMQQBRidgN3wCRlEj7wWVEkhsdaPC7DiMCCEp7tgpIOzvEjfUiIIiIWGnvGVgWACAEFgFkgg3J27eHsf3+AIwChIqtCIpCD4lBWESQlLTbwbX/GBICiRgQArIgJCKEAEgiIkDU/ma53dVYmBVR+wuRCIsoIgHgG+8v3H6QiJz2eXUindR3/u4kbfD/fimlAIMAMyAKogFUAgCiRGz7np2IAXEFWCG3jSUiZoOIwgoJmQ0iIJKIAaSNpSGIbBjYTkyNMCAoIMUgIECIgCzCiO1mUm2hgNrvAoIiotERIGBAZCIQQWEEFCKUjYnCTKSEWUDAElLbYgYgRN2+edWO6QLMHAMoAAIWBBZmQACwAoKILAZEiSCRtFsFIIDl6IZ7iYGJhG+XhcAcRZHMzy7HESjV1kkLC5AhdNuPN6JiiUm1QxcxW0QSRiJqX6i3FogcELFWEECpjcHvgAiAzELYXiESEAtYkI34iAhEZBmgrQIiiBARiAJkZgMCAozEiIjgCVtEAXABmaWpyGFLiMACCFqwBaIAtIBFNIKAotRGsxkRIGYAUcxCSgAYQIEQKRSJUQSAmFnAIgqzyncUu3ocpXzC5KFKJHwbk3dEVKvL5V/4+d9aW0hp5TAzASM4IpZImAWJmUGRYhEEFwARYyuMiCwxIIEQEbUTTrRaxApYAEeAGCwpAGYiBe1o1W7rLbBxqQ/RGCOIDAaQAQRFESoARSQIMaAV3vixIhCiZokBlIgQgVhEZUG0CAGGABZRAyhBI2IBXBHUolkCIs2iAQyQASFsx35CEYaNT0VKYRzHiEopbTn48Cf3/9v/7cPWCCr+20vihETCf1wYkYV5aY5LS9zVY3MdFlgzh0RkrWmUobweaodIma6elOspYULULlpANrFaWmjEoUvasARAaWTIFszQpnxff4/juwhOpbI+O71UXpOgCdZEmpAZlFKWDZCIcDrtDI929g72ZrIuAMQhz88sTs+s1MtA4iFaImCrXV93D4hyjIhCjFFIBEAUgIgYpcBaXpgxIKG0OxiL4/hB35AmgXbaLBgC4fxsK26xsFXop7Lc0+8JKxEFmpBC0u78bBVEx7ZRLTOIq7QgWAAneVYSCd8mCNEl7QCkAIPv+8BNj3ziZs/1EQ0AxVH81S8e++wfvBhbffDQ0H/4P38w2+G0E0cRZjHPPXH2N3/1a9rJCTgijp9pvv/7D3/f+w/u2DWQK+Q9TwtIo95aWSpNTS699Ozl73zzYmWtpRQTKlAQ2tZd90987EfumNg+2NXT6fsuKQyDcGVp7drUyok3Jx//ytnZaxVSYkw4tj3/f/7yD+Q7fAAHBQGQgVEUiAjGiGpxofzvf+4LlTWDwiAasLlr36Z/94sPdxRShA4LC3CrFf7h7zz11GMXPdeLTes9H9j94//6+7R2EUHQMsPiQvk//8c/m77cUqBBFCKyMFHSii2R8O3MR9tPs4gI2EzeGd886HkKUNgCM3R0nrMW83nnkz9+74Ejg9ZqAGkXPy+cu/Ktrx/juFO5liXKFbyf/YX3PfJDd2ayWtAoQsQI0S0UMtmst3lr38jowKm3pksrDa3Z2lh75kd/7P5HP3XH4EgKgBytEcCycT0cHu0dGs0funnT9NXS3HS5vRlCyh0ZG+7oSAHFhC4AAFoQJaxQWQCtHZ+BLMeuckDQCoyM92zfNZzN+AAayQgrY6I77tn5/OMXFDp+wdzzwN6t2weJHJaISItALu8PbeqbmZxHUQDtnU9K6jJ/77f25CX4+1pIGxUabu90txtBaA0IiOiFYXzn/VvuvH+zCCNZ0kAEYdD63B+8Onm+phwTx4iEH/7YTR979K5cQWntEqYBtIhmSyIKgNg6U1eWr0xeI2UFrKA5cufYj/30XQPDGYUZTWkQJUIgDqIWEGZ95VL57KkZkXZJh4URAEgppdSN+YmMyijHIMYITaVExJIG0spKDOKOjHV6fruZEyOAiCElEzuGu7qzYWC7+1K7do0QARJrTYiEiNmsOzY2opUWNIl4SST8J6uPblQxUYBIbQzKFAIkkdAa6BvyfvhH7szmHAGNGLMla+TJbx79zuPHEBQiI+muPu+DP3g4nfYQkZkVSRCG87OVKOLu7nyxi6pl+/WvvBrWSCsBSTmePPjwTQObCooIUQGyNWZluVJar3cUc51daWPsc0+dnZtZA3BANLT9V7FSIqIESFjFxkaRJWhfL4Zm3SgVCjsRRwjieDQwXFRKERKRbteZRGRktG9oc+f8wtJNt+4ZHu9tT7wh0ogKgFMZb3S8lwUZTfJsJBL+E3ooAIDtc58bnR9ES3sTn8IP/uDBfYfGiFxmFFZK8cy1tT/5vefipgYm7VGzGQwMDg8OdzIzoYvIzHZ+uvKf/uOfXJkMB/qLH/7onmzOf/P1c56XZWuQoNDpj433UfuroQhwqxl+5tNfe/Jb5zvyhdvvnrjr3p3PPX1KOKWIRGJmBNnYQ2cGZiMCR1+/9Onf/RoHKRNZRDLW1KsAoq1EjuNl8tjXnwNxAJQIAigiYIaOoj5828SZs3OHbtlCGphJKS2wsU+plO4fzGmXbJzEwUTCf8qMFKUd/xQgCiAoFoNkBWDz1s6BwW2pNLEFEUOoqpX6Fz73/IXTpZSTI91ijkVYa1LkIGokELFIODhS/Ff/+vtffOHspbOrn/2j12vlVquWVmBJCUMIqJR2mIEUgiCi8v3UIz/wQC6Tv3B2+aXnLj75rVNrS6HlkNCBjTG6dGNqGxIJCzuu09lRiENkg1o5Vy4vR4GnlSHwLEOxOzu0qZvQRSREkfb0YQEku/fg0NYd2f2HRhA2jtIg4sbtZAtd3Vk/jc21ZHR2IuE7GRgRyCDEruvfefcBx1FEylpW2ihyXnxu8ktfeFnYEWgKcxSHrpNbXVupVKv5XErAAikU8ny++749d9yzL46Dq1cWvv7lo9/40hvlZWRLpFWzZleXy4QjIhYRhQkw2L1vaNfeTcbIwvzSM0+c+9JfnJi+uiKWiQyAAeD2nju0x3gDHb5l4tDNW1CUsADib//aY7/za08SakVpFtPTm+/qybdP0okIM7aP5JCCbRMDd9y1vX+wQ1gArQAKC96YRNVRzOY7UqW15sYRno3XRJJja0lh5m1cEIKg3Dg92q7RiACCT4pzubTnuwCO6/gifhgGX/3rFyrrjuc5zMJMijzHdRZmGs98+y0AsRxHUchsUTQzgljP1dt3Dvzbf/+Bf/u/v1+nAMEFiVv16OnH36yUaoRo2bKNiVT7vLfWPDzS88mfuOcX/+v7B8YcBg9EI2gAjUQAwmzb8ZCZxQIKAVqtCVhpQI0ELISwaazgeb6wZWFr49XltZXl5fZZ2c6ujjvu2elo3wpattPXF4IwEJD2EbbOrkx/bxeB3TjKuvEiJQeSEwn/SbNTJtTAGiBmYQAWjq1lAiQt9zywP1dgYREWANCOyyxxFP3J773wxb94Y32tZg2LCLMgMhExE4Ljec5979l/zwMTAKxUjAjf/vrZ3/3vT01dqYRhLBvPOotYRI2glLYHDm++/z2HidrnUb8bhZCI2ofhiNpZtEFQbAFAEIWICEkwHt/Sr5WDKCBWRF24OHPq1DVjLJGkM3rX7rH2WVlj7EvPnanX4vatCkLKFdIDwzkRp30R6sZrkoTBJB39p1Nw478sbA1cm5rt7Mp1duaJkMUguw9/+PCli5Nf/vOTGtMIwGwBmSVs1L3f/c1vfe1r7m23H9yyrW/7joGBwU4/rbXWgMTWZHN6977hZ74+KQyA4jjedx4/9dprZ+68Z/fuXWMjm/tGxjvyhbQ1rDQROq5rDt+y9fN/+pyCAgb2u6EbEVmsiF1eqp45MQcSC4DW+vqVJWBtrZAyrgNDw50AjAgIpFCvLIYXz8/dfNtepZRWlEpl2m0b15Zbr7924b4HbgeU9nwmx8GRzR3Kc9qDipOVYSLhO5ChihBgBEgmhtdeOp/OeA9/8FbHbW9gUKEj/ROf+uDls+Uzx9aIUCRCTIPYT/yrgwdv2v35zz39uT99vFHlfQf7f/nXf2xsfFhEAIQZSIHjAguD9QH1nfeOf+xHH/jGYy9/+xunP/v7r3YP0H/6lR+9+77dqKxgDJJCoHTWE4pIFLajHyAC8EaYhZPHJ3/xFz5vI0cwFrEE5PmOMWQ57usujG8eEjCIGsEKxJVy7Y1XJqs/Vc+kC8yEoAQ0AJx669ql88vVanNAPGFhRqVgdHOXlyLcSHo3CshJLEwk/KeNhQhKASmnXsWvffnVw0d2jox3ICGCBqHR8b6f+rkH/9N/+PL6SkgKgxaMbMs+/KGbt+8YOnBo9NrUysz1knZssVgU1kgCyKRUq4YLcxUkABTtmHves+/IHUN7Dv7A/Ez1ysUVK+HEzj7LEYJPCCJWBK5dWRLrGWlZiQQEhNvfHSEh4v6DW371N39cKS3MiCpshr/za09eOrsiKF092f6BjrY9DBYAq+XStcmF82dmBoc62AIRAQBb9forl1ZXopWVtQkuEjlILIzDIz2OzwJ242JhImAi4T9B+Lux9AFEQWIBzTYCIUTn5NH5L//lK//659+bzqImTxGiY+6+f89HH53+k0+/bCJXqHL3/TcPDw1Yix0d2YM35fYdiEWUdkgkRtQgGATB3PTaS89fsMyowm27+m+5czMCpTPutp24bUe3iEMqBEBgYomQpFZpvvT8qailXS+wEm/0NoXv3jqUvv6unr4OQiIEEVUp1f78D18SQGthZKzH9bWx4mhBVFHI66vVZs28/tLl+x48QAqZBSRcWqyeOTltQllaXAXceuO+sjsw2JPNeZYtb9zxTRxMCjNvs4GMDIJCIojC1ophEGEPwAIKSeZLf/HayZMzQB6DESEB7Xn60R+/99a7NkWR6e3rev/Dt6XSXvtIpwgq5Sutbbs4Y4ENVevB1/7i1Uvnl720iMB73n/zwFCelCVigiyIVgoRXBIXBAVtsxl99YtvvP7KlCIlaBCUAIIgCyNYRBGrUARQgADFAoVMloBIKWOa4xPdRAiAAiIirSBaWmySdt547cLaaklYUETAXjg3ff1KLQpxaaEEwCxWhERsZ1dueLAvjmNBLSgghEl1NJHwbcs8LQgDKCPss7YaBRw0HjIgMCIo1SIVltfCP//Db9RWm8CakQCQRYo9qZ/5dx+c2NMdRNGLL546c3YqjON2tkmIJEhAypKR+NLk9V//1S/+1V+dyKhuscrz0ufPzL368tVWEwERyZKyAAYIhRC1rCzXP/v7z3zm15+ullkp027yQtogOgII4CAgoRXQAi6AYnABHUJHu4oj9DwYGetRikg5AA4LNFthvd5UCudn6qePTQkYQDCxc+LYTL3OhlvVWpUZRRQiorDn4PCmvBgDEBEj2iQYJuno2xcERYTBsHVsLSA88fqVPwi/TKTRdbSl0NjTp6YUiHL81567/l9/6fMjo5siAAR0MRawcQS9Pbnrl2p/9ruvf/Mrxw8cHt29b3jHjrHOzmLK94KgMjNVe+P45TeeOXV1ag1sRiDUYmykn/r6qeNvnN61Z3Tn7k17D452dXdm0r6JeXlx/ezpSy8/d+ncyfWw6XsuIFsNWVJQWoz++LefTWe92JBQTITAVphQITIygInihetLriLl5l5++sLVCyVQVgEqNPVSOD25JKFqGPOXf/7KxbNz1rKx0UtPX0QTuRpPvDT3e//taSGMsSkEqbSeuba8Y+uwZbbMWgECquRx+bu/uSeNnv7uMDOLvT6z/MjDv1lfY5C6koZAxlgH0WjdzlO1JsWgLTTICKIVIAE07GhExAgUa3KNcYENoUMupHPoamwFxoSmFVkyrtI2Fk0QKRUjpEEca2NjGCB2UyadSaX8bBRhtdE0cYBxSjkgwKQia12wSGgYSGHTCGr0WSJjDZEGVoSGgQFIoaOVQ1piY5kjw0DttnFEpB1kIeWx2DBqaPQRCSkQcUCAtMQRWmAiAhsqUNq1YUwf+6lb/uN//mHXoHVQk6akOpNEwrclEgKzsBfX3qunldeIgBAj5goqF2wIwqIdYmtCYU8pQEeJUAyIwijoCoREylqDGg0xgRD51hrVYBFBq9FxxBcy1pAVBGAE7cfhrHZBoRZrHE1sPdsybi0UspbAuoS+CsGSBaVIgc8OE8TikECLbBaJVbuForT734BVjkikGBg5YiRFroNMlgCtKEEFwACRWCbNoH3LoDUYExM5gAaARSvX0cIGY1KcYtVqAOylnQJKNAjZxL9EwrctbUASxBzaj3pnM6lV7RYCN+VAYBs1V6dN3lPzaybrxCPD3vL1alqlMnnVNC2M/QhVIR+uL2vwVFcHlOtNZTO1GoUU9nXFyG5ooSsnlRW/IWakL45bTiQxgo2M05dt1NdymbyNLUGgnWyYcrEVR2mtQ8lDurYyHXYUfOFI1TOBa9mhtBuV1x0KODXohOv1nJcJuOUr1+mwpXq6XguzKip0SFhxBG0IGZ0LYM1xMiFoVV9zdDGIy8rvJl9HtpH1+sJWCZQgoIj4Kc9w1GxEvmOMk7ZuFsqzVKWMuklhu4lb0j44kfBtLMwgAmjQKQlUwOqem4u3PURrp2q//3n8Xz7l1G399z/jvPfh/MGd1adf7b/3bvZiuVbO5qjBcXZ8r758Lg5auf2HwlMXlRfHf/indrAv9fM/nec4XgtUf1/9t3/DGxukT/6AapbdFvpRS5nYGxzUl684Q31OIR/PXvc3jWSNU19dLQ71lSdn/IMH+PFv5EZHoLcYzsyRhqzW2NdZ+vQfOkuL/OM/zOcvde7ZE3hOj9Z+36ZGabr2e7+f6xx0P/VT4WqVVq5FS0vulkPxyRfTh2/PGVt/9ZX89z/c/MJf5j/8sI6lvramu7qw3MTtE3G8Hl26mJnYW728lM6lsulCmFVumkq//t+c8iKCITGgnORqfSLh25uQKuQqxJbA04pSmdSdh9Z/60Vjgmy2GF+97nIln0vH5TC950hUapkr5wo/9AjrdDF26t/8auYTD9dXq803zubuvq16dTIO4/xNO1SlKmVWH3zQHDuqo6VWtp/CANxU8f6719fnYbW89PJRt6M3VeiCrWPpfTvD2WWuVkNHUr5jKKr3pqOxDren6O7Ynd1xENeXhJurL511CsVmuTSwfV85lcehkd7dm2FhpVxai/1MZu8RrpXU3u3FONM8d9T0djkTe6Sx3nn/vfWVFVte8w4c6K1Xq6lUeGlSbd9ULlc7eruK+/dh2FyrRuWMu8qt3fe9xzSC9a89lhruhNVyqEJUVhSKBU10o31pwt+JZIvi7xcJrSjNWoMXg4055lLF7Rs0otaffTH1/oN2y77VV1/1Jva6u4dUgaCvq14uQ1yPqOb091Ar8qJYDRRMFKt83vT3xi3H6eyKulNeraxKVW4aK5ayPoANy40cpYT9wqHduZsPtzIZ2xITaEUpJt/VOXIz7KY6sl1YEk8rO7dGLSueZxh677nJ7R2igSEc7Sns3yGOKyVrfF+nMpl8rzSjsLNoqtQK69DVo0f3qe5cdri/UaubNOGuCUNuvW/Adwqd99zqjI4W0l3YmQ8qJRuaMJXxtdOFqt6sa1elY0PcoqClldHtpsJEIpzsEyaR8O2rjooRFkI3JKV1sLq4/vg3NMdUzObzRfPmeb24mD6wO54633r6m/5Nt3QWupefed5PuYFtOhNHVr7wlzoOswcOV7/8xeyBPZ1b91Rfeja1fRQdHXzhr+LSit8MwloL5ypSW28c/cM4rW0sue2Diy++kivkDLml1UpmqAjZHK7XWFq4tLj2519QtVJ04qRYWBVxAEWjMz5oTp/0utNrX3sMxbWeaxef9Yt56MwFS3PmxGvOvn31b3w7ttVsT9as1atx5GXT/NYU93g5gYXX3nLQULEnTGFwfT61eVzOzpeef90vdmAcqpFuaa5Xv/h1Kmbx2nQz8B3lhTFRTBSJcRiZVTJg++/15p5sUfzdMWwDsXZmaupTP+1XlzU4IaEFQyG7Oq0gjmwAyg+U1nEVIG1BE1pXUDRY9B1TQZGYUuKEDngqjjiOWKcRISBwBSRmS7GiVMOD7ohbYl2mmgepSIyDxEzMxlWGKWshVijMKMwMiKjAhopT4oSgjHA2juuegMEsO5wjDmNkYnID03J1oEyWlQMYgCKMiUAiTW5A4gobiCFMaSewKEr82Aau4xorxEaEGF3HEWuBGRUEyCSkkZuBm/rEo9t+/uetA4ToiAPJRmEi4dsUCa2xplErXXiLTeyzixQhI6pUiIEjCkAjGAtiLQuCh16MFuJAawdFI1oWNqgVRHGsFFGsbUockdgACGtFpKChBCPtsgVL4gAKWGRllKAhjSgiwgZJM6IB9gitZSHQiCY25GoFCiMxwEZbjwUFYy1KHG0xBojBeGAi1KBIiaBhVq5CJmTbnjfDOubQIc+CaLCuqLDdq4YARaxlh4EJlAJgYY3IFBkgcnRfsWNiF0loldbgJNuEiYRvT1lGQEQQEIg3TirfuKmwMRNsYzwLfPcXgkgb81oAAQVhY0Zn+29huxNE+5PjxliYG78FgAJA7QuFKDfOjWP7/9pfkgAAN74SANz4DURp/20AQEYBQQKQG39lY/iMbExo4/8xlLA9y0JQ6MZwGvxbLeY2/pEb07/bZ003Xoz2HyQQK4iISf/fRMKEhKQ6mpCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQkEiYkJBImJCQSJi8BAkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJiYQJCYmECQkJ/7T8fwBSC1bmm5byRAAAAABJRU5ErkJggg==",
     "categories": [],
-        "courses": [
+    "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -465,55 +569,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -556,22 +681,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e5e04ee6fe2ce45f9cf924"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e71db7e6fe2ce45f9cf95a"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e71f67e6fe2ce45f9cf95c"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65e7203de6fe2ce45f9cf95e"
+        "$oid": "mba"
       },
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "mca"
       },
       {
-        "$oid": "65e7226ce6fe2ce45f9cf964"
+        "$oid": "ba"
+      },
+      {
+        "$oid": "mtech"
+      },
+      {
+        "$oid": "barch"
+      },
+      {
+        "$oid": "pharm-d"
+      },
+      {
+        "$oid": "b-pharm"
+      },
+      {
+        "$oid": "d-pharma"
+      },
+      {
+        "$oid": "b-tech-civil-engineering"
+      },
+      {
+        "$oid": "b-tech-mechanical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse"
+      },
+      {
+        "$oid": "b-tech-aerospace-engineering"
+      },
+      {
+        "$oid": "b-tech-in-ai-ml"
+      },
+      {
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -611,49 +790,76 @@
     ],
     "courses": [
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "bba"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-aerospace-engineering"
+      },
+      {
+        "$oid": "b-tech-in-ai-ml"
+      },
+      {
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -691,60 +897,78 @@
         "$oid": "65eed592e6fe2ce45f9cf9e7"
       }
     ],
-        "courses": [
+    "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -782,60 +1006,78 @@
         "$oid": "65eed592e6fe2ce45f9cf9e7"
       }
     ],
-        "courses": [
+    "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -873,60 +1115,78 @@
         "$oid": "65eed592e6fe2ce45f9cf9e7"
       }
     ],
-        "courses": [
+    "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -937,7 +1197,6 @@
     },
     "__v": 0
   },
-
   {
     "_id": {
       "$oid": "65f451edfc134d8fgds23063d"
@@ -965,62 +1224,81 @@
         "$oid": "65eed592e6fe2ce45f9cf9e7"
       }
     ],
-        "courses": [
+    "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
-    ],
+    ]
+    ,
     "createdAt": {
       "$date": "2024-03-15T13:47:40.181Z"
     },
@@ -1029,16 +1307,14 @@
     },
     "__v": 0
   },
-
   {
     "_id": {
       "$oid": "bms-institute-of-technology-and-management"
     },
     "name": "BMS Institute of Technology and Management",
-    "about": "<div><p>Established in 2002, the BMS Institute of Technology and Management is a private institute accredited by the <strong>NAAC</strong> with ‘A’ Grade. This institute is located in Bengaluru, Karnataka. It is affiliated with the <a href='https://www.shiksha.com/university/vtu-visvesvaraya-technological-university-belgaum-51576'>Visvesvaraya Technological University (VTU)</a>, Belagavi. BMS Institute of Technology and Management has been recognised by the AICTE, Government of India. The institute offers several courses such as BE, MCA, MTech, MSc and PhD. There are seven VTU-recognised research centers in BMSIT Bangalore where 40 research scholars are working in diverse research areas. BMSIT offers specialisations in <strong>12</strong> departments namely Artificial Intelligence and Machine Learning, Chemistry, Civil Engineering, Electronics and Telecommunication Engineering, Mathematics, and Physics, among others. Check the BMSIT Bangalore highlights in the following table.</p><table style='width: 1151px;' border='1' cellspacing='0' cellpadding='0'><tbody><tr><th style='width: 520.453px;'><strong>Particulars</strong></th><th style='width: 595.547px;'><strong>Statistics</strong></th></tr><tr><td style='width: 520.453px;' valign='top'><p>Establishment year</p></td><td style='width: 595.547px;' valign='top'><p>2002</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Location</p></td><td style='width: 595.547px;' valign='top'><p>Yelahanaka</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Campus size</p></td><td style='width: 595.547px;' valign='top'><p>25 acre</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Students intake</p></td><td style='width: 595.547px;' valign='top'><p>936</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Affiliated to</p></td><td style='width: 595.547px;' valign='top'><p><a href='https://www.shiksha.com/university/vtu-visvesvaraya-technological-university-belgaum-51576'>Visvesvaraya Technological University (VTU)</a></p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Number of courses</p></td><td style='width: 595.547px;' valign='top'><p>10+ courses</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Scholarships offered</p></td><td style='width: 595.547px;' valign='top'><p>Scholarships from the alumni association for SC/ST</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Total collaborations</p></td><td style='width: 595.547px;' valign='top'><p>34</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>MoUs</p></td><td style='width: 595.547px;' valign='top'><p>Toyota Kirloskar Motor, TATA ELXSI, TCS</p></td></tr></tbody></table><p>Check out more on BMS Institute of Technology and Management Highlights in the below video:</p><div class='vcmsEmbed' style='margin: 5px 0;'><iframe width='560' height='315' frameborder='0' allowfullscreen='allowfullscreen' data-vcmsid='1959' class='lazy' id='vcms_1959_1' data-gtm-yt-inspected-788097_124='true' data-gtm-yt-inspected-12='true' src='https://www.youtube.com/embed/G7YmFtkbSV0?enablejsapi=1' title='BMS Institute of Technology and Management, Bangalore - College Review by the Students'></iframe><div class='vcmsEmbed' style='margin: 5px 0;'><iframe width='560' height='315' frameborder='0' allowfullscreen='allowfullscreen' data-vcmsid='20137' class='lazy' id='vcms_20137_2' data-gtm-yt-inspected-788097_124='true' data-gtm-yt-inspected-12='true' src='https://www.youtube.com/embed/bTXhPIgEfJk?enablejsapi=1' title='BMS Institute of Technology & Management (BMSIT&M) | Best Private Engineering College in India'></iframe><div class='vcmsEmbed' style='margin: 5px 0;'><iframe width='560' height='315' frameborder='0' allowfullscreen='allowfullscreen' data-vcmsid='20187' class='lazy' id='vcms_20187_3' data-gtm-yt-inspected-788097_124='true' data-gtm-yt-inspected-12='true' src='https://www.youtube.com/embed/_raNspvFTI0?enablejsapi=1' title='BMSIT CIVIL Testimonial by Student Alumnus'></iframe></div></div></div></div></div>"
-  ,
-  "excerpt": "BMS Institute of Technology and Management, established in 2002, is a prestigious private institute in Bengaluru, Karnataka. Accredited with Grade by NAAC, it offers diverse courses and houses seven VTU-recognized research centers. With notable collaborations and a sprawling campus, it stands as a beacon of quality education and innovation.",
-  "placements": {
+    "about": "<div><p>Established in 2002, the BMS Institute of Technology and Management is a private institute accredited by the <strong>NAAC</strong> with ‘A’ Grade. This institute is located in Bengaluru, Karnataka. It is affiliated with the <a href='https://www.shiksha.com/university/vtu-visvesvaraya-technological-university-belgaum-51576'>Visvesvaraya Technological University (VTU)</a>, Belagavi. BMS Institute of Technology and Management has been recognised by the AICTE, Government of India. The institute offers several courses such as BE, MCA, MTech, MSc and PhD. There are seven VTU-recognised research centers in BMSIT Bangalore where 40 research scholars are working in diverse research areas. BMSIT offers specialisations in <strong>12</strong> departments namely Artificial Intelligence and Machine Learning, Chemistry, Civil Engineering, Electronics and Telecommunication Engineering, Mathematics, and Physics, among others. Check the BMSIT Bangalore highlights in the following table.</p><table style='width: 1151px;' border='1' cellspacing='0' cellpadding='0'><tbody><tr><th style='width: 520.453px;'><strong>Particulars</strong></th><th style='width: 595.547px;'><strong>Statistics</strong></th></tr><tr><td style='width: 520.453px;' valign='top'><p>Establishment year</p></td><td style='width: 595.547px;' valign='top'><p>2002</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Location</p></td><td style='width: 595.547px;' valign='top'><p>Yelahanaka</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Campus size</p></td><td style='width: 595.547px;' valign='top'><p>25 acre</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Students intake</p></td><td style='width: 595.547px;' valign='top'><p>936</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Affiliated to</p></td><td style='width: 595.547px;' valign='top'><p><a href='https://www.shiksha.com/university/vtu-visvesvaraya-technological-university-belgaum-51576'>Visvesvaraya Technological University (VTU)</a></p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Number of courses</p></td><td style='width: 595.547px;' valign='top'><p>10+ courses</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Scholarships offered</p></td><td style='width: 595.547px;' valign='top'><p>Scholarships from the alumni association for SC/ST</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>Total collaborations</p></td><td style='width: 595.547px;' valign='top'><p>34</p></td></tr><tr><td style='width: 520.453px;' valign='top'><p>MoUs</p></td><td style='width: 595.547px;' valign='top'><p>Toyota Kirloskar Motor, TATA ELXSI, TCS</p></td></tr></tbody></table><p>Check out more on BMS Institute of Technology and Management Highlights in the below video:</p><div class='vcmsEmbed' style='margin: 5px 0;'><iframe width='560' height='315' frameborder='0' allowfullscreen='allowfullscreen' data-vcmsid='1959' class='lazy' id='vcms_1959_1' data-gtm-yt-inspected-788097_124='true' data-gtm-yt-inspected-12='true' src='https://www.youtube.com/embed/G7YmFtkbSV0?enablejsapi=1' title='BMS Institute of Technology and Management, Bangalore - College Review by the Students'></iframe><div class='vcmsEmbed' style='margin: 5px 0;'><iframe width='560' height='315' frameborder='0' allowfullscreen='allowfullscreen' data-vcmsid='20137' class='lazy' id='vcms_20137_2' data-gtm-yt-inspected-788097_124='true' data-gtm-yt-inspected-12='true' src='https://www.youtube.com/embed/bTXhPIgEfJk?enablejsapi=1' title='BMS Institute of Technology & Management (BMSIT&M) | Best Private Engineering College in India'></iframe><div class='vcmsEmbed' style='margin: 5px 0;'><iframe width='560' height='315' frameborder='0' allowfullscreen='allowfullscreen' data-vcmsid='20187' class='lazy' id='vcms_20187_3' data-gtm-yt-inspected-788097_124='true' data-gtm-yt-inspected-12='true' src='https://www.youtube.com/embed/_raNspvFTI0?enablejsapi=1' title='BMSIT CIVIL Testimonial by Student Alumnus'></iframe></div></div></div></div></div>",
+    "excerpt": "BMS Institute of Technology and Management, established in 2002, is a prestigious private institute in Bengaluru, Karnataka. Accredited with Grade by NAAC, it offers diverse courses and houses seven VTU-recognized research centers. With notable collaborations and a sprawling campus, it stands as a beacon of quality education and innovation.",
+    "placements": {
       "companies": "Manchanda Associates\tEdifice Architects Pvt. Ltd.\tHafeez contractor Chitra Vishwanath Architects\tArcop associates\tSleek International Skets studio\tGreenply industries\tHBA International Hafele India\tVSA Space Design (P) Ltd.\tSahara Group",
       "highestPackage": " 18 LPA.",
       "averagePackage": ".5 LPA",
@@ -1058,60 +1334,78 @@
         "$oid": "65eed592e6fe2ce45f9cf9e7"
       }
     ],
-        "courses": [
+    "courses": [
       {
-        "$oid": "65e720c8e6fe2ce45f9cf960"
+        "$oid": "bcom"
       },
       {
-        "$oid": "65e72366e6fe2ce45f9cf966"
+        "$oid": "bba"
       },
       {
-        "$oid": "65e7271fe6fe2ce45f9cf968"
+        "$oid": "mcom"
       },
       {
-        "$oid": "65eeb6d7e6fe2ce45f9cf9ca"
+        "$oid": "mba"
       },
       {
-        "$oid": "65eeb826e6fe2ce45f9cf9cc"
+        "$oid": "mca"
       },
       {
-        "$oid": "65eebabfe6fe2ce45f9cf9d0"
+        "$oid": "ba"
       },
       {
-        "$oid": "65eeb95fe6fe2ce45f9cf9ce"
+        "$oid": "mtech"
       },
       {
-        "$oid": "65eebb98e6fe2ce45f9cf9d4"
+        "$oid": "barch"
       },
       {
-        "$oid": "65eebb3be6fe2ce45f9cf9d2"
+        "$oid": "pharm-d"
       },
       {
-        "$oid": "65eebcfee6fe2ce45f9cf9d6"
+        "$oid": "b-pharm"
       },
       {
-        "$oid": "65eec1dde6fe2ce45f9cf9d8"
+        "$oid": "d-pharma"
       },
       {
-        "$oid": "65eec52ce6fe2ce45f9cf9da"
+        "$oid": "b-tech-civil-engineering"
       },
       {
-        "$oid": "65eed732e6fe2ce45f9cf9e9"
+        "$oid": "b-tech-mechanical-engineering"
       },
       {
-        "$oid": "65eed795e6fe2ce45f9cf9eb"
+        "$oid": "b-tech-in-cse"
       },
       {
-        "$oid": "65eede5be6fe2ce45f9cf9f2"
+        "$oid": "b-tech-aerospace-engineering"
       },
       {
-        "$oid": "65eedae8e6fe2ce45f9cf9ed"
+        "$oid": "b-tech-in-ai-ml"
       },
       {
-        "$oid": "65eedface6fe2ce45f9cf9f4"
+        "$oid": "b-tech-aeronautical-engineering"
       },
       {
-        "$oid": "65eee348e6fe2ce45f9cf9f9"
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
       }
     ],
     "createdAt": {
@@ -1122,6 +1416,4 @@
     },
     "__v": 0
   }
-
-  
 ]
