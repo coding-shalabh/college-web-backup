@@ -157,7 +157,7 @@
     "_id": {
       "$oid": "b-tech-civil-engineering"
     },
-    "title": "B.Tech Civil Engineering",
+    "title": "B. Tech Civil Engineering",
     "description": "<p>Eligibility-10+2,50% in 12th in PCM<br>Duration-4years<br>Course content- Civil engineers design major transportation projects. Civil engineers plan, design, and supervise the construction and maintenance of building and infrastructure projects. These projects may include facilities, bridges, roads, tunnels, and water and sewage systems.<br>Scope of the program- planning, designing, estimating, supervising, managing and maintenance of structures like building, roads, bridges, dams etc.</p>",
     "createdAt": {
       "$date": "2024-03-11T07:46:31.332Z"
@@ -171,7 +171,7 @@
     "_id": {
       "$oid": "b-tech-mechanical-engineering"
     },
-    "title": "B.Tech Mechanical Engineering",
+    "title": "B. Tech Mechanical Engineering",
     "description": "<p>Eligibility-10+2,50% in 12th in PCM<br>Duration-4years<br>Course content- Mechanical engineers design power-producing machines, such as electric generators, internal combustion engines, and steam and gas turbines, as well as power-using machines, such as refrigeration and air-conditioning systems. Mechanical engineers design other machines inside buildings, such as elevators and escalators.<br>Scope of the program- design engineering, energy technology, automotive engineering, aeronautical engineering, biomedical engineering, and many more</p>",
     "createdAt": {
       "$date": "2024-03-11T07:52:06.937Z"
@@ -185,7 +185,7 @@
     "_id": {
       "$oid": "b-tech-in-cse"
     },
-    "title": "B Tech in CSE",
+    "title": "B. Tech in CSE",
     "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content-</strong>Computer Science Engineering is an integrated field of study that combines elements of computer science to develop and enhance computer systems. It involves designing and managing hardware and software processes, ensuring efficient and innovative solutions in technology. CSE encompasses a broad range of topics, from algorithmic processing and computer architecture to software engineering and networking.</p><p><strong>SCOPE OF THE PROGRAM -</strong>Network Engineer, IT Consultant, Software Developer, System Analyst, Data Scientist, Business Analyst.</p>",
     "createdAt": {
       "$date": "2024-03-11T07:57:19.909Z"
@@ -199,7 +199,7 @@
     "_id": {
       "$oid": "b-tech-aerospace-engineering"
     },
-    "title": "B.Tech Aerospace Engineering",
+    "title": "B. Tech Aerospace Engineering",
     "description": "<p>Eligibility-10+2,50% in 12th in PCM<br>Duration-4years<br>Course content- Aerospace engineers evaluate designs to see that the products meet engineering principles. Aerospace engineers design, develop, and test aircraft, spacecraft, satellites, and missiles. In addition, they create and test prototypes to make sure that they function according to design.<br>Scope of the program- Airlines, Air Force, Defence Ministry, Helicopter Companies, Aviation Companies, NASA,</p>",
     "createdAt": {
       "$date": "2024-03-11T08:03:11.742Z"
@@ -213,7 +213,7 @@
     "_id": {
       "$oid": "b-tech-in-ai-ml"
     },
-    "title": "B Tech in AI & ML",
+    "title": "B. Tech in AI & ML",
     "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content</strong></p>",
     "createdAt": {
       "$date": "2024-03-11T08:05:15.344Z"
@@ -227,7 +227,7 @@
     "_id": {
       "$oid": "b-tech-aeronautical-engineering"
     },
-    "title": "B.Tech Aeronautical Engineering",
+    "title": "B. Tech Aeronautical Engineering",
     "description": "<p>Eligibility-10+2,50% in 12th in PCM<br>Duration-4years<br>Course content-Aeronautical engineers work with aircraft. They are involved primarily in designing aircraft and propulsion systems and in studying the aerodynamic performance of aircraft and construction materials. They work with the theory, technology, and practice of flight within the Earth's atmosphere.<br>Scope of the program- Flight Mechanics Engineer, Graduate Engineer Trainee, Assistant aircraft engineer, Aircraft Production Manager, Thermal Design Engineer and Air safety officer in government organizations.&nbsp;</p>",
     "createdAt": {
       "$date": "2024-03-11T08:06:48.280Z"
@@ -241,7 +241,7 @@
     "_id": {
       "$oid": "b-tech-in-cse-with-cyber-security"
     },
-    "title": "B Tech in CSE with Cyber Security",
+    "title": "B. Tech in CSE with Cyber Security",
     "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>Cybersecurity is the practice of protecting internet-connected systems such as hardware, software and data from cyberthreats. It's used by individuals and enterprises to protect against unauthorized access to data centers and other computerized systems. An <a href=\"https://www.techtarget.com/searchsecurity/tip/How-to-develop-a-cybersecurity-strategy-Step-by-step-guide\">effective cybersecurity strategy</a> can provide a strong <a href=\"https://www.techtarget.com/searchsecurity/definition/security-posture\">security posture</a> against malicious attacks designed to access, alter, delete, destroy or extort an organization's or user's systems and sensitive data. Cybersecurity is also instrumental in preventing attacks designed to disable or disrupt a system's or device's operations.</p><p><strong>SCOPE OF THE PROGRAME -</strong>Security Software Developer, Security Administrator, Security Engineer, Cryptanalyst.</p>",
     "createdAt": {
       "$date": "2024-03-11T08:33:33.658Z"
@@ -255,7 +255,7 @@
     "_id": {
       "$oid": "b-tech-in-cse-with-data-science"
     },
-    "title": "B Tech in CSE with Data Science",
+    "title": "B. Tech in CSE with Data Science",
     "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B. Tech in Computer Science & Engineering(Data Science) is a journey towards mastering CSE in the field of Data Science applying Machine Learning techniques. It is intensive skill-oriented program with enough practical training for building business models for analytics. With analysis and statistical approach, data science is one of the fastest growing career opportunities in the country. It is designed to give exposure to the variety of applications that can be built using techniques covered under this program.</p><p><strong>SCOPE OF THE PROGRAME -</strong>Data Architects, Financial Modeler, Data Engineers, Clinical and Pharmaceutical Data Analyst, Database Administrators</p>",
     "createdAt": {
       "$date": "2024-03-11T08:47:40.559Z"
@@ -269,8 +269,8 @@
     "_id": {
       "$oid": "b-tech-in-cse-with-chemical-engineering"
     },
-    "title": "B Tech in CSE with Chemical Engineering",
-    "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B Tech Chemical Engineering introduces the students to the principles of chemistry linking it to engineering in order to explain the problems involved in production and use of chemicals. The subject draws a connection between science and its application to manufacturing sectors. Candidates are strengthened in their leadership skills, problem-solving abilities, and designing of projects from start to end level.</p><p><strong>SCOPE OF THE PROGRAME - </strong>Diploma Engineer, Trainee, Project Instrumentation Engineer, Chemical Engineer, HSE Office, Production Engineer, Paint Engineering, Process Engineer, Executive - Engineering Store</p>",
+    "title": "B. Tech in CSE with Chemical Engineering",
+    "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B. Tech Chemical Engineering introduces the students to the principles of chemistry linking it to engineering in order to explain the problems involved in production and use of chemicals. The subject draws a connection between science and its application to manufacturing sectors. Candidates are strengthened in their leadership skills, problem-solving abilities, and designing of projects from start to end level.</p><p><strong>SCOPE OF THE PROGRAME - </strong>Diploma Engineer, Trainee, Project Instrumentation Engineer, Chemical Engineer, HSE Office, Production Engineer, Paint Engineering, Process Engineer, Executive - Engineering Store</p>",
     "createdAt": {
       "$date": "2024-03-11T10:04:34.058Z"
     },
@@ -283,8 +283,8 @@
     "_id": {
       "$oid": "b-tech-in-biotechnology"
     },
-    "title": "B Tech in Biotechnology",
-    "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B Tech Chemical Engineering introduces the students to the principles of chemistry linking it to engineering in order to explain the problems involved in production and use of chemicals. The subject draws a connection between science and its application to manufacturing sectors. Candidates are strengthened in their leadership skills, problem-solving abilities, and designing of projects from start to end level.</p><p><strong>SCOPE OF THE PROGRAME - </strong>Diploma Engineer, Trainee, Project Instrumentation Engineer, Chemical Engineer, HSE Office, Production Engineer, Paint Engineering, Process Engineer, Executive - Engineering Store</p>",
+    "title": "B. Tech in Biotechnology",
+    "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B. Tech Chemical Engineering introduces the students to the principles of chemistry linking it to engineering in order to explain the problems involved in production and use of chemicals. The subject draws a connection between science and its application to manufacturing sectors. Candidates are strengthened in their leadership skills, problem-solving abilities, and designing of projects from start to end level.</p><p><strong>SCOPE OF THE PROGRAME - </strong>Diploma Engineer, Trainee, Project Instrumentation Engineer, Chemical Engineer, HSE Office, Production Engineer, Paint Engineering, Process Engineer, Executive - Engineering Store</p>",
     "createdAt": {
       "$date": "2024-03-11T10:06:13.907Z"
     },
@@ -297,8 +297,8 @@
     "_id": {
       "$oid": "b-tech-in-ece"
     },
-    "title": "B Tech in ECE",
-    "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B Tech ECE course provides students with in-depth knowledge and understanding of circuits, signals, and the technical procedure for developing great electronics and communications devices.</p><p><strong>SCOPE OF THE PROGRAME -</strong> Desktop Support Engineer, Design Engineer, System Analyst, Communications Engineer, Electronics Engineer.</p>",
+    "title": "B. Tech in ECE",
+    "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>B. Tech ECE course provides students with in-depth knowledge and understanding of circuits, signals, and the technical procedure for developing great electronics and communications devices.</p><p><strong>SCOPE OF THE PROGRAME -</strong> Desktop Support Engineer, Design Engineer, System Analyst, Communications Engineer, Electronics Engineer.</p>",
     "createdAt": {
       "$date": "2024-03-11T10:35:07.594Z"
     },
@@ -311,7 +311,7 @@
     "_id": {
       "$oid": "b-tech-in-eee"
     },
-    "title": "B Tech in EEE",
+    "title": "B. Tech in EEE",
     "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>Electrical and Electronics Engineering (EEE) is a popular engineering course that imparts knowledge related to electrical and machine technology, circuit analysis, telecommunication systems, power engineering and its related industries.</p><p><strong>SCOPE OF THE PROGRAME -</strong> Telecom Electrical Engineer, Product Design Engineer, Professor, Lab Instructor, Electrical/Electronics Engineer.</p>",
     "createdAt": {
       "$date": "2024-03-11T10:40:44.276Z"
@@ -325,7 +325,7 @@
     "_id": {
       "$oid": "b-tech-in-ise"
     },
-    "title": "B Tech in ISE",
+    "title": "B. Tech in ISE",
     "description": "<p><strong>Eligibility-</strong>10+2,50% 12th with PCM.<br><strong>Duration-</strong>4years<br><strong>Course content -</strong>Information Science Engineering is the ideal course for those who like to utilise various theories and innovations to solve complex problems in the IT sector. Information Science and Engineering professionals can contribute in IT and other sectors through analysis, design, development, support and testing of software along with embedded applications.</p><p><strong>SCOPE OF THE PROGRAME -</strong> Software Developer, Web Developer, UX Designer, Mobile App Developer, IT Project Manager, Information Security Analyst, Systems Architect.</p>",
     "createdAt": {
       "$date": "2024-03-11T10:56:08.344Z"

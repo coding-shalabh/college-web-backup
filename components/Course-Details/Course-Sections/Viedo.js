@@ -45,7 +45,7 @@ const Viedo = ({ checkMatchCourses }) => {
       ...values,
       college: selectedCollege,
     };
-    
+
     // text: `
     // ${Object.entries(formBody)?.map(([key, value], id) => {
     //   return `
@@ -58,23 +58,49 @@ const Viedo = ({ checkMatchCourses }) => {
         to: "abhishek23350@gmail.com",
         subject: "Enquiry for Registration",
         html: renderToStaticMarkup(
-          <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid black' }}>
-          <thead>
+          <table
+            style={{
+              width: "100%",
+              borderCollapse: "collapse",
+              border: "1px solid black",
+            }}
+          >
+            <thead>
               <tr>
-                  <th style={{ border: '1px solid black', padding: '8px', background: '#f2f2f2' }}>Field</th>
-                  <th style={{ border: '1px solid black', padding: '8px', background: '#f2f2f2' }}>Value</th>
+                <th
+                  style={{
+                    border: "1px solid black",
+                    padding: "8px",
+                    background: "#f2f2f2",
+                  }}
+                >
+                  Field
+                </th>
+                <th
+                  style={{
+                    border: "1px solid black",
+                    padding: "8px",
+                    background: "#f2f2f2",
+                  }}
+                >
+                  Value
+                </th>
               </tr>
-          </thead>
-          <tbody>
+            </thead>
+            <tbody>
               {Object.entries(formBody).map(([key, value]) => (
-                  <tr key={key}>
-                      <td style={{ border: '1px solid black', padding: '8px' }}>{key}</td>
-                      <td style={{ border: '1px solid black', padding: '8px' }}>{value}</td>
-                  </tr>
+                <tr key={key}>
+                  <td style={{ border: "1px solid black", padding: "8px" }}>
+                    {key}
+                  </td>
+                  <td style={{ border: "1px solid black", padding: "8px" }}>
+                    {value}
+                  </td>
+                </tr>
               ))}
-          </tbody>
-      </table>
-        )
+            </tbody>
+          </table>
+        ),
       };
 
       const response = await fetch("https://api.gined.in/api/email/", {
@@ -152,14 +178,20 @@ const Viedo = ({ checkMatchCourses }) => {
         </div>
       </Link> */}
       <div className="video-content">
-        <iframe
-          src={checkMatchCourses?.virtualTourLink ? checkMatchCourses?.virtualTourLink : '#'}
-          frameBorder="0"
-          className="w-100 rbt-radius"
-          width={355}
-          height={255} // Adjust height as needed
-          allowFullScreen
-        ></iframe>
+        {checkMatchCourses?.virtualTourLink && (
+          <iframe
+            src={
+              checkMatchCourses?.virtualTourLink
+                ? checkMatchCourses?.virtualTourLink
+                : ""
+            }
+            frameBorder="0"
+            className="w-100 rbt-radius"
+            width={355}
+            height={255} // Adjust height as needed
+            allowFullScreen
+          ></iframe>
+        )}
       </div>
       <div className="content-item-content">
         {/* <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">

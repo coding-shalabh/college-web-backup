@@ -1,58 +1,58 @@
-[{
-  "_id": {
-    "$oid": "65eed592e6fe2ce45f9cf9e7"
+[
+  {
+    "_id": {
+      "$oid": "65eed592e6fe2ce45f9cf9e7"
+    },
+    "title": "Engineering",
+    "description": "<p><strong>Description</strong> - The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property</p><p><strong>Types of Engineering </strong>- Civil Engineering , Structural Engineering , Transportation Engineering , Environmental Engineering , Mechanical Engineering , Aerospace Engineering , Marine Engineering , Automotive Engineering , Electrical Engineering , Information Technology (IT) Engineering , Network Engineering , Computer Engineering , Chemical Engineering , Pharmaceutical Engineering , Textile Engineering , Biochemical Engineering , Industrial Engineering , Systems Engineering , Supply Chain Engineering , Manufacturing Engineering&nbsp;</p>",
+    "createdAt": {
+      "$date": "2024-03-11T09:57:38.786Z"
+    },
+    "updatedAt": {
+      "$date": "2024-03-11T09:57:38.786Z"
+    },
+    "__v": 0
   },
-  "title": "Engineering",
-  "description": "<p><strong>Description</strong> - The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property</p><p><strong>Types of Engineering </strong>- Civil Engineering , Structural Engineering , Transportation Engineering , Environmental Engineering , Mechanical Engineering , Aerospace Engineering , Marine Engineering , Automotive Engineering , Electrical Engineering , Information Technology (IT) Engineering , Network Engineering , Computer Engineering , Chemical Engineering , Pharmaceutical Engineering , Textile Engineering , Biochemical Engineering , Industrial Engineering , Systems Engineering , Supply Chain Engineering , Manufacturing Engineering&nbsp;</p>",
-  "createdAt": {
-    "$date": "2024-03-11T09:57:38.786Z"
+  {
+    "_id": {
+      "$oid": "65eee310e6fe2ce45f9cf9f7"
+    },
+    "title": "Management",
+    "description": "<p><strong>Description - </strong>Management is the process of planning and organising the resources and activities of a business to achieve specific goals in the most effective and efficient manner possible. Efficiency in management refers to the completion of tasks correctly and at minimal costs. Effectiveness in management relates to the completion of tasks within specific timelines to yield tangible results.</p><p><strong>Types of Management Course -</strong> BBA , MBA , PGDM&nbsp;</p>",
+    "createdAt": {
+      "$date": "2024-03-11T10:55:12.856Z"
+    },
+    "updatedAt": {
+      "$date": "2024-03-11T10:55:12.856Z"
+    },
+    "__v": 0
   },
-  "updatedAt": {
-    "$date": "2024-03-11T09:57:38.786Z"
+  {
+    "_id": {
+      "$oid": "<unique_id>"
+    },
+    "title": "Elite Science",
+    "description": "<p><strong>Description - </strong>Elite Science encompasses cutting-edge scientific disciplines that push the boundaries of human knowledge and understanding. These fields often involve highly specialized research and experimentation, leading to breakthroughs in technology, medicine, and various other domains. Elite scientists work on groundbreaking projects that have the potential to revolutionize industries and improve the quality of life.</p><p><strong>Types of Elite Science Courses -</strong> PhD in Quantum Physics, Computational Neuroscience, Synthetic Biology</p>",
+    "createdAt": {
+      "$date": "<creation_date>"
+    },
+    "updatedAt": {
+      "$date": "<update_date>"
+    },
+    "__v": 0
   },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "65eee310e6fe2ce45f9cf9f7"
-  },
-  "title": "Management",
-  "description": "<p><strong>Description - </strong>Management is the process of planning and organising the resources and activities of a business to achieve specific goals in the most effective and efficient manner possible. Efficiency in management refers to the completion of tasks correctly and at minimal costs. Effectiveness in management relates to the completion of tasks within specific timelines to yield tangible results.</p><p><strong>Types of Management Course -</strong> BBA , MBA , PGDM&nbsp;</p>",
-  "createdAt": {
-    "$date": "2024-03-11T10:55:12.856Z"
-  },
-  "updatedAt": {
-    "$date": "2024-03-11T10:55:12.856Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "<unique_id>"
-  },
-  "title": "Ellite Science",
-  "description": "<p><strong>Description - </strong>Ellite Science encompasses cutting-edge scientific disciplines that push the boundaries of human knowledge and understanding. These fields often involve highly specialized research and experimentation, leading to breakthroughs in technology, medicine, and various other domains. Elite scientists work on groundbreaking projects that have the potential to revolutionize industries and improve the quality of life.</p><p><strong>Types of Elite Science Courses -</strong> PhD in Quantum Physics, Computational Neuroscience, Synthetic Biology</p>",
-  "createdAt": {
-    "$date": "<creation_date>"
-  },
-  "updatedAt": {
-    "$date": "<update_date>"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "<unique_id>"
-  },
-  "title": "Law",
-  "description": "<p><strong>Description - </strong>Law is a system of rules created and enforced through social or governmental institutions to regulate behavior, with its precise definition a matter of longstanding debate. It regulates and ensures that individuals or a community adhere to the will of the state. The law also sets the foundation for the resolution of disputes and the protection of rights.</p><p><strong>Types of Law Courses -</strong> LLB, LLM, Juris Doctor (JD)</p>",
-  "createdAt": {
-    "$date": "<creation_date>"
-  },
-  "updatedAt": {
-    "$date": "<update_date>"
-  },
-  "__v": 0
-}
-
+  {
+    "_id": {
+      "$oid": "<unique_id>"
+    },
+    "title": "Law",
+    "description": "<p><strong>Description - </strong>Law is a system of rules created and enforced through social or governmental institutions to regulate behavior, with its precise definition a matter of longstanding debate. It regulates and ensures that individuals or a community adhere to the will of the state. The law also sets the foundation for the resolution of disputes and the protection of rights.</p><p><strong>Types of Law Courses -</strong> LLB, LLM, Juris Doctor (JD)</p>",
+    "createdAt": {
+      "$date": "<creation_date>"
+    },
+    "updatedAt": {
+      "$date": "<update_date>"
+    },
+    "__v": 0
+  }
 ]

@@ -1,7 +1,7 @@
 {
   "footerOne": [
     {
-      "description": " Your education, Our Priorty You Career, Our Comimitments",
+      "description": " Your education, Our Priorty You Career, Our Commitments",
       "phone": "+91 (807) 338 8529",
       "mail": "support@gined.in",
       "address": "18th Main Rd, Kottapalya, Jayanagara 9th Block, J. P. Nagar, Bengaluru, Karnataka 560041, Bengaluru, Karnataka 560076",
@@ -13,7 +13,6 @@
         {
           "text": "BBA",
           "link": "/colleges/65e71db7e6fe2ce45f9cf95a"
-          
         },
         {
           "text": "BCOM",
@@ -43,7 +42,6 @@
           "text": "Law",
           "link": "/"
         }
-
       ],
       "ourCompany": [
         {
@@ -66,7 +64,6 @@
           "text": "Contact Us",
           "link": "/contact-us"
         }
-        
       ],
       "socialLink": [
         {

@@ -31,12 +31,12 @@ const Category = () => {
               CategoryNum={CategoryData.categoryItemTwo}
             />
             <SingleCategory
-              title="Ellite Science"
+              title="Elite Science"
               isActive={false}
               CategoryData={CategoryData}
               CategoryNum={CategoryData.categoryItemThree}
             />
-             <SingleCategory
+            <SingleCategory
               title="Law"
               isActive={false}
               CategoryData={CategoryData}
