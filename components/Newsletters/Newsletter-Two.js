@@ -109,7 +109,7 @@ const NewsletterTwo = () => {
                   onChange={handleInputChange}
                 />
                 <button
-                  style={{marginTop: 20}}
+                  style={{marginTop: 20, border: '1px solid white', background:'#b966e7'}}
                   type="submit"
                   className="rbt-btn btn-md btn-gradient hover-icon-reverse"
                 >

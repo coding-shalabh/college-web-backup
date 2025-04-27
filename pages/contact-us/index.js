@@ -30,7 +30,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Gined Contact <br /> can join with us.
+                      Gined Contact
                     </h2>
                   </div>
                 </div>

@@ -7,6 +7,7 @@ const NewsletterThree = () => {
         {NewsletterData &&
           NewsletterData.newsletterTwo.map((data, index) => (
             <div className="col-lg-5 col-md-12 col-12" key={index}>
+              
               <div className="inner">
                 <div className="section-title text-center text-lg-start">
                   <h4 className="title">

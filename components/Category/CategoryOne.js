@@ -24,7 +24,17 @@ const CategoryOne = () => {
                   href="/courses"
                   // href={`/course-filter-one-toggle/${item.category}`}
                 >
-                  <div className="inner">
+                  <div
+                    className="inner"
+                    style={{
+                      border: "2px solid",
+                      borderImage:
+                        "linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary)) 1",
+                      borderImageSlice: 1,
+                      borderRadius: "20px", // ❗ Don't use !important inside React style
+                      backgroundColor: "transparent",
+                    }}
+                  >
                     <div className="content">
                       <h5 className="title">{item.title}</h5>
                       <div className="read-more-btn">
