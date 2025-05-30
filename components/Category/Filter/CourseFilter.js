@@ -15,7 +15,7 @@ const CourseFilter = ({ filterToggle }) => {
         <div className="filter-inner">
           <div className="filter-select-option">
             <div className="filter-select rbt-modern-select">
-              <span className="select-label d-block">Short By</span>
+              <span className="select-label d-block">Sort By</span>
               <select>
                 <option>Default</option>
                 <option>Latest</option>

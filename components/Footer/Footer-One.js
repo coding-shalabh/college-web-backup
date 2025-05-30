@@ -26,7 +26,7 @@ const FooterOne = ({ bgColor }) => {
                         <Link href="/">
                           <Image
                             src={logo}
-                            width={152}
+                            width={200}
                             height={50}
                             alt="Edu-cause"
                           />

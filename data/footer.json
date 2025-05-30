@@ -1,46 +1,46 @@
 {
   "footerOne": [
     {
-      "description": " Your education, Our Priorty You Career, Our Commitments",
+      "description": "Your education, Our Priority and Your career, Our Commitments",
       "phone": "+91 (807) 338 8529",
       "mail": "support@gined.in",
       "address": "18th Main Rd, Kottapalya, Jayanagara 9th Block, J. P. Nagar, Bengaluru, Karnataka 560041, Bengaluru, Karnataka 560076",
       "usefulLinks": [
         {
           "text": "MBA",
-          "link": "/"
+          "link": "/colleges/mba"
         },
         {
           "text": "BBA",
-          "link": "/colleges/65e71db7e6fe2ce45f9cf95a"
+          "link": "/colleges/bba"
         },
         {
           "text": "BCOM",
-          "link": "/colleges/65e5e04ee6fe2ce45f9cf924"
+          "link": "/colleges/bcom"
         },
         {
           "text": "BSC",
-          "link": "/"
+          "link": "/colleges/bsc"
         },
         {
           "text": "MBBS",
-          "link": "/"
+          "link": "/colleges/mbbs"
         },
         {
           "text": "BDS",
-          "link": "/"
+          "link": "/colleges/bds"
         },
         {
           "text": "Engineering",
-          "link": "/13-university-classic"
+          "link": "/colleges/engineering"
         },
         {
           "text": "Allied Scinece Pharmacy",
-          "link": "/"
+          "link": "/colleges/allied-science-pharmacy"
         },
         {
           "text": "Law",
-          "link": "/"
+          "link": "/colleges/law"
         }
       ],
       "ourCompany": [

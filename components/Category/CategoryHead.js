@@ -126,7 +126,7 @@ const CategoryHead = ({
                     path === "/course-with-sidebar" ? (
                       <div className="rbt-short-item">
                         <div className="filter-select">
-                          <span className="select-label d-block">Short By</span>
+                          <span className="select-label d-block">Sort By</span>
                           <div className="filter-select rbt-modern-select search-by-category">
                             <select data-size="7">
                               <option>Default</option>
