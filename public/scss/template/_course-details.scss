@@ -386,6 +386,17 @@
       align-items: center;
       justify-content: center;
       transition: none;
+      .rbt-card-img-placeholder {
+        width: 130px;
+        height: 130px;
+        background: #dedede;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: 600;
+      }
       img {
         width: auto !important;
       }

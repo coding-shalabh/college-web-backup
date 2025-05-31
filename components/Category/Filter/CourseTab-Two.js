@@ -14,7 +14,7 @@ const CourseTabTwo = ({ course, start, end }) => {
         }`}
       >
         {course.slice(start, end).map((data, index) => (
-          <div className="course-grid-3" key={index}>
+          <div className="course-grid-3 3" key={index}>
             <div
               className={`rbt-card variation-01 rbt-hover ${
                 !toggle ? "card-list-2" : ""

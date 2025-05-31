@@ -38,7 +38,7 @@ const CourseFilterOneOpen = ({ course }) => {
       >
         {getSelectedCourse &&
           getSelectedCourse.map((data, index) => (
-            <div className="course-grid-3" key={index}>
+            <div className="course-grid-3 1" key={index}>
               <div
                 className={`rbt-card variation-01 rbt-hover ${
                   !toggle ? "card-list-2" : ""

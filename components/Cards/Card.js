@@ -16,7 +16,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
             key={index}
           >
             <div className="rbt-card variation-01 rbt-hover">
-              <div className="rbt-card-img">
+              <div className="rbt-card-img 1">
                 <Link href={`/course-details/${data._id.$id}`}>
                   {data.offPrice > 0 ? (
                     <div className="rbt-badge-3 bg-white">
@@ -50,9 +50,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
                 </div>
 
                 <h4 className="rbt-card-title">
-                  <Link href={`/course-details/${data.id}`}>
-                    {data.name}
-                  </Link>
+                  <Link href={`/course-details/${data.id}`}>{data.name}</Link>
                 </h4>
 
                 {/* <ul className="rbt-meta">
@@ -89,9 +87,11 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
                 )} */}
                 <div className="rbt-card-bottom">
                   <div className="rbt-price">
-                    <span className="current-price"><p style={{fontWeight: '400', fontSize: 16}}>
-                      {data.excerpt}
-                    </p></span>
+                    <span className="current-price">
+                      <p style={{ fontWeight: "400", fontSize: 16 }}>
+                        {data.excerpt}
+                      </p>
+                    </span>
                     {/* <span className="off-price">${data.offPrice}</span> */}
                   </div>
                   {data.button ? (
