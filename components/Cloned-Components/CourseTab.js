@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import React, { useEffect } from "react";
 
 import { useAppContext } from "@/context/Context";
 
 const CourseTab = ({ course, start, end, pageType = 1 }) => {
   const { toggle } = useAppContext();
 
+  useEffect(() => {
+    console.log(course);
+  }, []);
   return (
     <>
       <div

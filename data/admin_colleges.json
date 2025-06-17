@@ -2302,5 +2302,110 @@
       "$date": "2025-04-20T15:10:35.121548"
     },
     "__v": 0
+  },
+    {
+    "name": "MSRIT",
+    "about": "M. S. Ramaiah Institute of Technology (MSRIT)...",
+    "excerpt": "**About MSRIT:** M. S. Ramaiah Institute of Technology...",
+    "placements": {
+      "companies": [
+        "Adobe",
+        "Amazon",
+        "Cisco",
+        "IBM",
+        "Wipro"
+      ],
+      "highestPackage": "50 LPA",
+      "averagePackage": "7.66 LPA",
+      "percentagePlaced": "95%"
+    },
+    "virtualTourLink": "https://youtu.be/BQtab6vCqYY?si=D4GNa08Osyd0EWOb",
+    "youtubeVideos": [
+      "https://youtu.be/BQtab6vCqYY?si=D4GNa08Osyd0EWOb"
+    ],
+    "reviews": null,
+    "image": null,
+    "categories": [],
+    "courses": [
+      {
+        "$oid": "bcom"
+      },
+      {
+        "$oid": "bba"
+      },
+      {
+        "$oid": "mcom"
+      },
+      {
+        "$oid": "mba"
+      },
+      {
+        "$oid": "mca"
+      },
+      {
+        "$oid": "ba"
+      },
+      {
+        "$oid": "mtech"
+      },
+      {
+        "$oid": "barch"
+      },
+      {
+        "$oid": "pharm-d"
+      },
+      {
+        "$oid": "b-pharm"
+      },
+      {
+        "$oid": "d-pharma"
+      },
+      {
+        "$oid": "b-tech-civil-engineering"
+      },
+      {
+        "$oid": "b-tech-mechanical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse"
+      },
+      {
+        "$oid": "b-tech-aerospace-engineering"
+      },
+      {
+        "$oid": "b-tech-in-ai-ml"
+      },
+      {
+        "$oid": "b-tech-aeronautical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-cyber-security"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-data-science"
+      },
+      {
+        "$oid": "b-tech-in-cse-with-chemical-engineering"
+      },
+      {
+        "$oid": "b-tech-in-biotechnology"
+      },
+      {
+        "$oid": "b-tech-in-ece"
+      },
+      {
+        "$oid": "b-tech-in-eee"
+      },
+      {
+        "$oid": "b-tech-in-ise"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-30T21:59:19.673394"
+    },
+    "updatedAt": {
+      "$date": "2025-05-30T21:59:19.673401"
+    },
+    "__v": 0
   }
 ]

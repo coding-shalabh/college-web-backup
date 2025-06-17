@@ -67,6 +67,7 @@ const CourseTabLayout = () => {
   };
 
   useEffect(() => {
+    console.log(courseFilter)
     if (path.includes('/courses'))
       setPageType(1)
     else if (path.includes('/colleges'))
@@ -105,7 +106,8 @@ const CourseTabLayout = () => {
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="inner">
               <div className="container">
-                <CourseTab pageType={pageType} course={pageType == 1 ? courseFilter : pageType == 2 ? collegeFilter : null} />
+               
+                <CourseTab pageType={pageType} course={courseFilter} />
               </div>
             </div>
           </div>
