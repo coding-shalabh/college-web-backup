@@ -1,15 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
 
 import { useAppContext } from "@/context/Context";
 
 const CourseTab = ({ course, start, end, pageType = 1 }) => {
   const { toggle } = useAppContext();
 
-  useEffect(() => {
-    console.log(course);
-  }, []);
   return (
     <>
       <div
@@ -27,7 +23,7 @@ const CourseTab = ({ course, start, end, pageType = 1 }) => {
                     ? `/college-details/${data._id.$oid}`
                     : "#"
                 }
-                className="course-grid-3 5"
+                className="course-grid-3"
                 key={index}
               >
                 <div
@@ -115,12 +111,12 @@ const CourseTab = ({ course, start, end, pageType = 1 }) => {
               <Link
                 href={
                   pageType == 1
-                    ? `/colleges/${data._id.$oid}`
+                    ? `/colleges/${data?._id?.$oid}`
                     : pageType == 2
-                    ? `/college-details/${data._id.$oid}`
+                    ? `/college-details/${data?._id?.$oid}`
                     : "#"
                 }
-                className="course-grid-3 6"
+                className="course-grid-3"
                 key={index}
               >
                 <div
@@ -129,17 +125,17 @@ const CourseTab = ({ course, start, end, pageType = 1 }) => {
                   }`}
                 >
                   <div className="rbt-card-img">
-                    {data.image ? (
-                      <Image
+                      {data?.image ? (
+                      <img
                         className="h-100"
-                        src={data.image}
+                        src={data?.image}
                         width={362}
                         height={448}
                         alt="Card image"
                       />
                     ) : (
-                      <div className="rbt-card-img-placeholder">
-                        {data.name?.slice(0, 1)}
+                      <div className="rbt-card-img">
+                        <span>No Image</span>
                       </div>
                     )}
                     {/* <div className="rbt-badge-3 bg-white">

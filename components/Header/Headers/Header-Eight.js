@@ -61,10 +61,10 @@ const HeaderEight = ({
                   </Link>
                 </div>
               </div>
-
+{/* 
               <div className="header-info d-none d-lg-block">
                 <Category />
-              </div>
+              </div> */}
             </div>
 
             <div className="rbt-main-navigation d-none d-xl-block">

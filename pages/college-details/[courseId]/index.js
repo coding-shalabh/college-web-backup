@@ -36,7 +36,8 @@ const SingleCourse = () => {
   useEffect(() => {
     let college = null;
     allCollegeDetails?.forEach((detail, id) => {
-      if (detail._id.$oid == postId) {
+      console.log(detail)
+      if (detail?._id?.$oid == postId) {
         college = detail;
       }
     })
@@ -67,20 +68,20 @@ const SingleCourse = () => {
           <MobileMenu />
           <HeaderStyleTen headerSticky="" headerType={true} />
           <Cart />
-          
+
           <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3">
-            
+
             <CourseHead
               checkMatch={collegeDetails !== undefined ? collegeDetails : ""}
             />
-            
-            
+
+
           </div>
-          
+
           <div className="rbt-course-details-area ptb--60">
-            
+
             <div className="container">
-              
+
               <div className="row g-5">
                 <CourseDetailsOne
                   checkMatchCourses={collegeDetails !== undefined ? collegeDetails : ""}

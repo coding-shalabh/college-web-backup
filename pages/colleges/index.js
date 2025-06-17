@@ -19,9 +19,12 @@ import allCourses from '@/data/admin_courses'
 import allColleges from '@/data/admin_colleges'
 import { useRouter } from "next/router";
 
+
+
 const CourseTabLayout = () => {
   let getAllCourse = [...allCourses];
   let getAllColleges = [...allColleges];
+  console.log(getAllColleges)
   const [courseFilter, setCourseFilter] = useState(allCourses);
   const [collegeFilter, setCollegeFilter] = useState(allColleges);
   const [pageType, setPageType] = useState(null)
@@ -67,7 +70,6 @@ const CourseTabLayout = () => {
   };
 
   useEffect(() => {
-    console.log(courseFilter)
     if (path.includes('/courses'))
       setPageType(1)
     else if (path.includes('/colleges'))
@@ -86,6 +88,11 @@ const CourseTabLayout = () => {
       })
     }
   }, [pageType])
+
+  useEffect(() => {
+    console.log(courseFilter)
+    console.log(collegeFilter)
+  }, [courseFilter, collegeFilter])
 
   return (
     <>
@@ -106,8 +113,8 @@ const CourseTabLayout = () => {
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="inner">
               <div className="container">
-               
-                <CourseTab pageType={pageType} course={courseFilter} />
+
+                <CourseTab pageType={pageType} course={pageType == 1 ? courseFilter : pageType == 2 ? collegeFilter : null} />
               </div>
             </div>
           </div>
