@@ -6,20 +6,19 @@ import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import Context from "@/context/Context";
 
-import MobileMenu from "@/components/Header/MobileMenu";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
-import Cart from "@/components/Header/Offcanvas/Cart";
+import { 
+  MobileMenu, 
+  HeaderStyleTen, 
+  Cart, 
+  Separator, 
+  FooterOne,
+  CourseHead,
+  CourseDetailsOne
+} from "@/src/components";
 import BackToTop from "@/pages/backToTop";
-import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
-import CourseHead from "@/components/Cloned-Components/course-head";
-// import CourseHead from "@/components/Course-Details/Course-Sections/course-head";
-import CourseDetailsOne from "@/components/Course-Details/CourseDetails-One";
-import PageHead from "@/pages/Head";
-import CourseActionBottom from "@/components/Course-Details/Course-Sections/Course-Action-Bottom";
-import SimilarCourses from "@/components/Course-Details/Course-Sections/SimilarCourses";
+import PageHead from "@/src/components/common/PageHead";
 
-import allCollegeDetails from '@/data/admin_colleges.json'
+import allCollegeDetails from '@/src/data/admin_colleges.json'
 import Link from "next/link";
 
 const SingleCourse = () => {
@@ -88,18 +87,6 @@ const SingleCourse = () => {
                 />
               </div>
             </div>
-          </div>
-
-          {/* <CourseActionBottom
-            checkMatchCourses={collegeDetails !== undefined ? collegeDetails : ""}
-          /> */}
-
-          <div className="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
-            {/* <SimilarCourses
-              checkMatchCourses={
-                collegeDetails !== undefined ? collegeDetails : ""
-              }
-            /> */}
           </div>
 
           <BackToTop />

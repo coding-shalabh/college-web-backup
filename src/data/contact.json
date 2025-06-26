@@ -1,0 +1,27 @@
+{
+  "contactOne": [
+    {
+      "title": "Contact Number",
+      "numOne": "+91(740) 6548923",
+      "numTwo": "+91(807) 3388529",
+      "icon": "feather-headphones",
+      "address": ""
+    },
+    {
+      "title": "Our Email Address",
+      "mailOne": "support@gined.in",
+      "mailTwo": "help@gined.in",
+      "icon": "feather-mail",
+      "numOne": "",
+      "address": "",
+      "numTwo": ""
+    },
+    {
+      "title": "Our Location",
+      "address": "18th Main Rd, Kottapalya, Jayanagara 9th Block, J. P. Nagar, Bengaluru, Karnataka 560041",
+      "icon": "feather-map-pin",
+      "numOne": "",
+      "numTwo": ""
+    }
+  ]
+}

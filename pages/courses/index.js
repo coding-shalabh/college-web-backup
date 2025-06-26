@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 
-import CourseDetails from "@/data/course-details/courseData.json";
+import CourseDetails from "@/src/data/courseData.json";
 
-import PageHead from "@/pages/Head";
+import PageHead from "@/src/components/common/PageHead";
 import { Provider } from "react-redux";
 import Context from "@/context/Context";
 import Store from "@/redux/store";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
-import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
-import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
-import CategoryHead from "@/components/Cloned-Components/CategoryHead";
-// import CategoryHead from "@/components/Category/CategoryHead";
-// import CourseTab from "@/components/Category/Filter/CourseTab";
-import CourseTab from "@/components/Cloned-Components/CourseTab";
-import allCourses from '@/data/admin_courses'
-import allColleges from '@/data/admin_colleges'
+import { 
+  HeaderStyleTen, 
+  MobileMenu, 
+  Cart, 
+  Separator, 
+  FooterOne,
+  CategoryHead,
+  CourseTab
+} from "@/src/components";
+import allCourses from '@/src/data/admin_courses.json'
+import allColleges from '@/src/data/admin_colleges.json'
 import { useRouter } from "next/router";
 
 const CourseTabLayout = () => {
@@ -24,7 +24,9 @@ const CourseTabLayout = () => {
   let getAllColleges = [...allColleges];
   const [courseFilter, setCourseFilter] = useState(allCourses);
   const [collegeFilter, setCollegeFilter] = useState(allColleges);
-  const [pageType, setPageType] = useState(null)
+  const [pageType, setPageType] = useState(null);
+  const [displayedItems, setDisplayedItems] = useState(10); // Start with 10 items
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
   const path = router.pathname;
 
@@ -48,8 +50,10 @@ const CourseTabLayout = () => {
 
       if (types) {
         setCourseFilter(updateItem);
+        setDisplayedItems(10); // Reset to 10 when filtering
       } else {
         setCourseFilter(getAllCourse);
+        setDisplayedItems(10); // Reset to 10 when showing all
       }
     }
     else if (pageType == 2) {
@@ -59,11 +63,24 @@ const CourseTabLayout = () => {
 
       if (types) {
         setCourseFilter(updateItem);
+        setDisplayedItems(10); // Reset to 10 when filtering
       } else {
         setCourseFilter(getAllCourse);
+        setDisplayedItems(10); // Reset to 10 when showing all
       }
     }
   };
+
+  const loadMoreItems = () => {
+    setIsLoading(true);
+    // Simulate loading delay for better UX
+    setTimeout(() => {
+      setDisplayedItems(prev => prev + 10);
+      setIsLoading(false);
+    }, 500);
+  };
+
+  const hasMoreItems = displayedItems < courseFilter.length;
 
   useEffect(() => {
     if (path.includes('/courses'))
@@ -71,6 +88,11 @@ const CourseTabLayout = () => {
     else if (path.includes('/colleges'))
       setPageType(2)
   }, [])
+
+  // Reset displayed items when courseFilter changes
+  useEffect(() => {
+    setDisplayedItems(10);
+  }, [courseFilter]);
 
   return (
     <>
@@ -91,7 +113,53 @@ const CourseTabLayout = () => {
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="inner">
               <div className="container">
-                <CourseTab pageType={pageType} course={courseFilter} />
+                <CourseTab 
+                  pageType={pageType} 
+                  course={courseFilter.slice(0, displayedItems)} 
+                />
+                
+                {/* Load More Button */}
+                {hasMoreItems && (
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="load-more-btn mt--60 text-center">
+                        <button
+                          className="rbt-btn btn-gradient hover-icon-reverse"
+                          onClick={loadMoreItems}
+                          disabled={isLoading}
+                        >
+                          <span className="icon-reverse-wrapper">
+                            <span className="btn-text">
+                              {isLoading ? "Loading..." : "Load More Courses"}
+                            </span>
+                            <span className="btn-icon">
+                              <i className="feather-arrow-down"></i>
+                            </span>
+                            <span className="btn-icon">
+                              <i className="feather-arrow-down"></i>
+                            </span>
+                          </span>
+                        </button>
+                        <p className="load-more-text mt--20">
+                          Showing {Math.min(displayedItems, courseFilter.length)} of {courseFilter.length} courses
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {/* No More Items Message */}
+                {!hasMoreItems && courseFilter.length > 10 && (
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="load-more-btn mt--60 text-center">
+                        <p className="load-more-text">
+                          All {courseFilter.length} courses loaded
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>

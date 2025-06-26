@@ -4,16 +4,17 @@ import { Provider } from "react-redux";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Store from "@/redux/store";
 
-import Banner from "@/components/About-Us-01/Banner";
-// import Teacher from "@/components/About-Us-01/Teacher";
-import About from "@/components/Abouts/About";
-import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
-import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
-import NewsletterTwo from "@/components/Newsletters/Newsletter-Two";
+import { 
+  AboutBanner as Banner,
+  About,
+  FooterOne,
+  HeaderStyleTen,
+  MobileMenu,
+  Cart,
+  NewsletterTwo
+} from "@/src/components";
 // import SplitTwo from "@/components/Split/Split-Two";
-import PageHead from "@/pages/Head";
+import PageHead from "@/src/components/common/PageHead";
 import BackToTop from "@/pages/backToTop";
 import Bgimage from '../../public/images/bg/bg-image-11.jpg';
 // import TestimonialSix from "@/components/Testimonials/Testimonial-Six";

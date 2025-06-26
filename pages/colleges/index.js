@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 
-import CourseDetails from "@/data/course-details/courseData.json";
+import CourseDetails from "@/src/data/courseData.json";
 
-import PageHead from "@/pages/Head";
+import PageHead from "@/src/components/common/PageHead";
 import { Provider } from "react-redux";
 import Context from "@/context/Context";
 import Store from "@/redux/store";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
-import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
-import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
-import CategoryHead from "@/components/Cloned-Components/CategoryHead";
-// import CategoryHead from "@/components/Category/CategoryHead";
-// import CourseTab from "@/components/Category/Filter/CourseTab";
-import CourseTab from "@/components/Cloned-Components/CourseTab";
-import allCourses from '@/data/admin_courses'
-import allColleges from '@/data/admin_colleges'
+import { 
+  HeaderStyleTen, 
+  MobileMenu, 
+  Cart, 
+  FooterOne,
+  CategoryHead,
+  CourseTab,
+  Separator
+} from "@/src/components";
+import allCourses from '@/src/data/admin_courses.json'
+import allColleges from '@/src/data/admin_colleges.json'
 import { useRouter } from "next/router";
 
 
@@ -25,12 +25,15 @@ const CourseTabLayout = () => {
   let getAllCourse = [...allCourses];
   let getAllColleges = [...allColleges];
   console.log(getAllColleges)
-  const [courseFilter, setCourseFilter] = useState(allCourses);
+  const [courseFilter, setCourseFilter] = useState(allColleges);
   const [collegeFilter, setCollegeFilter] = useState(allColleges);
-  const [pageType, setPageType] = useState(null)
+  const [pageType, setPageType] = useState(null);
+  const [displayedItems, setDisplayedItems] = useState(10); // Start with 10 items
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
   const path = router.pathname;
   const courseId = router.query.coursetype
+  const categoryFilter = router.query.category
 
   const filterItem = (types) => {
     if (pageType == 1) {
@@ -52,8 +55,10 @@ const CourseTabLayout = () => {
 
       if (types) {
         setCourseFilter(updateItem);
+        setDisplayedItems(10); // Reset to 10 when filtering
       } else {
         setCourseFilter(getAllCourse);
+        setDisplayedItems(10); // Reset to 10 when showing all
       }
     }
     else if (pageType == 2) {
@@ -62,12 +67,77 @@ const CourseTabLayout = () => {
       });
 
       if (types) {
-        setCollegeFilter(updateItem);
+        setCourseFilter(updateItem);
+        setDisplayedItems(10); // Reset to 10 when filtering
       } else {
-        setCollegeFilter(getAllColleges);
+        setCourseFilter(getAllColleges);
+        setDisplayedItems(10); // Reset to 10 when showing all
       }
     }
   };
+
+  // Filter colleges by category
+  const filterByCategory = (category) => {
+    // Map course names to categories
+    const courseToCategory = {
+      // Engineering courses
+      "b-tech-civil-engineering": "Engineering",
+      "b-tech-mechanical-engineering": "Engineering", 
+      "b-tech-in-cse": "Engineering",
+      "b-tech-aerospace-engineering": "Engineering",
+      "b-tech-in-ai-ml": "Engineering",
+      "b-tech-aeronautical-engineering": "Engineering",
+      "b-tech-in-cse-with-cyber-security": "Engineering",
+      "b-tech-in-cse-with-data-science": "Engineering",
+      "b-tech-in-cse-with-chemical-engineering": "Engineering",
+      "b-tech-in-biotechnology": "Engineering",
+      "b-tech-in-ece": "Engineering",
+      "b-tech-in-eee": "Engineering",
+      "b-tech-in-ise": "Engineering",
+      "mtech": "Engineering",
+      "barch": "Engineering",
+      "d-pharma": "Engineering",
+      
+      // Management courses
+      "mba": "Management",
+      "mcom": "Management",
+      
+      // Science courses  
+      "mca": "Elite Science",
+      "ba": "Elite Science",
+    };
+
+    const categoryMap = {
+      "engineering": "Engineering",
+      "management": "Management", 
+      "elite-science": "Elite Science",
+      "law": "Law"
+    };
+
+    const targetCategory = categoryMap[category];
+    if (!targetCategory) return getAllColleges;
+
+    const filteredColleges = getAllColleges.filter(college => {
+      return college.courses.some(courseRef => {
+        const courseId = courseRef.$oid || courseRef;
+        const courseCategory = courseToCategory[courseId];
+        return courseCategory === targetCategory;
+      });
+    });
+
+    return filteredColleges;
+  };
+
+  const loadMoreItems = () => {
+    setIsLoading(true);
+    // Simulate loading delay for better UX
+    setTimeout(() => {
+      setDisplayedItems(prev => prev + 10);
+      setIsLoading(false);
+    }, 500);
+  };
+
+  const hasMoreItems = displayedItems < courseFilter.length;
 
   useEffect(() => {
     if (path.includes('/courses'))
@@ -94,9 +164,22 @@ const CourseTabLayout = () => {
     console.log(collegeFilter)
   }, [courseFilter, collegeFilter])
 
+  // Reset displayed items when courseFilter changes
+  useEffect(() => {
+    setDisplayedItems(10);
+  }, [courseFilter]);
+
+  // Handle category filtering from URL
+  useEffect(() => {
+    if (categoryFilter && pageType === 2) {
+      const filteredColleges = filterByCategory(categoryFilter);
+      setCourseFilter(filteredColleges);
+    }
+  }, [categoryFilter, pageType]);
+
   return (
     <>
-      <PageHead title="Courses" />
+      <PageHead title="Colleges" />
 
       <Provider store={Store}>
         <Context>
@@ -108,13 +191,58 @@ const CourseTabLayout = () => {
             courseFilter={courseFilter}
             setCourseFilter={setCourseFilter}
             filterItem={filterItem}
-            allCourses={getAllCourse}
+            allCourses={getAllColleges}
           />
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="inner">
               <div className="container">
+                <CourseTab 
+                  pageType={pageType} 
+                  course={courseFilter.slice(0, displayedItems)} 
+                />
+                
+                {/* Load More Button */}
+                {hasMoreItems && (
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="load-more-btn mt--60 text-center">
+                        <button
+                          className="rbt-btn btn-gradient hover-icon-reverse"
+                          onClick={loadMoreItems}
+                          disabled={isLoading}
+                        >
+                          <span className="icon-reverse-wrapper">
+                            <span className="btn-text">
+                              {isLoading ? "Loading..." : "Load More Colleges"}
+                            </span>
+                            <span className="btn-icon">
+                              <i className="feather-arrow-down"></i>
+                            </span>
+                            <span className="btn-icon">
+                              <i className="feather-arrow-down"></i>
+                            </span>
+                          </span>
+                        </button>
+                        <p className="load-more-text mt--20">
+                          Showing {Math.min(displayedItems, courseFilter.length)} of {courseFilter.length} colleges
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
 
-                <CourseTab pageType={pageType} course={pageType == 1 ? courseFilter : pageType == 2 ? collegeFilter : null} />
+                {/* No More Items Message */}
+                {!hasMoreItems && courseFilter.length > 10 && (
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="load-more-btn mt--60 text-center">
+                        <p className="load-more-text">
+                          All {courseFilter.length} colleges loaded
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>

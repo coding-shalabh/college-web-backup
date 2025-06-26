@@ -1,0 +1,135 @@
+{
+  "footerOne": [
+    {
+      "description": "Your education, Our Priority and Your career, Our Commitments",
+      "phone": "+91 (807) 338 8529",
+      "mail": "support@gined.in",
+      "address": "18th Main Rd, Kottapalya, Jayanagara 9th Block, J. P. Nagar, Bengaluru, Karnataka 560041, Bengaluru, Karnataka 560076",
+      "usefulLinks": [
+        {
+          "text": "MBA",
+          "link": "/colleges/mba"
+        },
+        {
+          "text": "BBA",
+          "link": "/colleges/bba"
+        },
+        {
+          "text": "BCOM",
+          "link": "/colleges/bcom"
+        },
+        {
+          "text": "BSC",
+          "link": "/colleges/bsc"
+        },
+        {
+          "text": "MBBS",
+          "link": "/colleges/mbbs"
+        },
+        {
+          "text": "BDS",
+          "link": "/colleges/bds"
+        },
+        {
+          "text": "Engineering",
+          "link": "/colleges/engineering"
+        },
+        {
+          "text": "Allied Scinece Pharmacy",
+          "link": "/colleges/allied-science-pharmacy"
+        },
+        {
+          "text": "Law",
+          "link": "/colleges/law"
+        }
+      ],
+      "ourCompany": [
+        {
+          "text": "Home",
+          "link": "/"
+        },
+        {
+          "text": "Courses",
+          "link": "/courses"
+        },
+        {
+          "text": "Colleges",
+          "link": "/colleges"
+        },
+        {
+          "text": "About Us",
+          "link": "/about-us"
+        },
+        {
+          "text": "Contact Us",
+          "link": "/contact-us"
+        }
+      ],
+      "socialLink": [
+        {
+          "icon": "feather-facebook",
+          "link": "https://www.facebook.com/profile.php?id=100090428042458&mibextid=ZbWKwL"
+        },
+        {
+          "icon": "feather-instagram",
+          "link": "https://www.instagram.com/gined___/"
+        },
+        {
+          "icon": "feather-linkedin",
+          "link": "https://www.linkedin.com/company/gined/"
+        }
+      ]
+    }
+  ],
+  "footerTwo": [
+    {
+      "description": "We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
+      "descriptionTwo": "2000+ Our students are subscribe Around the World.Don’t be shy introduce yourself!",
+      "phone": "(406) 555-0120",
+      "mail": "admin@example.com",
+      "address": "North America, USA",
+      "usefulLinks": [
+        {
+          "text": "Home",
+          "link": "/"
+        },
+        {
+          "text": "Our Courses",
+          "link": "/courses"
+        },
+        {
+          "text": "Our Colleges",
+          "link": "/13-university-classic"
+        }
+      ],
+      "ourCompany": [
+        {
+          "text": "Contact Us",
+          "link": "/contact-us"
+        },
+        {
+          "text": "About Us",
+          "link": "/about-us"
+        }
+      ],
+      "socialLink": [
+        {
+          "icon": "feather-facebook",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "icon": "feather-twitter",
+          "link": "https://www.twitter.com"
+        },
+        {
+          "icon": "feather-instagram",
+          "link": "https://www.instagram.com/"
+        },
+        {
+          "icon": "feather-linkedin",
+          "link": "https://www.linkdin.com/"
+        }
+      ]
+    }
+  ]
+}

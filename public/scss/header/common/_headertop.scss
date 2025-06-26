@@ -246,14 +246,14 @@
 
     .fancu-menu-end {
         justify-content: flex-end;
-        text-align: end;
+        text-align: right;
     }
 
 
     &.header-top-2 {
         .header-right {
             @media #{$md-layout} {
-                justify-content: end;
+                justify-content: flex-end;
             }
 
             @media #{$sm-layout} {

@@ -13,17 +13,17 @@
         justify-content: center;
     }
 
-    &.rbt-navigation-end {
-        .rbt-main-navigation {
-            justify-content: end;
+            &.rbt-navigation-end {
+            .rbt-main-navigation {
+                justify-content: flex-end;
+            }
         }
-    }
 
-    &.rbt-navigation-start {
-        .rbt-main-navigation {
-            justify-content: start;
+            &.rbt-navigation-start {
+            .rbt-main-navigation {
+                justify-content: flex-start;
+            }
         }
-    }
 }
 
 /*-----------------------

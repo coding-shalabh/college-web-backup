@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 
-import CourseDetails from "@/data/course-details/courseData.json";
+import CourseDetails from "@/src/data/courseData.json";
 
-import PageHead from "@/pages/Head";
+import PageHead from "@/src/components/common/PageHead";
 import { Provider } from "react-redux";
 import Context from "@/context/Context";
 import Store from "@/redux/store";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
-import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
-import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
-import CategoryHead from "@/components/Cloned-Components/CategoryHead";
-// import CategoryHead from "@/components/Category/CategoryHead";
-// import CourseTab from "@/components/Category/Filter/CourseTab";
-import CourseTab from "@/components/Cloned-Components/CourseTab";
-import allCourses from '@/data/admin_courses'
-import allColleges from '@/data/admin_colleges'
+import { 
+  HeaderStyleTen, 
+  MobileMenu, 
+  Cart, 
+  Separator, 
+  FooterOne,
+  CategoryHead,
+  CourseTab
+} from "@/src/components";
+import allCourses from '@/src/data/admin_courses.json'
+import allColleges from '@/src/data/admin_colleges.json'
 import { useRouter } from "next/router";
 
 const CourseTabLayout = () => {

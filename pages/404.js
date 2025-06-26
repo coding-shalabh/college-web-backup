@@ -1,13 +1,15 @@
-import PageHead from "./Head";
+import PageHead from "@/src/components/common/PageHead";
 
 import Context from "@/context/Context";
 import Store from "@/redux/store";
 import { Provider } from "react-redux";
 
-import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
-import NotFound from "@/components/NotFound/NotFound";
+import { 
+  Separator, 
+  FooterOne, 
+  HeaderStyleTen, 
+  NotFound 
+} from "@/src/components";
 
 const ErrorPage = () => {
   return (
