@@ -6,7 +6,7 @@ const nextConfig = {
   
   // Optimize images
   images: {
-    domains: ['localhost'],
+    domains: ['localhost', 'gined.in', 'www.gined.in'],
     formats: ['image/webp', 'image/avif'],
     minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
