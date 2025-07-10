@@ -6,18 +6,11 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   
-  // Optimize images
+  // FALLBACK: Disable image optimization for VPS compatibility
   images: {
+    unoptimized: true, // Disable Next.js image optimization
     domains: ['localhost', 'gined.in', 'www.gined.in'],
-    formats: ['image/webp', 'image/avif'],
-    minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    // Add unoptimized as fallback for problematic images
-    unoptimized: false,
-    // Add device sizes for better optimization
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
   // Optimize CSS
@@ -36,19 +29,6 @@ const nextConfig = {
         '@/images': path.resolve(__dirname, 'public/images'),
       };
     }
-
-    // Handle image imports properly
-    config.module.rules.push({
-      test: /\.(png|jpe?g|gif|svg|webp)$/i,
-      use: {
-        loader: 'file-loader',
-        options: {
-          publicPath: '/_next/static/images/',
-          outputPath: 'static/images/',
-          esModule: false,
-        },
-      },
-    });
 
     return config;
   },
@@ -71,13 +51,6 @@ const nextConfig = {
       },
       {
         source: '/images/:path*',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=86400' },
-          { key: 'Access-Control-Allow-Origin', value: '*' },
-        ],
-      },
-      {
-        source: '/_next/image',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=86400' },
           { key: 'Access-Control-Allow-Origin', value: '*' },
@@ -109,4 +82,4 @@ const nextConfig = {
   poweredByHeader: false,
 };
 
-module.exports = nextConfig;
+module.exports = nextConfig; 
