@@ -27,28 +27,16 @@ const nextConfig = {
 
   // Webpack optimizations
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    // Optimize bundle size
-    if (!dev && !isServer) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        '@/components': path.resolve(__dirname, 'src/components'),
-        '@/data': path.resolve(__dirname, 'src/data'),
-        '@/images': path.resolve(__dirname, 'public/images'),
-      };
-    }
+    // Set up aliases for all build scenarios
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@/components': path.resolve(__dirname, 'src/components'),
+      '@/data': path.resolve(__dirname, 'src/data'),
+      '@/images': path.resolve(__dirname, 'public/images'),
+      '@/src': path.resolve(__dirname, 'src'),
+    };
 
-    // Handle image imports properly
-    config.module.rules.push({
-      test: /\.(png|jpe?g|gif|svg|webp)$/i,
-      use: {
-        loader: 'file-loader',
-        options: {
-          publicPath: '/_next/static/images/',
-          outputPath: 'static/images/',
-          esModule: false,
-        },
-      },
-    });
+    // Let Next.js handle image imports with proper alias resolution
 
     return config;
   },
